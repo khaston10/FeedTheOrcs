@@ -1,0 +1,5095 @@
+fileFormatVersion: 2
+guid: 6c4e00b8bd49ee44c9ce6df44be49a46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5582129246783004021
+    second: darkLabMan_0
+  - first:
+      213: -8132533692744770317
+    second: darkLabMan_1
+  - first:
+      213: 1841739086417265800
+    second: darkLabMan_2
+  - first:
+      213: 9121539127334121092
+    second: darkLabMan_3
+  - first:
+      213: -7326298587084516196
+    second: darkLabMan_4
+  - first:
+      213: 6525218206304705780
+    second: darkLabMan_5
+  - first:
+      213: 1819342632236566483
+    second: darkLabMan_6
+  - first:
+      213: -5214974848591338201
+    second: darkLabMan_7
+  - first:
+      213: -4870851892830504188
+    second: darkLabMan_8
+  - first:
+      213: 2149996784948419690
+    second: darkLabMan_9
+  - first:
+      213: 5112263198294579347
+    second: darkLabMan_10
+  - first:
+      213: 6751561679553030557
+    second: darkLabMan_11
+  - first:
+      213: 2277226751292135096
+    second: darkLabMan_12
+  - first:
+      213: -8728484128291537511
+    second: darkLabMan_13
+  - first:
+      213: 4392300488374733240
+    second: darkLabMan_14
+  - first:
+      213: -6573463318370694993
+    second: darkLabMan_15
+  - first:
+      213: -8659780561670673754
+    second: darkLabMan_16
+  - first:
+      213: -8478756534580312237
+    second: darkLabMan_17
+  - first:
+      213: -1169393471359861885
+    second: darkLabMan_18
+  - first:
+      213: 195222358840000733
+    second: darkLabMan_19
+  - first:
+      213: -1032566033445928039
+    second: darkLabMan_20
+  - first:
+      213: -4262299497674509872
+    second: darkLabMan_21
+  - first:
+      213: 3402034174715027346
+    second: darkLabMan_22
+  - first:
+      213: -8027672189867402009
+    second: darkLabMan_23
+  - first:
+      213: -6536925182697853942
+    second: darkLabMan_24
+  - first:
+      213: -5354312639348309827
+    second: darkLabMan_25
+  - first:
+      213: 7640858869271881557
+    second: darkLabMan_26
+  - first:
+      213: -6282418846414397990
+    second: darkLabMan_27
+  - first:
+      213: 7465346381483056999
+    second: darkLabMan_28
+  - first:
+      213: 2715369216235365540
+    second: darkLabMan_29
+  - first:
+      213: 3946179252553861499
+    second: darkLabMan_30
+  - first:
+      213: -5619253374887989885
+    second: darkLabMan_31
+  - first:
+      213: 3584534256568534977
+    second: darkLabMan_32
+  - first:
+      213: -7146720175273171209
+    second: darkLabMan_33
+  - first:
+      213: -7824684637757255053
+    second: darkLabMan_34
+  - first:
+      213: 60277244479808527
+    second: darkLabMan_35
+  - first:
+      213: 9106772076179169175
+    second: darkLabMan_36
+  - first:
+      213: 5639219539050313151
+    second: darkLabMan_37
+  - first:
+      213: -7545810722579660887
+    second: darkLabMan_38
+  - first:
+      213: -6296212825561526164
+    second: darkLabMan_39
+  - first:
+      213: -5920013137907715275
+    second: darkLabMan_40
+  - first:
+      213: 2583684666191970449
+    second: darkLabMan_41
+  - first:
+      213: -7830695929820711259
+    second: darkLabMan_42
+  - first:
+      213: -412639930757889362
+    second: darkLabMan_43
+  - first:
+      213: -6770440696670970050
+    second: darkLabMan_44
+  - first:
+      213: -3098755693452675859
+    second: darkLabMan_45
+  - first:
+      213: 3444706087118745464
+    second: darkLabMan_46
+  - first:
+      213: 7105998186417143513
+    second: darkLabMan_47
+  - first:
+      213: -8012181351123422877
+    second: darkLabMan_48
+  - first:
+      213: -1523837358062042839
+    second: darkLabMan_49
+  - first:
+      213: 7340883483768630935
+    second: darkLabMan_50
+  - first:
+      213: 8904371961148490483
+    second: darkLabMan_51
+  - first:
+      213: 8707133463952617584
+    second: darkLabMan_52
+  - first:
+      213: 1910941519712006876
+    second: darkLabMan_53
+  - first:
+      213: -8249458900583812240
+    second: darkLabMan_54
+  - first:
+      213: 8012866471945936612
+    second: darkLabMan_55
+  - first:
+      213: 1032269578214425153
+    second: darkLabMan_56
+  - first:
+      213: 2367461505309967672
+    second: darkLabMan_57
+  - first:
+      213: -4219768227905960900
+    second: darkLabMan_58
+  - first:
+      213: 1899020628757263996
+    second: darkLabMan_59
+  - first:
+      213: -5618979396132825365
+    second: darkLabMan_60
+  - first:
+      213: -8372448199233630967
+    second: darkLabMan_61
+  - first:
+      213: 8506367792183652634
+    second: darkLabMan_62
+  - first:
+      213: 8971612466249687488
+    second: darkLabMan_63
+  - first:
+      213: 3161499699735714105
+    second: darkLabMan_64
+  - first:
+      213: -7123815871988254902
+    second: darkLabMan_65
+  - first:
+      213: 3447712340900755169
+    second: darkLabMan_66
+  - first:
+      213: -7589836575992049832
+    second: darkLabMan_67
+  - first:
+      213: -2995334972323170934
+    second: darkLabMan_68
+  - first:
+      213: 6183908033196024811
+    second: darkLabMan_69
+  - first:
+      213: -5326428918258084569
+    second: darkLabMan_70
+  - first:
+      213: -5332750200607384990
+    second: darkLabMan_71
+  - first:
+      213: 3537180032496540583
+    second: darkLabMan_72
+  - first:
+      213: -8002048309266928014
+    second: darkLabMan_73
+  - first:
+      213: 5879401186608694407
+    second: darkLabMan_74
+  - first:
+      213: 5150078455345029663
+    second: darkLabMan_75
+  - first:
+      213: -692025398907122970
+    second: darkLabMan_76
+  - first:
+      213: -4187909526072511327
+    second: darkLabMan_77
+  - first:
+      213: 8916652628994521339
+    second: darkLabMan_78
+  - first:
+      213: 3009148311284234047
+    second: darkLabMan_79
+  - first:
+      213: 2159130192959313889
+    second: darkLabMan_80
+  - first:
+      213: 3201144673565406118
+    second: darkLabMan_81
+  - first:
+      213: 1007399049515992964
+    second: darkLabMan_82
+  - first:
+      213: 4334134301498658975
+    second: darkLabMan_83
+  - first:
+      213: -3242644756946911184
+    second: darkLabMan_84
+  - first:
+      213: -7360652915273124610
+    second: darkLabMan_85
+  - first:
+      213: -1320106628513775893
+    second: darkLabMan_86
+  - first:
+      213: -6087469780034554655
+    second: darkLabMan_87
+  - first:
+      213: 6149528617799870984
+    second: darkLabMan_88
+  - first:
+      213: 4614214938682599749
+    second: darkLabMan_89
+  - first:
+      213: 7283352346311645440
+    second: darkLabMan_90
+  - first:
+      213: -4244529880659795121
+    second: darkLabMan_91
+  - first:
+      213: -6458580537906519726
+    second: darkLabMan_92
+  - first:
+      213: 6586889248606665066
+    second: darkLabMan_93
+  - first:
+      213: 5075294952337961218
+    second: darkLabMan_94
+  - first:
+      213: -3767286238135820683
+    second: darkLabMan_95
+  - first:
+      213: 1765981881710616329
+    second: darkLabMan_96
+  - first:
+      213: -4051554800579998022
+    second: darkLabMan_97
+  - first:
+      213: 4849598857799738310
+    second: darkLabMan_98
+  - first:
+      213: -8807994768329774954
+    second: darkLabMan_99
+  - first:
+      213: -1447277077410780901
+    second: darkLabMan_100
+  - first:
+      213: 5786071313410039047
+    second: darkLabMan_101
+  - first:
+      213: 5641307242055795471
+    second: darkLabMan_102
+  - first:
+      213: 4424545101057156374
+    second: darkLabMan_103
+  - first:
+      213: -578583695089126448
+    second: darkLabMan_104
+  - first:
+      213: -7975974509021527551
+    second: darkLabMan_105
+  - first:
+      213: -3133889918892343198
+    second: darkLabMan_106
+  - first:
+      213: -3573300277179361892
+    second: darkLabMan_107
+  - first:
+      213: 4846222277105826298
+    second: darkLabMan_108
+  - first:
+      213: -1367228198204133866
+    second: darkLabMan_109
+  - first:
+      213: 4481876894237508390
+    second: darkLabMan_110
+  - first:
+      213: 2309349409462040907
+    second: darkLabMan_111
+  - first:
+      213: -359933731450714799
+    second: darkLabMan_112
+  - first:
+      213: -4295667555748035877
+    second: darkLabMan_113
+  - first:
+      213: 6859980473771601673
+    second: darkLabMan_114
+  - first:
+      213: 6960708750087944300
+    second: darkLabMan_115
+  - first:
+      213: 7250609816337972657
+    second: darkLabMan_116
+  - first:
+      213: 907099166972610851
+    second: darkLabMan_117
+  - first:
+      213: -2800364171691716424
+    second: darkLabMan_118
+  - first:
+      213: 3812857065894931241
+    second: darkLabMan_119
+  - first:
+      213: 7007870262708368705
+    second: darkLabMan_120
+  - first:
+      213: -6957351164922310172
+    second: darkLabMan_121
+  - first:
+      213: 3720016353912322939
+    second: darkLabMan_122
+  - first:
+      213: 3167463507221687720
+    second: darkLabMan_123
+  - first:
+      213: -5485346455856860407
+    second: darkLabMan_124
+  - first:
+      213: -6473480033166297749
+    second: darkLabMan_125
+  - first:
+      213: 1264716463069058037
+    second: darkLabMan_126
+  - first:
+      213: -5634676433466539976
+    second: darkLabMan_127
+  - first:
+      213: 6557295946787262229
+    second: darkLabMan_128
+  - first:
+      213: -3890513449465764710
+    second: darkLabMan_129
+  - first:
+      213: -1719988735621353331
+    second: darkLabMan_130
+  - first:
+      213: 6404671294358319436
+    second: darkLabMan_131
+  - first:
+      213: -1914313715924179309
+    second: darkLabMan_132
+  - first:
+      213: -1059145934716873719
+    second: darkLabMan_133
+  - first:
+      213: -3094669411947750165
+    second: darkLabMan_134
+  - first:
+      213: -9055831880040825592
+    second: darkLabMan_135
+  - first:
+      213: 4677207885247776332
+    second: darkLabMan_136
+  - first:
+      213: 3117161854212589651
+    second: darkLabMan_137
+  - first:
+      213: 339318490773789528
+    second: darkLabMan_138
+  - first:
+      213: -1071015424309782625
+    second: darkLabMan_139
+  - first:
+      213: -1771063498965961802
+    second: darkLabMan_140
+  - first:
+      213: 3645869167880217953
+    second: darkLabMan_141
+  - first:
+      213: 6860416868377787412
+    second: darkLabMan_142
+  - first:
+      213: -1164019001332954471
+    second: darkLabMan_143
+  - first:
+      213: -1944911164376451024
+    second: darkLabMan_144
+  - first:
+      213: -6207675026455989350
+    second: darkLabMan_145
+  - first:
+      213: -6456100341298568164
+    second: darkLabMan_146
+  - first:
+      213: 1355075420003291972
+    second: darkLabMan_147
+  - first:
+      213: 9140128090023543090
+    second: darkLabMan_148
+  - first:
+      213: 6831535539916034246
+    second: darkLabMan_149
+  - first:
+      213: -6722308457288250902
+    second: darkLabMan_150
+  - first:
+      213: 843028851099486579
+    second: darkLabMan_151
+  - first:
+      213: -3071700347848632531
+    second: darkLabMan_152
+  - first:
+      213: -8403319135372204497
+    second: darkLabMan_153
+  - first:
+      213: -8352239427103322698
+    second: darkLabMan_154
+  - first:
+      213: -2719555592766786133
+    second: darkLabMan_155
+  - first:
+      213: 5040777870508659548
+    second: darkLabMan_156
+  - first:
+      213: -1741470542446679711
+    second: darkLabMan_157
+  - first:
+      213: -1975064579226158481
+    second: darkLabMan_158
+  - first:
+      213: 5251086444709339404
+    second: darkLabMan_159
+  - first:
+      213: -2890909235718799349
+    second: darkLabMan_160
+  - first:
+      213: -9206493156614798271
+    second: darkLabMan_161
+  - first:
+      213: 6170302007772244439
+    second: darkLabMan_162
+  - first:
+      213: -6435589073114795668
+    second: darkLabMan_163
+  - first:
+      213: 3936377923831742362
+    second: darkLabMan_164
+  - first:
+      213: -8348684634090038908
+    second: darkLabMan_165
+  - first:
+      213: -8257802940034105772
+    second: darkLabMan_166
+  - first:
+      213: 5093844270307609109
+    second: darkLabMan_167
+  - first:
+      213: 3000448786514007965
+    second: darkLabMan_168
+  - first:
+      213: -7495052724916353902
+    second: darkLabMan_169
+  - first:
+      213: -3564357183121775742
+    second: darkLabMan_170
+  - first:
+      213: -968480786433387522
+    second: darkLabMan_171
+  - first:
+      213: -7230614644456339576
+    second: darkLabMan_172
+  - first:
+      213: 4074444071839113385
+    second: darkLabMan_173
+  - first:
+      213: -1786790157751284374
+    second: darkLabMan_174
+  - first:
+      213: -5407446773911812783
+    second: darkLabMan_175
+  - first:
+      213: -2967841425943522537
+    second: darkLabMan_176
+  - first:
+      213: 5978728734072137612
+    second: darkLabMan_177
+  - first:
+      213: 7582046489275699037
+    second: darkLabMan_178
+  - first:
+      213: -2941576654406622294
+    second: darkLabMan_179
+  - first:
+      213: 6586807812445166840
+    second: darkLabMan_180
+  - first:
+      213: -707100445343431695
+    second: darkLabMan_181
+  - first:
+      213: 647270901623469627
+    second: darkLabMan_182
+  - first:
+      213: 3328388576004500961
+    second: darkLabMan_183
+  - first:
+      213: 7174845613084155531
+    second: darkLabMan_184
+  - first:
+      213: 2346856351972395417
+    second: darkLabMan_185
+  - first:
+      213: -923500173690875627
+    second: darkLabMan_186
+  - first:
+      213: 1674537564629882552
+    second: darkLabMan_187
+  - first:
+      213: -5319023915854057095
+    second: darkLabMan_188
+  - first:
+      213: -5305249689060659885
+    second: darkLabMan_189
+  - first:
+      213: 5015740702402014986
+    second: darkLabMan_190
+  - first:
+      213: -7956455249198162308
+    second: darkLabMan_191
+  - first:
+      213: -7916979539811063468
+    second: darkLabMan_192
+  - first:
+      213: 2056319653710756679
+    second: darkLabMan_193
+  - first:
+      213: -2827721870170552511
+    second: darkLabMan_194
+  - first:
+      213: 712990104469965222
+    second: darkLabMan_195
+  - first:
+      213: 3245698951847638537
+    second: darkLabMan_196
+  - first:
+      213: -3708412673462886196
+    second: darkLabMan_197
+  - first:
+      213: -539367792840806652
+    second: darkLabMan_198
+  - first:
+      213: 8652576508314884968
+    second: darkLabMan_199
+  - first:
+      213: -7546421626064477249
+    second: darkLabMan_200
+  - first:
+      213: 5188709872567934289
+    second: darkLabMan_201
+  - first:
+      213: -1332072145639409827
+    second: darkLabMan_202
+  - first:
+      213: -7143436264955027855
+    second: darkLabMan_203
+  - first:
+      213: -8356665812261438410
+    second: darkLabMan_204
+  - first:
+      213: -1932742975600671425
+    second: darkLabMan_205
+  - first:
+      213: 4683022285179199033
+    second: darkLabMan_206
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: darkLabMan_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 224
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afaa18df5ef105418c0ee79cfc2be2b
+      internalID: 5582129246783004021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 224
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bc0e6f3ef4a3248851f799542cebf7
+      internalID: -8132533692744770317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 237
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1895068755a984689538ca30e82e1b
+      internalID: 1841739086417265800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 236
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e823079e6a3e34041967b26c9c886055
+      internalID: 9121539127334121092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 236
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f826d2ec485b6924dadb3f90e915753d
+      internalID: -7326298587084516196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2115205a6407e1449b6e349572139a1a
+      internalID: 6525218206304705780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e340008011eb6f48a4f8fc236dc1baf
+      internalID: 1819342632236566483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a37559aa91b34eb1b319982a2720a
+      internalID: -5214974848591338201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ef308cca90c424baa4f65075ebf4f6
+      internalID: -4870851892830504188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_9
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 237
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1201085d038d11c4da21f8b2e322f5f5
+      internalID: 2149996784948419690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 237
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada5fa491e891b54c8c58a48ea2da27c
+      internalID: 5112263198294579347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 236
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b558423779a09f54cbcf947d0d8f0a69
+      internalID: 6751561679553030557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 236
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2b4ceca1cc27749910cbc551afcc98
+      internalID: 2277226751292135096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_13
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 236
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4d0e4fa50c0d94c89bb29129382e6c
+      internalID: -8728484128291537511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 222
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe7d5f18ced293408964c04e09652d1
+      internalID: 4392300488374733240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_15
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 222
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a39c8f6ddeaab47a3ced9dfc8f9ab8
+      internalID: -6573463318370694993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 222
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65c4df4685d95049a405e1c8ed39786
+      internalID: -8659780561670673754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_17
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 222
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bde8dfb59d82b40b22670100bff895
+      internalID: -8478756534580312237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_18
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 237
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdacd83d4c6f1140b5ccf47de7a4556
+      internalID: -1169393471359861885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_19
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 237
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19ab1647b8ed324392096f7615a5a6f
+      internalID: 195222358840000733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 236
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d6a584033bbcd4ba196c847a784897
+      internalID: -1032566033445928039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_21
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 236
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09180d07c39b87c4ebf7a57f268e9aff
+      internalID: -4262299497674509872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_22
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 236
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632251dd1ba9d84b8f5afea891754b2
+      internalID: 3402034174715027346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_23
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 226
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86a6c8c4c6bc554c848e9e8616163a1
+      internalID: -8027672189867402009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 224
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b42f3b8f24a1941b02611908d24ad3
+      internalID: -6536925182697853942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_25
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 224
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc11db3a82b280409423e5d2082744a
+      internalID: -5354312639348309827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_26
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 226
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0d782f72a8abb46a65f5cb19aadd2f
+      internalID: 7640858869271881557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_27
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 225
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1fa09f2b685204c97a46ddfb6835a3
+      internalID: -6282418846414397990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_28
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 225
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a17545a413b930489db42fa2aeba5da
+      internalID: 7465346381483056999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_29
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 238
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dc856710ce8814b8760733cc1fb198
+      internalID: 2715369216235365540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_30
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 238
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e9248e4766f6f488416d56857469d7
+      internalID: 3946179252553861499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_31
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 237
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181a689614c042f438fd8315d5e5f8c9
+      internalID: -5619253374887989885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_32
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 237
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d8a7be492410540ab06daffdbf8ea2
+      internalID: 3584534256568534977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_33
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 237
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfebc7fc1115344bb6029efe87aa27c
+      internalID: -7146720175273171209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_34
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 194
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86590dd6c7ec7c24a92405fd83847e90
+      internalID: -7824684637757255053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_35
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 195
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f935b8c7fe5c664da6bf71a9790249f
+      internalID: 60277244479808527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 205
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486a3b699e77d654183e6369b73ba3e7
+      internalID: 9106772076179169175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_37
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 204
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e71501dcfd635f499e8cebb2e827cbf
+      internalID: 5639219539050313151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_38
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccb112d485e771439a3c4e1da9b15e8
+      internalID: -7545810722579660887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 204
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f62d00c1fe83145a35046f770b37ee
+      internalID: -6296212825561526164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_40
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19a8796ab061bc46bb030926165379e
+      internalID: -5920013137907715275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_41
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7d2018c4de8ed4f83de6135e64a65a
+      internalID: 2583684666191970449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_42
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2142ebcfb41146245938453738d38706
+      internalID: -7830695929820711259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_43
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b124ffbd3223a5439cfbee980a59c8f
+      internalID: -412639930757889362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_44
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 206
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61535606ee244de4cacd399f670f5b45
+      internalID: -6770440696670970050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_45
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 206
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939e9d0df7553d24b9dbe3e6230142ff
+      internalID: -3098755693452675859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_46
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d42a51e438ccee45945c3e7cfe5983d
+      internalID: 3444706087118745464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_47
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 205
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61eec4b82ab91243acbbdd97d09522e
+      internalID: 7105998186417143513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 186
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55d1ba881609ee4599989eb87b8ff68
+      internalID: -8012181351123422877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_49
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 185
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5269904cfff8d4e4781e415783263a06
+      internalID: -1523837358062042839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 185
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a1da241de91d04da58a3f1d0026cb6
+      internalID: 7340883483768630935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_51
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 184
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751a4cfe75551584588ed0f0ab04f457
+      internalID: 8904371961148490483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_52
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 205
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a39123531ae38a4196a795a034f2b54
+      internalID: 8707133463952617584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_53
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 205
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9279d93d292d9a44a4be891adf62e26
+      internalID: 1910941519712006876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_54
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 204
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdfcacf638e2c84d8483697f40fd120
+      internalID: -8249458900583812240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_55
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 204
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51345f2dd8e4c4f4296827e3a944cabc
+      internalID: 8012866471945936612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_56
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 193
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a29f6e7070d6a4884e2e8061b43443
+      internalID: 1032269578214425153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_57
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 193
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61366994208baea4cb866c002857013a
+      internalID: 2367461505309967672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_58
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 194
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1be5171a5a34e40bc800f973cc47e8
+      internalID: -4219768227905960900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_59
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 192
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147282dca04f57c478a49d4cdd75a36c
+      internalID: 1899020628757263996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_60
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 192
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5854d90d9cbbe4d9220087659b52a8
+      internalID: -5618979396132825365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_61
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 194
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5480bfb771dbb9741ae6cd4b354ca654
+      internalID: -8372448199233630967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_62
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 206
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1819b4a949702e448ddc891b10a5371
+      internalID: 8506367792183652634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_63
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 206
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418fc47484c0c5946ab6c296f85f944d
+      internalID: 8971612466249687488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_64
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ae02bd748736e4889286f6de61d0cb
+      internalID: 3161499699735714105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_65
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 205
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a8e6545653e7f458c98a6ed1db7273
+      internalID: -7123815871988254902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_66
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 160
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b4abbd4e4e318469b388ada19235fc
+      internalID: 3447712340900755169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_67
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 160
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ef83384e2c354429842113174eed7d
+      internalID: -7589836575992049832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_68
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 173
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704905e660b8769479c6c7b0a8aa8e0d
+      internalID: -2995334972323170934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_69
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 172
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69471772be6639a4dabf8431c29a447e
+      internalID: 6183908033196024811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_70
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 173
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41b64e56018f844486abb6ff0845e6d
+      internalID: -5326428918258084569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_71
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 172
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73376553922c8f94abf5287cb96093c8
+      internalID: -5332750200607384990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb3720291bdd3c468a9ebb1548db5b2
+      internalID: 3537180032496540583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_73
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85446c2c2693444498f7cdc592071dbe
+      internalID: -8002048309266928014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_74
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0172738b8f971419866591ba369ca4
+      internalID: 5879401186608694407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_75
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f201feac00e2542aaab15069a8545c
+      internalID: 5150078455345029663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_76
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 172
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2b3ef445619994c94a67f54cd24974
+      internalID: -692025398907122970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_77
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 172
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfa376c0cab4e64092ab0592fa4258e
+      internalID: -4187909526072511327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_78
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 171
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e20c37fe3907ef4f90e3bdccd217a18
+      internalID: 8916652628994521339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_79
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 172
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0400c51a5bc6540b4a360f5fa18f44
+      internalID: 3009148311284234047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 171
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cacd1a7e936554ca9e77210946be58
+      internalID: 2159130192959313889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_81
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 161
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d6901290d8ddd478dfb732d1df00ec
+      internalID: 3201144673565406118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_82
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 162
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70ebebac43aae24e8470b80af13ae66
+      internalID: 1007399049515992964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_83
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 161
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2881450012a91ce48824ec81c1729251
+      internalID: 4334134301498658975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_84
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 162
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e198a244c2475584e83871605b2ac1a0
+      internalID: -3242644756946911184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_85
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 174
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606370ca1bdce6941bf2d7c9918bbf64
+      internalID: -7360652915273124610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_86
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 174
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f5a838145c2b143aba1ab30f642c90
+      internalID: -1320106628513775893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_87
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 173
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d4293d0e784fb45aaf2b741fe7788f
+      internalID: -6087469780034554655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_88
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 173
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628b32d1ce5af22428c99aa55c7b8b5d
+      internalID: 6149528617799870984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_89
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 173
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd3744e6be8ed54590c31215687ebf2
+      internalID: 4614214938682599749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_90
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 165
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ee72a50feb36b489c2118d81436b12
+      internalID: 7283352346311645440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_91
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 162
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68add348970a3347a70d94889011baf
+      internalID: -4244529880659795121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_92
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 164
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb18acbea61ee046883f65e954036d2
+      internalID: -6458580537906519726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_93
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 165
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2c98d76fd51674c9b4a63fb1b9b8e1
+      internalID: 6586889248606665066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_94
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 161
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633389892ca900f4897f0c5fe006f628
+      internalID: 5075294952337961218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_95
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 164
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7de78059a74ace41b1bfda0eb08152f
+      internalID: -3767286238135820683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_96
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 173
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e520aa560748647a7b3895837976ee
+      internalID: 1765981881710616329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_97
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 173
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c6e2b34990b645abe36b38582a37f
+      internalID: -4051554800579998022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_98
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 172
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a444041a4055f4faa25b3715f19afc
+      internalID: 4849598857799738310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_99
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 173
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c66ec93fb98224b8045ede216a4a6e
+      internalID: -8807994768329774954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_100
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 172
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee73ab08b15f194b975c6371ec22c33
+      internalID: -1447277077410780901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_101
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6bb167187299c4ca21d489ff9c7c72
+      internalID: 5786071313410039047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_102
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018aa1c1ce9bcf243aa261f30ab218f2
+      internalID: 5641307242055795471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_103
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 141
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edc5a08a8c894943800a01130a50401
+      internalID: 4424545101057156374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_104
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 140
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ea1c8e99a1a4c42815ffcc1d8707e8
+      internalID: -578583695089126448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_105
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 140
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8407d22d227cda43a71119698ce1f66
+      internalID: -7975974509021527551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_106
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 140
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aef26c3f20058e48a497d3f82502a3b
+      internalID: -3133889918892343198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_107
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508c0a1940bfa4642b4a0da51012a2dd
+      internalID: -3573300277179361892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_108
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db86168111e0bd429aceb27b0628599
+      internalID: 4846222277105826298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_109
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d468e31f8167a4caf07b19868fc914
+      internalID: -1367228198204133866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_110
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175081805a9d53f4daaede99f313a8d9
+      internalID: 4481876894237508390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_111
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 140
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad359e792f6c98469ae5c4288a4896d
+      internalID: 2309349409462040907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_112
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 140
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde2e623f9b147443b5e80507fa5af17
+      internalID: -359933731450714799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_113
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d7e006962d1b3459004a434f617187
+      internalID: -4295667555748035877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_114
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 139
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43934c3caa03c1247ad1d0a45bc13582
+      internalID: 6859980473771601673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_115
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a24561b5e622d4e8439a61e48ba4eb
+      internalID: 6960708750087944300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_116
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 130
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc7aad82a575c54e9e00060fbd53f36
+      internalID: 7250609816337972657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_117
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d10e7a56bb6ca42bd3c7402d2914bf
+      internalID: 907099166972610851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_118
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 130
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20a0bea69be4c846855c021667eb72e
+      internalID: -2800364171691716424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_119
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063dc880ee375724ab08938e7f234eaa
+      internalID: 3812857065894931241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_120
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 140
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec33dc13cef14f4ab6e3c628ebbc9b6
+      internalID: 7007870262708368705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_121
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 140
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fcead8abe04454fb2030817ab4e3cf
+      internalID: -6957351164922310172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_122
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2218dba902f6b05468d9c2e7cb9d98fb
+      internalID: 3720016353912322939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_123
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 140
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faa10c47d0540d4f99bcf3f8fa6209f
+      internalID: 3167463507221687720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_124
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 139
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb33528e49816634998076de4dd86005
+      internalID: -5485346455856860407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_125
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 132
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41e7c592788d3041a33017339c94fef
+      internalID: -6473480033166297749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_126
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 129
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c194736349cb04b88f47c490a8ad13
+      internalID: 1264716463069058037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_127
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 133
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426d154d553be004cbcd22f919b79e1d
+      internalID: -5634676433466539976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_128
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 132
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d1b440698598b41a589f696d2f3aec
+      internalID: 6557295946787262229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_129
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162636890d721ab4cb2fc7d0cbd05461
+      internalID: -3890513449465764710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_130
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 133
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7120362806981142b78f6c84ab60bb7
+      internalID: -1719988735621353331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_131
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e8cfd387866f94d972457238929844
+      internalID: 6404671294358319436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_132
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 143
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a4310b50cb8ca49837e5545632b83a
+      internalID: -1914313715924179309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_133
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 142
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d6db919609a6d4eae9254fdb842619
+      internalID: -1059145934716873719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_134
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 142
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064ff9de9ce5e7b48aac84c4f1f2d510
+      internalID: -3094669411947750165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_135
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 142
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79397c784c4d3cf4f8eff6b506407685
+      internalID: -9055831880040825592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_136
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 99
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a231f59327b2df4faa1a3f28c8ee3eb
+      internalID: 4677207885247776332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_137
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 99
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308c15c66600b944185e33f3522f0a2a
+      internalID: 3117161854212589651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_138
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 98
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a34a3db5e06024781bc88823877332
+      internalID: 339318490773789528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_139
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 98
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb4154201e0df64d9a6599816212e06
+      internalID: -1071015424309782625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_140
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 112
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c232c9bdec7ea06488db5fb532532dc7
+      internalID: -1771063498965961802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_141
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 111
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c43eadf1e2c7e549be2c245999bb89b
+      internalID: 3645869167880217953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_142
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 111
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab0b0bfe1539cc4d87f482c1cc157ec
+      internalID: 6860416868377787412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_143
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 111
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c024857093668941998535801f39440
+      internalID: -1164019001332954471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_144
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322d0d8d7e992f44cb1cb0c752f5c36f
+      internalID: -1944911164376451024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_145
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c938552c1145954f9d70d9f268f31e4
+      internalID: -6207675026455989350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_146
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608016b71095c6145be99781ccbdb2c0
+      internalID: -6456100341298568164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_147
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c6b59071b1de34c9ee8de7e04a432a
+      internalID: 1355075420003291972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_148
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 113
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b74cd65152bc14289cbe5616032fcd
+      internalID: 9140128090023543090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_149
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 112
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe756a537cef89742b827ae15677805b
+      internalID: 6831535539916034246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_150
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 112
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7873e3f907271d42af4899ec2b55d19
+      internalID: -6722308457288250902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_151
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 112
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ed3767f746b1a468f69480ac15ad03
+      internalID: 843028851099486579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_152
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 81
+        width: 192
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35aa74fdb6f03ee45b8593e3c16ea169
+      internalID: -3071700347848632531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_153
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76fca3449a95b04aad42551a1a68ae3
+      internalID: -8403319135372204497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_154
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 112
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff57b3900bf2294bbdc9c4d655378fa
+      internalID: -8352239427103322698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_155
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252ba54b5698df5418618f9ffd56fceb
+      internalID: -2719555592766786133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_156
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af32f018d63e01b4fac5278a09714748
+      internalID: 5040777870508659548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_157
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 64
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ad5cd4b39f10d47888beb9c446adbd
+      internalID: -1741470542446679711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_158
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 64
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b85c2234621cf04f94f38114d93076b
+      internalID: -1975064579226158481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_159
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c0ebfb69c2d15419917ec329405485
+      internalID: 5251086444709339404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_160
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b25a86d0e73534c9459adf2c146739
+      internalID: -2890909235718799349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_161
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b2c9c7c2adf1f499f333a584676f3a
+      internalID: -9206493156614798271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_162
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d82998bfd4812e469a20254962d38af
+      internalID: 6170302007772244439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_163
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 90
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3e57965aea05f45956fa4c88e35bf1
+      internalID: -6435589073114795668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_164
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 90
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff6b01cc4412a2418b8c253b4fc2da4
+      internalID: 3936377923831742362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_165
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 77
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7220dde9cde327488bbf48e6b377a84
+      internalID: -8348684634090038908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_166
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 76
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66707c15688bd741a7e50822e2b9c05
+      internalID: -8257802940034105772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_167
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 76
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1165147e3e0ca8f458b8fcdb98af588b
+      internalID: 5093844270307609109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_168
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 78
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13348d205147e3c4aa49ab8f38157b3b
+      internalID: 3000448786514007965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_169
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 77
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f010540e0d9bb454eb4ede127025dfe1
+      internalID: -7495052724916353902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_170
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 77
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbc50362e7e3e54381394a5805b0a3e
+      internalID: -3564357183121775742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_171
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 33
+        width: 192
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823db7650eb509349ab47f06c1c1076e
+      internalID: -968480786433387522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_172
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 64
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5782569b0d15224c9e5c9fc6c0f70d0
+      internalID: -7230614644456339576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_173
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 33
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e76778387b0f5642bd44c86a24f1212
+      internalID: 4074444071839113385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_174
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 32
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b4ef56419251a45892c4aa29fc6eb8
+      internalID: -1786790157751284374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_175
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57d48393be92274db7cc30f8b1dfaac
+      internalID: -5407446773911812783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_176
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 32
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9716186d13dc6f46845416552e97c12
+      internalID: -2967841425943522537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_177
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 47
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11340eaecbe09c4ca1c11452a224aca
+      internalID: 5978728734072137612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_178
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 46
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187007dfb01fd5d4c82623fdc3a9fc21
+      internalID: 7582046489275699037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_179
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3182cfea68ac9a544aeb548684da438c
+      internalID: -2941576654406622294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_180
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 46
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157dfea2fe2cc864ca2608d9523f16f8
+      internalID: 6586807812445166840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_181
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 38
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f08de85cd463824bbad9cc28c615ade
+      internalID: -707100445343431695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_182
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 41
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5a27a12fe7f0449cd94e0e333e89f
+      internalID: 647270901623469627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_183
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 38
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0e1a78f77b7a6468ce22abc75c9880
+      internalID: 3328388576004500961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_184
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 41
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc3512fa8773e843a4e2c4730aebfb3
+      internalID: 7174845613084155531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_185
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4beacbb32809704889618b04aa0728e
+      internalID: 2346856351972395417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_186
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 47
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b031e252e47259748898a7d34f42722f
+      internalID: -923500173690875627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_187
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 48
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c87509d33fcc7d4186d24c4c3c1358b
+      internalID: 1674537564629882552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_188
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 47
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c0b98adcedebf418cb6fbcad327cb4
+      internalID: -5319023915854057095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_189
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 44
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eb1aab379fde94d825ef4c1535c302
+      internalID: -5305249689060659885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_190
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 44
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d609092024b39a48b723c26de7baca5
+      internalID: 5015740702402014986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_191
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df23b4352b0b8eb4aaa06dd1c67fdbd7
+      internalID: -7956455249198162308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_192
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdd77c1f5596cb4a843788ec58a19f4
+      internalID: -7916979539811063468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_193
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52c1794a6988d4ba8b428c184526a5
+      internalID: 2056319653710756679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_194
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02392c4e77da0dc4eb6a6224698f08ff
+      internalID: -2827721870170552511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_195
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d16fc6466b7ff4289b450c36aadf74
+      internalID: 712990104469965222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_196
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 11
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576f7669e0e239b4c889ebc3a3a0e63b
+      internalID: 3245698951847638537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_197
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 11
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfbdf6f361428e488a0f7fb6e80bdcb
+      internalID: -3708412673462886196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_198
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 11
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840bccdb5306714408a0201e0f108bda
+      internalID: -539367792840806652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_199
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb1752eb8c8564883b1238608188e4
+      internalID: 8652576508314884968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_200
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ed51a5bede2814d8bb274e6b139a09
+      internalID: -7546421626064477249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_201
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 6
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb16048dac038874b9835c8d0d8bfaee
+      internalID: 5188709872567934289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_202
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 9
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726bfb4f93a1b554f9b21c0b7252e2b9
+      internalID: -1332072145639409827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_203
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 15
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f7de56e9ac6cb4281845db5da3663b
+      internalID: -7143436264955027855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_204
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 14
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a445448bc4dda47b0e393eb04b7937
+      internalID: -8356665812261438410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_205
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 14
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f673ca427a62249aab3c6360ee3560
+      internalID: -1932742975600671425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkLabMan_206
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 14
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2013244869e3c64abe9aa6e59ac750c
+      internalID: 4683022285179199033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

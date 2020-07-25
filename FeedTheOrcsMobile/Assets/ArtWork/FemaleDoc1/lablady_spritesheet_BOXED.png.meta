@@ -1,0 +1,5239 @@
+fileFormatVersion: 2
+guid: b718fb584c6679d4e8955992e244315c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3567483573593171109
+    second: lablady_spritesheet_BOXED_0
+  - first:
+      213: 3165745790480097763
+    second: lablady_spritesheet_BOXED_1
+  - first:
+      213: -913509035985530080
+    second: lablady_spritesheet_BOXED_2
+  - first:
+      213: 2260155280416650123
+    second: lablady_spritesheet_BOXED_3
+  - first:
+      213: 4322420794932883525
+    second: lablady_spritesheet_BOXED_4
+  - first:
+      213: 7237689398207373507
+    second: lablady_spritesheet_BOXED_5
+  - first:
+      213: -3256487070850195407
+    second: lablady_spritesheet_BOXED_6
+  - first:
+      213: -5939830454588009389
+    second: lablady_spritesheet_BOXED_7
+  - first:
+      213: -2855600843273151050
+    second: lablady_spritesheet_BOXED_8
+  - first:
+      213: -6487188330341062732
+    second: lablady_spritesheet_BOXED_9
+  - first:
+      213: -4417434827350033546
+    second: lablady_spritesheet_BOXED_10
+  - first:
+      213: 7455538065325591514
+    second: lablady_spritesheet_BOXED_11
+  - first:
+      213: 6628649802871383641
+    second: lablady_spritesheet_BOXED_12
+  - first:
+      213: 212685994869173240
+    second: lablady_spritesheet_BOXED_13
+  - first:
+      213: 7909725063044431014
+    second: lablady_spritesheet_BOXED_14
+  - first:
+      213: -257389804644146694
+    second: lablady_spritesheet_BOXED_15
+  - first:
+      213: 6467882567665389350
+    second: lablady_spritesheet_BOXED_16
+  - first:
+      213: 3603454136174242269
+    second: lablady_spritesheet_BOXED_17
+  - first:
+      213: 3204915392997647098
+    second: lablady_spritesheet_BOXED_18
+  - first:
+      213: -6752908944392279853
+    second: lablady_spritesheet_BOXED_19
+  - first:
+      213: 3448525736521678434
+    second: lablady_spritesheet_BOXED_20
+  - first:
+      213: 6264126938158419519
+    second: lablady_spritesheet_BOXED_21
+  - first:
+      213: -2680468301341244833
+    second: lablady_spritesheet_BOXED_22
+  - first:
+      213: 1155283933179236766
+    second: lablady_spritesheet_BOXED_23
+  - first:
+      213: 8194755949812642237
+    second: lablady_spritesheet_BOXED_24
+  - first:
+      213: -809229107662667653
+    second: lablady_spritesheet_BOXED_25
+  - first:
+      213: 7213901686644164600
+    second: lablady_spritesheet_BOXED_26
+  - first:
+      213: -2044735153354716037
+    second: lablady_spritesheet_BOXED_27
+  - first:
+      213: 3024902752794326765
+    second: lablady_spritesheet_BOXED_28
+  - first:
+      213: 5952674376710664349
+    second: lablady_spritesheet_BOXED_29
+  - first:
+      213: 607708651762913791
+    second: lablady_spritesheet_BOXED_30
+  - first:
+      213: 4690757841015831197
+    second: lablady_spritesheet_BOXED_31
+  - first:
+      213: 2102862945946144790
+    second: lablady_spritesheet_BOXED_32
+  - first:
+      213: 1323326797902756994
+    second: lablady_spritesheet_BOXED_33
+  - first:
+      213: 6168417154343869573
+    second: lablady_spritesheet_BOXED_34
+  - first:
+      213: 9008030936667990556
+    second: lablady_spritesheet_BOXED_35
+  - first:
+      213: 472279682114858567
+    second: lablady_spritesheet_BOXED_36
+  - first:
+      213: -3969812330359138914
+    second: lablady_spritesheet_BOXED_37
+  - first:
+      213: -4078420826865074903
+    second: lablady_spritesheet_BOXED_38
+  - first:
+      213: -1313865815493403152
+    second: lablady_spritesheet_BOXED_39
+  - first:
+      213: 3687292311445155206
+    second: lablady_spritesheet_BOXED_40
+  - first:
+      213: 7822079046915415506
+    second: lablady_spritesheet_BOXED_41
+  - first:
+      213: -8316611634805492760
+    second: lablady_spritesheet_BOXED_42
+  - first:
+      213: 8582935426380974494
+    second: lablady_spritesheet_BOXED_43
+  - first:
+      213: -503859310832505696
+    second: lablady_spritesheet_BOXED_44
+  - first:
+      213: 2501331789564816521
+    second: lablady_spritesheet_BOXED_45
+  - first:
+      213: 8976955744056965637
+    second: lablady_spritesheet_BOXED_46
+  - first:
+      213: -444433892857469115
+    second: lablady_spritesheet_BOXED_47
+  - first:
+      213: -6253734496320345437
+    second: lablady_spritesheet_BOXED_48
+  - first:
+      213: 2076404313405857145
+    second: lablady_spritesheet_BOXED_49
+  - first:
+      213: 6299957393855724621
+    second: lablady_spritesheet_BOXED_50
+  - first:
+      213: 9142026667796766218
+    second: lablady_spritesheet_BOXED_51
+  - first:
+      213: -1320138749885449505
+    second: lablady_spritesheet_BOXED_52
+  - first:
+      213: -4404818427131354014
+    second: lablady_spritesheet_BOXED_53
+  - first:
+      213: 8800394950820489230
+    second: lablady_spritesheet_BOXED_54
+  - first:
+      213: -5036209688794642738
+    second: lablady_spritesheet_BOXED_55
+  - first:
+      213: -3476351815888373847
+    second: lablady_spritesheet_BOXED_56
+  - first:
+      213: 3632569243117153206
+    second: lablady_spritesheet_BOXED_57
+  - first:
+      213: 7096444210909242248
+    second: lablady_spritesheet_BOXED_58
+  - first:
+      213: -8377897401052813320
+    second: lablady_spritesheet_BOXED_59
+  - first:
+      213: -9065863078413358867
+    second: lablady_spritesheet_BOXED_60
+  - first:
+      213: 4555707782406511124
+    second: lablady_spritesheet_BOXED_61
+  - first:
+      213: -5342211184065358694
+    second: lablady_spritesheet_BOXED_62
+  - first:
+      213: 5616622094995200158
+    second: lablady_spritesheet_BOXED_63
+  - first:
+      213: -7968749305059759048
+    second: lablady_spritesheet_BOXED_64
+  - first:
+      213: 1696320271203144864
+    second: lablady_spritesheet_BOXED_65
+  - first:
+      213: -2488406905475523828
+    second: lablady_spritesheet_BOXED_66
+  - first:
+      213: 2078693645690796172
+    second: lablady_spritesheet_BOXED_67
+  - first:
+      213: -7444671708403989394
+    second: lablady_spritesheet_BOXED_68
+  - first:
+      213: -1100850947427261559
+    second: lablady_spritesheet_BOXED_69
+  - first:
+      213: 5456890878548783392
+    second: lablady_spritesheet_BOXED_70
+  - first:
+      213: 6070437141256220304
+    second: lablady_spritesheet_BOXED_71
+  - first:
+      213: 4934449100054844301
+    second: lablady_spritesheet_BOXED_72
+  - first:
+      213: 1019458378605009641
+    second: lablady_spritesheet_BOXED_73
+  - first:
+      213: 1184706654136363704
+    second: lablady_spritesheet_BOXED_74
+  - first:
+      213: 2086114657792911136
+    second: lablady_spritesheet_BOXED_75
+  - first:
+      213: 2270795628253797168
+    second: lablady_spritesheet_BOXED_76
+  - first:
+      213: -237137418241579679
+    second: lablady_spritesheet_BOXED_77
+  - first:
+      213: -5630301250077441029
+    second: lablady_spritesheet_BOXED_78
+  - first:
+      213: 4052243830435056801
+    second: lablady_spritesheet_BOXED_79
+  - first:
+      213: 2923075062324313624
+    second: lablady_spritesheet_BOXED_80
+  - first:
+      213: -9004282969165152480
+    second: lablady_spritesheet_BOXED_81
+  - first:
+      213: 5351375589118562718
+    second: lablady_spritesheet_BOXED_82
+  - first:
+      213: -8979818798734398966
+    second: lablady_spritesheet_BOXED_83
+  - first:
+      213: 6420140009803918040
+    second: lablady_spritesheet_BOXED_84
+  - first:
+      213: 107470964063360674
+    second: lablady_spritesheet_BOXED_85
+  - first:
+      213: 8494442849454014204
+    second: lablady_spritesheet_BOXED_86
+  - first:
+      213: -2816467759929294059
+    second: lablady_spritesheet_BOXED_87
+  - first:
+      213: 5477555575135689498
+    second: lablady_spritesheet_BOXED_88
+  - first:
+      213: -4093305135944136080
+    second: lablady_spritesheet_BOXED_89
+  - first:
+      213: -3052194023810441956
+    second: lablady_spritesheet_BOXED_90
+  - first:
+      213: -1369409685386582908
+    second: lablady_spritesheet_BOXED_91
+  - first:
+      213: 29895101006141188
+    second: lablady_spritesheet_BOXED_92
+  - first:
+      213: 5328177668327217267
+    second: lablady_spritesheet_BOXED_93
+  - first:
+      213: 3672449347010241376
+    second: lablady_spritesheet_BOXED_94
+  - first:
+      213: 8893586584840809052
+    second: lablady_spritesheet_BOXED_95
+  - first:
+      213: 2871024489359423438
+    second: lablady_spritesheet_BOXED_96
+  - first:
+      213: -6191026588004753556
+    second: lablady_spritesheet_BOXED_97
+  - first:
+      213: -5755507302189512259
+    second: lablady_spritesheet_BOXED_98
+  - first:
+      213: -3449289516357721662
+    second: lablady_spritesheet_BOXED_99
+  - first:
+      213: 7765643950535351707
+    second: lablady_spritesheet_BOXED_100
+  - first:
+      213: 5481507576416577632
+    second: lablady_spritesheet_BOXED_101
+  - first:
+      213: 9028427791864644581
+    second: lablady_spritesheet_BOXED_102
+  - first:
+      213: 3798189669419611967
+    second: lablady_spritesheet_BOXED_103
+  - first:
+      213: -1199773440764676296
+    second: lablady_spritesheet_BOXED_104
+  - first:
+      213: -9090968712100534445
+    second: lablady_spritesheet_BOXED_105
+  - first:
+      213: -5223321924555145118
+    second: lablady_spritesheet_BOXED_106
+  - first:
+      213: 239735480418462131
+    second: lablady_spritesheet_BOXED_107
+  - first:
+      213: 7593418529923520202
+    second: lablady_spritesheet_BOXED_108
+  - first:
+      213: -2540867343289342791
+    second: lablady_spritesheet_BOXED_109
+  - first:
+      213: 1832794078803762742
+    second: lablady_spritesheet_BOXED_110
+  - first:
+      213: -7146482972756919893
+    second: lablady_spritesheet_BOXED_111
+  - first:
+      213: 1546264403246832668
+    second: lablady_spritesheet_BOXED_112
+  - first:
+      213: -46070906160499918
+    second: lablady_spritesheet_BOXED_113
+  - first:
+      213: 4766358877054758942
+    second: lablady_spritesheet_BOXED_114
+  - first:
+      213: 8341934406048467665
+    second: lablady_spritesheet_BOXED_115
+  - first:
+      213: -3406005790207837034
+    second: lablady_spritesheet_BOXED_116
+  - first:
+      213: 5980203763485819772
+    second: lablady_spritesheet_BOXED_117
+  - first:
+      213: -6178642700009243306
+    second: lablady_spritesheet_BOXED_118
+  - first:
+      213: 1711041272401306690
+    second: lablady_spritesheet_BOXED_119
+  - first:
+      213: -3496571466880932101
+    second: lablady_spritesheet_BOXED_120
+  - first:
+      213: 7640157929013478397
+    second: lablady_spritesheet_BOXED_121
+  - first:
+      213: 8616476888426447237
+    second: lablady_spritesheet_BOXED_122
+  - first:
+      213: -5291739519913190384
+    second: lablady_spritesheet_BOXED_123
+  - first:
+      213: -5980104173701583117
+    second: lablady_spritesheet_BOXED_124
+  - first:
+      213: -8610154365135891679
+    second: lablady_spritesheet_BOXED_125
+  - first:
+      213: -8968090201791574606
+    second: lablady_spritesheet_BOXED_126
+  - first:
+      213: -5639293294002348142
+    second: lablady_spritesheet_BOXED_127
+  - first:
+      213: 7668929584041601621
+    second: lablady_spritesheet_BOXED_128
+  - first:
+      213: 6277343790898539754
+    second: lablady_spritesheet_BOXED_129
+  - first:
+      213: 5961683844925324630
+    second: lablady_spritesheet_BOXED_130
+  - first:
+      213: 5127509990674629630
+    second: lablady_spritesheet_BOXED_131
+  - first:
+      213: -9074101562598287289
+    second: lablady_spritesheet_BOXED_132
+  - first:
+      213: 3106280755979174905
+    second: lablady_spritesheet_BOXED_133
+  - first:
+      213: -2457544521184800008
+    second: lablady_spritesheet_BOXED_134
+  - first:
+      213: -5153426299249257514
+    second: lablady_spritesheet_BOXED_135
+  - first:
+      213: 7944776215264699377
+    second: lablady_spritesheet_BOXED_136
+  - first:
+      213: -5504548904853142693
+    second: lablady_spritesheet_BOXED_137
+  - first:
+      213: -6005576217670707318
+    second: lablady_spritesheet_BOXED_138
+  - first:
+      213: 3809215763798501052
+    second: lablady_spritesheet_BOXED_139
+  - first:
+      213: 8319621556879735500
+    second: lablady_spritesheet_BOXED_140
+  - first:
+      213: -2649474289577527115
+    second: lablady_spritesheet_BOXED_141
+  - first:
+      213: 5049909059143185525
+    second: lablady_spritesheet_BOXED_142
+  - first:
+      213: 4920996198173147241
+    second: lablady_spritesheet_BOXED_143
+  - first:
+      213: 1684862902319574204
+    second: lablady_spritesheet_BOXED_144
+  - first:
+      213: 8840037021978517877
+    second: lablady_spritesheet_BOXED_145
+  - first:
+      213: -7840904038980497963
+    second: lablady_spritesheet_BOXED_146
+  - first:
+      213: 4423157043910797686
+    second: lablady_spritesheet_BOXED_147
+  - first:
+      213: 4182196551384946243
+    second: lablady_spritesheet_BOXED_148
+  - first:
+      213: -4806062414981620502
+    second: lablady_spritesheet_BOXED_149
+  - first:
+      213: -1038084597872123784
+    second: lablady_spritesheet_BOXED_150
+  - first:
+      213: -5176370677455889256
+    second: lablady_spritesheet_BOXED_151
+  - first:
+      213: 3440665766286863614
+    second: lablady_spritesheet_BOXED_152
+  - first:
+      213: -2296323578326536384
+    second: lablady_spritesheet_BOXED_153
+  - first:
+      213: 2875488625100339448
+    second: lablady_spritesheet_BOXED_154
+  - first:
+      213: -3624845248535650891
+    second: lablady_spritesheet_BOXED_155
+  - first:
+      213: -2351902434716965308
+    second: lablady_spritesheet_BOXED_156
+  - first:
+      213: 7611066856172133307
+    second: lablady_spritesheet_BOXED_157
+  - first:
+      213: -462823800485862731
+    second: lablady_spritesheet_BOXED_158
+  - first:
+      213: 6417731556908032325
+    second: lablady_spritesheet_BOXED_159
+  - first:
+      213: 1859131591358973078
+    second: lablady_spritesheet_BOXED_160
+  - first:
+      213: -4509023658428818468
+    second: lablady_spritesheet_BOXED_161
+  - first:
+      213: 7873116804147278435
+    second: lablady_spritesheet_BOXED_162
+  - first:
+      213: 4967558653166662131
+    second: lablady_spritesheet_BOXED_163
+  - first:
+      213: -2079998975556611403
+    second: lablady_spritesheet_BOXED_164
+  - first:
+      213: -3442500252576490639
+    second: lablady_spritesheet_BOXED_165
+  - first:
+      213: -2370118682814389743
+    second: lablady_spritesheet_BOXED_166
+  - first:
+      213: -3925327704467978902
+    second: lablady_spritesheet_BOXED_167
+  - first:
+      213: 3488560143561148335
+    second: lablady_spritesheet_BOXED_168
+  - first:
+      213: -3331597027962121060
+    second: lablady_spritesheet_BOXED_169
+  - first:
+      213: -7216842224146734513
+    second: lablady_spritesheet_BOXED_170
+  - first:
+      213: 6894191816010232466
+    second: lablady_spritesheet_BOXED_171
+  - first:
+      213: 281217135032102521
+    second: lablady_spritesheet_BOXED_172
+  - first:
+      213: 1351921821643932327
+    second: lablady_spritesheet_BOXED_173
+  - first:
+      213: 7099682612170146938
+    second: lablady_spritesheet_BOXED_174
+  - first:
+      213: 5047789373308975035
+    second: lablady_spritesheet_BOXED_175
+  - first:
+      213: 209605594366393162
+    second: lablady_spritesheet_BOXED_176
+  - first:
+      213: -8350856076180303991
+    second: lablady_spritesheet_BOXED_177
+  - first:
+      213: 8459475601545375278
+    second: lablady_spritesheet_BOXED_178
+  - first:
+      213: 2068366865773215921
+    second: lablady_spritesheet_BOXED_179
+  - first:
+      213: 2976736514103697991
+    second: lablady_spritesheet_BOXED_180
+  - first:
+      213: -3133453828760914932
+    second: lablady_spritesheet_BOXED_181
+  - first:
+      213: 158313554269739672
+    second: lablady_spritesheet_BOXED_182
+  - first:
+      213: 2861519483002328647
+    second: lablady_spritesheet_BOXED_183
+  - first:
+      213: 1094185413299412449
+    second: lablady_spritesheet_BOXED_184
+  - first:
+      213: 627488685948271936
+    second: lablady_spritesheet_BOXED_185
+  - first:
+      213: -68095720703607594
+    second: lablady_spritesheet_BOXED_186
+  - first:
+      213: 7317917459095359972
+    second: lablady_spritesheet_BOXED_187
+  - first:
+      213: 5904057568972043402
+    second: lablady_spritesheet_BOXED_188
+  - first:
+      213: 9023245544719140351
+    second: lablady_spritesheet_BOXED_189
+  - first:
+      213: 4880392035827477492
+    second: lablady_spritesheet_BOXED_190
+  - first:
+      213: 3106619282576400522
+    second: lablady_spritesheet_BOXED_191
+  - first:
+      213: 821424361925314735
+    second: lablady_spritesheet_BOXED_192
+  - first:
+      213: -58172166263113584
+    second: lablady_spritesheet_BOXED_193
+  - first:
+      213: 5498217372648518479
+    second: lablady_spritesheet_BOXED_194
+  - first:
+      213: -7974028903192615141
+    second: lablady_spritesheet_BOXED_195
+  - first:
+      213: 9176669728729617750
+    second: lablady_spritesheet_BOXED_196
+  - first:
+      213: 7390557144157614058
+    second: lablady_spritesheet_BOXED_197
+  - first:
+      213: -7033018582478077050
+    second: lablady_spritesheet_BOXED_198
+  - first:
+      213: 4503166721233034134
+    second: lablady_spritesheet_BOXED_199
+  - first:
+      213: 927615260425067532
+    second: lablady_spritesheet_BOXED_200
+  - first:
+      213: 2076025539195721381
+    second: lablady_spritesheet_BOXED_201
+  - first:
+      213: 4131551533247924207
+    second: lablady_spritesheet_BOXED_202
+  - first:
+      213: 2696187990245473873
+    second: lablady_spritesheet_BOXED_203
+  - first:
+      213: 5772404102991774381
+    second: lablady_spritesheet_BOXED_204
+  - first:
+      213: 2841379130901752708
+    second: lablady_spritesheet_BOXED_205
+  - first:
+      213: 3577359782254848085
+    second: lablady_spritesheet_BOXED_206
+  - first:
+      213: -8588253368505913853
+    second: lablady_spritesheet_BOXED_207
+  - first:
+      213: 5329994953853646319
+    second: lablady_spritesheet_BOXED_208
+  - first:
+      213: 9205303212544817682
+    second: lablady_spritesheet_BOXED_209
+  - first:
+      213: 8896270639891803075
+    second: lablady_spritesheet_BOXED_210
+  - first:
+      213: -8795792337813471005
+    second: lablady_spritesheet_BOXED_211
+  - first:
+      213: 7808482372307501326
+    second: lablady_spritesheet_BOXED_212
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33177211e6ad41e42bdb9411c5edc695
+      internalID: 3567483573593171109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29be52ba2f902ee4b96a51e29bd7b5b7
+      internalID: 3165745790480097763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 237
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1524d37355128f7409fe05504483e806
+      internalID: -913509035985530080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 236
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa34c5e8efffd784e9aa4e9a396c7985
+      internalID: 2260155280416650123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 236
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475e17971860eac4280ac4a39ef2cd60
+      internalID: 4322420794932883525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abe568db133af64a9cfc1b2cca129b0
+      internalID: 7237689398207373507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4924b4a5fdb55544bcea83cba823d79
+      internalID: -3256487070850195407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c5bc94bb48b194ca16b8c8f2068bfe
+      internalID: -5939830454588009389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16756eae0d2a73c42ac5e2ca1730a316
+      internalID: -2855600843273151050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_9
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 237
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb377ebecf7a6245be7343a0c073d38
+      internalID: -6487188330341062732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 237
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ec9b7a468d91c49a3a592338757fc4
+      internalID: -4417434827350033546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 236
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2aefc1053187a47a76f9e867806d4d
+      internalID: 7455538065325591514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 236
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fae88fdeb03204e98c7fb979866190
+      internalID: 6628649802871383641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_13
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 236
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c3ed559dd70244d81840f0427e081d
+      internalID: 212685994869173240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 225
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5a7957b2a96ae48954e26071959c81
+      internalID: 7909725063044431014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_15
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57481ddd496134f468e78e81b42ae6e9
+      internalID: -257389804644146694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 225
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4394e24331d3f48874748811ef6f09
+      internalID: 6467882567665389350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_17
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 225
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46cab47ebbc78d4c837912d417076dc
+      internalID: 3603454136174242269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_18
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 237
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8f58130849fe54f999fbcf649e778b
+      internalID: 3204915392997647098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_19
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 237
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff7061f6668ce479c598dbe53e9714
+      internalID: -6752908944392279853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 236
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae88af59d3661c4aa2e7e7534adceaa
+      internalID: 3448525736521678434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_21
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 236
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7b1641977814a40b3e5f2a78b98483
+      internalID: 6264126938158419519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_22
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 236
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e947d24bb5fe5743a356e804bc135d7
+      internalID: -2680468301341244833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_23
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 226
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184a847045fa3bc49a641b6b1abeaaa8
+      internalID: 1155283933179236766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 224
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00302855fa537904c85016d9283c121e
+      internalID: 8194755949812642237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_25
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 224
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ac17edd09042b4196eccb77f8df3ff
+      internalID: -809229107662667653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_26
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 226
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0119650aa013144bb032bc0b7a44d12
+      internalID: 7213901686644164600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_27
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 225
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f132d7fae0c9a44b984dfd6e01cf700
+      internalID: -2044735153354716037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_28
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 225
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b900e723f57b84199d6dc5dc057ced
+      internalID: 3024902752794326765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_29
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 238
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e2e792f38136e479dea23c61f34cf7
+      internalID: 5952674376710664349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_30
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 238
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a70de33cbd2b664f97a1611d245ade7
+      internalID: 607708651762913791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_31
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 237
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfff391210f028f4ab742ee460d9a73f
+      internalID: 4690757841015831197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_32
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 237
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea43a414e73e06a46ad9ae99b5b1889c
+      internalID: 2102862945946144790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_33
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 237
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48c916900e1ea842b9a1ddcc2dccc01
+      internalID: 1323326797902756994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_34
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfe25a8dca77a449952c64d8750cb77
+      internalID: 6168417154343869573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_35
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0b54aa5efc305499e4f0a266648c98
+      internalID: 9008030936667990556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 205
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d0cd8086af88549bc50fd5508cb5ee
+      internalID: 472279682114858567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_37
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 204
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c4707d91bab4f43b688c7b39754b62
+      internalID: -3969812330359138914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_38
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceb223567045e84aa28976cc2cc410d
+      internalID: -4078420826865074903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 204
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cb7715bba39cd4caa84405de4ad092
+      internalID: -1313865815493403152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_40
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51319b47c509cc4f8fcf934b18c9b17
+      internalID: 3687292311445155206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_41
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fe75c2ef2d7374ba33d029f5203f45
+      internalID: 7822079046915415506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_42
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e31ab1c15449f345a0c9cfcb0ca0b1f
+      internalID: -8316611634805492760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_43
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22df5be50556adc4e82a3ebe63f8356a
+      internalID: 8582935426380974494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_44
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 206
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234bc5aab80c6b149b848d4f04b9ec70
+      internalID: -503859310832505696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_45
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 206
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cdf2127db880c4592620ec1598cb05
+      internalID: 2501331789564816521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_46
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31761d0dde43080439b2e123e4ff4276
+      internalID: 8976955744056965637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_47
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 205
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8993d76ccd6ff46bdf15ac701deb2b
+      internalID: -444433892857469115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_48
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 193
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c54a3a22fcf6344b8a5d491513d654a
+      internalID: -6253734496320345437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_49
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 193
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cbcf8fa82159a4b95205c8278cb98b
+      internalID: 2076404313405857145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_50
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bd11c5cb05ed740b73142620ccbd85
+      internalID: 6299957393855724621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_51
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 193
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d8bcd39b099dd4b95aeb661a504845
+      internalID: 9142026667796766218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_52
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 205
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eba0ee61e04a84dbcc6e3cfa8311b7
+      internalID: -1320138749885449505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_53
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 205
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9ac17c82f20b94fb48a0673f5267a1
+      internalID: -4404818427131354014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_54
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 204
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af9c4588b7b034449338085cd3b1b39
+      internalID: 8800394950820489230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_55
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 204
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f28ba3f2170b148b38d2672ca2805c
+      internalID: -5036209688794642738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_56
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 193
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476ee0a547048b749acab40656e57d64
+      internalID: -3476351815888373847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_57
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 193
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4593e4e07d534545846d542e8ae2bd3
+      internalID: 3632569243117153206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_58
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 194
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743421f0425b10542860dfc91d601965
+      internalID: 7096444210909242248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_59
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 192
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dc044205ea074418b5cbd78e57eaa2
+      internalID: -8377897401052813320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_60
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 192
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f67d467823537349bbb0ecc82acdef8
+      internalID: -9065863078413358867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_61
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 194
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f392b70e7934ae4691f92b377697517
+      internalID: 4555707782406511124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_62
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 206
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1791d7d2abecb3340a38d29546ff37d4
+      internalID: -5342211184065358694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_63
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 206
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3606d9cb32ae13d46a1988334512a2d6
+      internalID: 5616622094995200158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_64
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08b7afe90f133a4e850f49815d583ea
+      internalID: -7968749305059759048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_65
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 205
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dd178cb78d9394f959ce95f6d7ab8a
+      internalID: 1696320271203144864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_66
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f513df17d0426408fe4b0038f245f5
+      internalID: -2488406905475523828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_67
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2986832b7fbeeb045976f94d7d803c6d
+      internalID: 2078693645690796172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_68
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 173
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa8bb32a83be3c428df3c8b80b6d888
+      internalID: -7444671708403989394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_69
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 172
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c1562fc2e499b4282ff4fdf0282c1c
+      internalID: -1100850947427261559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_70
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 173
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9f3dec2283c9d438e10d5b8f8ee053
+      internalID: 5456890878548783392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_71
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 172
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d18b6d42bf87d46b4b0e8503025eb7
+      internalID: 6070437141256220304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8def7941c43a79a498f717272ed7b9f0
+      internalID: 4934449100054844301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_73
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296743fe6536bda4cb6bc1098a9acd9b
+      internalID: 1019458378605009641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_74
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c237845fa60d204295d80f71eb8dba5
+      internalID: 1184706654136363704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_75
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6065463914b87fb4c8f110c743add4f7
+      internalID: 2086114657792911136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_76
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 172
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a311945d5a1227448bbc1b7a2920b65d
+      internalID: 2270795628253797168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_77
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 172
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb92d8c7bb7909d47990c8e6af66bc1b
+      internalID: -237137418241579679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_78
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 171
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ce2bbfbe03d54ba54acd9cedf19d5
+      internalID: -5630301250077441029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_79
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 172
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c8fdd9d8585444aa99600f6544e318
+      internalID: 4052243830435056801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 171
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83244391438240449d61c85553bb047
+      internalID: 2923075062324313624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_81
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 161
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7acda127e91f7d47813ecee40f4561e
+      internalID: -9004282969165152480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_82
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 162
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c2016ba800f9c4e9e4f6df1e072ad5
+      internalID: 5351375589118562718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_83
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 161
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467266ba52e77d54abb234faff3584f0
+      internalID: -8979818798734398966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_84
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 162
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5129ffa2cc9fc45b20951d1a54e4cb
+      internalID: 6420140009803918040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_85
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 174
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f672f5b02d1cb4cad2552ef23b1f0d
+      internalID: 107470964063360674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_86
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 174
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b318b434f164c4db4cd42f063a75dc
+      internalID: 8494442849454014204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_87
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 173
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54fe87d15d774f4c923e86eda9229a2
+      internalID: -2816467759929294059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_88
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 173
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e5cf89c6e3c0943b25ad6ac156ca3b
+      internalID: 5477555575135689498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_89
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 173
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637f6b4fa81086c4d9def8bb143ff381
+      internalID: -4093305135944136080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_90
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 165
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9638ec041110a145a1a16894e73fe5b
+      internalID: -3052194023810441956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_91
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 162
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebf4038a811c664992aad10aaa270dd
+      internalID: -1369409685386582908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_92
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 164
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18e56127a41d044ca6eb9df578ca04f
+      internalID: 29895101006141188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_93
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 165
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2751337af6f191b409ef704671908ca1
+      internalID: 5328177668327217267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_94
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 161
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47003ebe233a42845abaae2f2b7b06f3
+      internalID: 3672449347010241376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_95
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 164
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6b3678913db4408b157697d0c4982
+      internalID: 8893586584840809052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_96
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 173
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d710b5a210ef464e8f1b863b0ba5a96
+      internalID: 2871024489359423438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_97
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 173
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3556f0817cb495b4f9f782c0136fe077
+      internalID: -6191026588004753556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_98
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 172
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bf90fee59335d4996ebf7644295cdd
+      internalID: -5755507302189512259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_99
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 173
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d00b3192e53534499c043fadac09d9
+      internalID: -3449289516357721662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_100
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 172
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412551c4849fc5649b24495573fedeb7
+      internalID: 7765643950535351707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_101
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65c0f2b028e4c641a46da8744fa92db
+      internalID: 5481507576416577632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_102
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e793f491e556304d8e36f121f855f01
+      internalID: 9028427791864644581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_103
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 141
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79531886eb69a0b459cf460fb509df8e
+      internalID: 3798189669419611967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_104
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 140
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e915c621573c14a8dd824a75f0af02
+      internalID: -1199773440764676296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_105
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 140
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465cae457a2757c4c8e32310474b6ab1
+      internalID: -9090968712100534445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_106
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 140
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12c276f4a5a923459113078cca4199a
+      internalID: -5223321924555145118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_107
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843755e52a1a60941877083bc0e30b48
+      internalID: 239735480418462131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_108
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f39ed4c718c5b4c8ab822d5a198f55
+      internalID: 7593418529923520202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_109
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed5839619110c1478fcc15feb9f556f
+      internalID: -2540867343289342791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_110
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06dad57bb64f3140b48592ab60a6eb5
+      internalID: 1832794078803762742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_111
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 140
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603eb9e6d862bc34e9de987b88c46e6d
+      internalID: -7146482972756919893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_112
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 140
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cf396cb584db24db4a6aa84d4a5f13
+      internalID: 1546264403246832668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_113
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747e455c13fcb4c4893d1e00ff1faf84
+      internalID: -46070906160499918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_114
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 139
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2ac92f861d67c419840e08e67ebbc3
+      internalID: 4766358877054758942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_115
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4246d857f751ab1459b1b60f4c0c637d
+      internalID: 8341934406048467665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_116
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ad197753b9aa64f892d1a7db537565
+      internalID: -3406005790207837034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_117
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbfc9575bb74d74ab9b475d85f57a41
+      internalID: 5980203763485819772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_118
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6704a73288b024f86e480b1c2f32f2
+      internalID: -6178642700009243306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_119
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32eb801f492c55409059c9352b41f0a
+      internalID: 1711041272401306690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_120
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 140
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cd8115c5fe18140b351b1291fd98f2
+      internalID: -3496571466880932101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_121
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 140
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ed105a094a12d409e8fd75c8fc2624
+      internalID: 7640157929013478397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_122
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dd85a9f17b8a64997489ee3ee8949e
+      internalID: 8616476888426447237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_123
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 140
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f3df5f16b4f3d47beca057f7b4f381
+      internalID: -5291739519913190384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_124
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 139
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e43533ccd380847ab7fa24a034068e
+      internalID: -5980104173701583117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_125
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 132
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a624c83816ae2c9459dbb2f6e11d51ca
+      internalID: -8610154365135891679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_126
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 129
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60145d1208e63e94b8321917d17087b5
+      internalID: -8968090201791574606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_127
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 133
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f471f3bfa951cb84ba4be96720f9054a
+      internalID: -5639293294002348142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_128
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 132
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546850d69252b734890a43fc60eb1d1f
+      internalID: 7668929584041601621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_129
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 130
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b908d5509e42c04589a7c656217843b
+      internalID: 6277343790898539754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_130
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 133
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75af86b9a43befc4fa43b94d95d43330
+      internalID: 5961683844925324630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_131
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1707dc3242fcbc1428f1ddbd9b5a4acb
+      internalID: 5127509990674629630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_132
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 143
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5e248a55798ed4a89056ce249cd7ec
+      internalID: -9074101562598287289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_133
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 142
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db84075735f77c244b21a16a7a20571a
+      internalID: 3106280755979174905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_134
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 142
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c6b89a8662b0741b88eb0407d92c82
+      internalID: -2457544521184800008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_135
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 142
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd610d5aeb370b4687a8b6374c0db32
+      internalID: -5153426299249257514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_136
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da295e3015bea21429ad5dfc239d80bc
+      internalID: 7944776215264699377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_137
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 96
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec34457a44ea6a4e9c3e77aa4ed2fdf
+      internalID: -5504548904853142693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_138
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602844555dba5694b8aaea0af2d4c6fb
+      internalID: -6005576217670707318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_139
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d0dff4dd233f34a90150270a3fdddf
+      internalID: 3809215763798501052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_140
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 112
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658b31db25de5654483ee04dd5602657
+      internalID: 8319621556879735500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_141
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 111
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d32826660d067489ba10006204f484
+      internalID: -2649474289577527115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_142
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 111
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb8e9645335a7242a4c33dae51e58fa
+      internalID: 5049909059143185525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_143
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 111
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10395de06218ac94580e31675a40518b
+      internalID: 4920996198173147241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_144
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc515b5b0f8ebec429b6345b49c45199
+      internalID: 1684862902319574204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_145
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42aa73ff5d9e5e428255d8d0e2fe265
+      internalID: 8840037021978517877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_146
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002edf512f098e541840ad0d2f22664d
+      internalID: -7840904038980497963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_147
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe10ceb57ae8574fa4b04abd86a8190
+      internalID: 4423157043910797686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_148
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 113
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f668a5612463e0419dc9ec950f7ab06
+      internalID: 4182196551384946243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_149
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 112
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb28c1a2b52dcc4a9c9ea45ae465025
+      internalID: -4806062414981620502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_150
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 112
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bf9b16e920ab4428d8e73845a24b0a
+      internalID: -1038084597872123784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_151
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 112
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3295060fa0a924b90597967e695d7f
+      internalID: -5176370677455889256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_152
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 81
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265b739fb9d5bac44875e46fc2ecf6ca
+      internalID: 3440665766286863614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_153
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 81
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c966a30af928146a29ec11853b58c7
+      internalID: -2296323578326536384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_154
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 81
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcb8ee4bde3ecc4a9b12701dfde6407
+      internalID: 2875488625100339448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_155
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 81
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c9aff739820df41b2e8cdbfbb414cf
+      internalID: -3624845248535650891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_156
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bec960b023c9342b9f64e68915f108
+      internalID: -2351902434716965308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_157
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 112
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcb4ad37e11c4b438a3264849bfccaf
+      internalID: 7611066856172133307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_158
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25494fcd55c79a4ab96304d32712ed8
+      internalID: -462823800485862731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_159
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdcb7a2c840c2d4386faeccf37b7b94
+      internalID: 6417731556908032325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_160
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 65
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1e718b16363ac4d9aad264d371c372
+      internalID: 1859131591358973078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_161
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 64
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a49fff1572012a428e7c1fde645b7fc
+      internalID: -4509023658428818468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_162
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e93e90a696a17444b315a4f1b55ea54
+      internalID: 7873116804147278435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_163
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0ef3a7320aa014595b74136f5899ab
+      internalID: 4967558653166662131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_164
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5baa624084c0841b1a40c64ed52a5c
+      internalID: -2079998975556611403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_165
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be61ecd64b3228947b1b9a06ec15ebdb
+      internalID: -3442500252576490639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_166
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 90
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecba404c97302184eb209651cf705a96
+      internalID: -2370118682814389743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_167
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 90
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952e89d53eda78143aaad267b96e49b0
+      internalID: -3925327704467978902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_168
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 77
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d443cfd6792b2409816fda556b9892
+      internalID: 3488560143561148335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_169
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 76
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788542607a721bd4ca8a0befbf4889ae
+      internalID: -3331597027962121060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_170
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 76
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b140796d0af024bbab44d14f889abd
+      internalID: -7216842224146734513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_171
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 78
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43768837e927c84b97b9849a82cef13
+      internalID: 6894191816010232466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_172
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 77
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4c9a0cf34549842a4017d4f2a5f2b7
+      internalID: 281217135032102521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_173
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 77
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447d29bb0bf9b4544a319d7db15d169d
+      internalID: 1351921821643932327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_174
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 33
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ab3812f4016743b42be9e83e3a2ec
+      internalID: 7099682612170146938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_175
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 33
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ae06aeb75e45745bfd6d4d7fb7e2db
+      internalID: 5047789373308975035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_176
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 33
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcff57f6f3abb8a48ad5b3e1c3724191
+      internalID: 209605594366393162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_177
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 33
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fb46058d7ed06488a7887ee54f7684
+      internalID: -8350856076180303991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_178
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 64
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03311de722fe3c746a57c374b6629530
+      internalID: 8459475601545375278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_179
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 33
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2c53ae14903fd43a9cb0b2d3397704
+      internalID: 2068366865773215921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_180
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 33
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f746bb17d081bbd469201bf13c494ae3
+      internalID: 2976736514103697991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_181
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d3ffb12ace004bba24e70284894d1
+      internalID: -3133453828760914932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_182
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 32
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06563c3e1667c9469f8ed1e1916fecb
+      internalID: 158313554269739672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_183
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 47
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ef0e44c7dc0084a93bb8bd32a7e3a5
+      internalID: 2861519483002328647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_184
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 46
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66d9e185929b2246abd6d5c0ec5b897
+      internalID: 1094185413299412449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_185
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0ec35680c40e4489acac1df4dff849
+      internalID: 627488685948271936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_186
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 46
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb97a1adb4481de40925f4388899e1ce
+      internalID: -68095720703607594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_187
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 38
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3008793741889aa44aff3d9ff6ee2e65
+      internalID: 7317917459095359972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_188
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 41
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d4bf8e496a1e24b9a004d3b8861e79
+      internalID: 5904057568972043402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_189
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 38
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b428524fbbd3c3f47a2089677a8a5a80
+      internalID: 9023245544719140351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_190
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 41
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d5b83ae65f28a4e9374ae28634cab9
+      internalID: 4880392035827477492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_191
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c5b097afcdc874294fe3adfe4ed8c0
+      internalID: 3106619282576400522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_192
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 47
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff430a8a1e614c4b97b9d833ffcd629
+      internalID: 821424361925314735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_193
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 48
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea30619990c7a3840a9dc97d7cee3fcb
+      internalID: -58172166263113584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_194
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 47
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe1d5123579f2c48914e47ee45a8b58
+      internalID: 5498217372648518479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_195
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 44
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2204881a8239b0242a9b79c1fc214c43
+      internalID: -7974028903192615141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_196
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 44
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d577d4ff3a0c6a84e824207ac92240b9
+      internalID: 9176669728729617750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_197
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7be0a1d8b01504dbd8b85b2bd8b428
+      internalID: 7390557144157614058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_198
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef71790eed9a294a982cfd289b28230
+      internalID: -7033018582478077050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_199
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c799bb13017ff74bb8f4215cb957f82
+      internalID: 4503166721233034134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_200
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe696f796a7ae844a9a1d15fe1f4d3c4
+      internalID: 927615260425067532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_201
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8fa788af51c894da55bc175af6ce25
+      internalID: 2076025539195721381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_202
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 11
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee644bd7bca4074fba8d565e4f464eb
+      internalID: 4131551533247924207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_203
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 11
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b23e39a8fe2cc45a53013e28b6b37d
+      internalID: 2696187990245473873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_204
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 11
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9663146d2f4cd43915c364e00ef00e
+      internalID: 5772404102991774381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_205
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3f38a04193cee488cf3d6f5d28dbc9
+      internalID: 2841379130901752708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_206
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33da0c4ff4c77e44b206a297f68f73a
+      internalID: 3577359782254848085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_207
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 6
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04ee89e714b8cf44b8ee26da89f189d
+      internalID: -8588253368505913853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_208
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 9
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6856e4d7fd2bd684ca38959f60209a4a
+      internalID: 5329994953853646319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_209
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 15
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1bdc1b319ec2a4ab0d7ff04739becb
+      internalID: 9205303212544817682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_210
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 14
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbd9b5a37b942b4b9c4e88c24ffcbb1
+      internalID: 8896270639891803075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_211
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 14
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d01824c26d949429ff8fe43f697679
+      internalID: -8795792337813471005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lablady_spritesheet_BOXED_212
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 14
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf002d026870d24b878ef5a4f290b6e
+      internalID: 7808482372307501326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

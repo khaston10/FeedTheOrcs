@@ -1,0 +1,5239 @@
+fileFormatVersion: 2
+guid: d4211615963f9af4f908de032fd916a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2317594481507187649
+    second: DarkLabLady_0
+  - first:
+      213: -8509995404937682968
+    second: DarkLabLady_1
+  - first:
+      213: -9125239879175624031
+    second: DarkLabLady_2
+  - first:
+      213: 5172743054153541
+    second: DarkLabLady_3
+  - first:
+      213: -7411517022981429086
+    second: DarkLabLady_4
+  - first:
+      213: 3308486542956540539
+    second: DarkLabLady_5
+  - first:
+      213: -4614225078184288465
+    second: DarkLabLady_6
+  - first:
+      213: -5687738670859060979
+    second: DarkLabLady_7
+  - first:
+      213: -4666453322385547909
+    second: DarkLabLady_8
+  - first:
+      213: -7782317575750613970
+    second: DarkLabLady_9
+  - first:
+      213: 754525999663607287
+    second: DarkLabLady_10
+  - first:
+      213: 2604595701594886519
+    second: DarkLabLady_11
+  - first:
+      213: -4000695962108575663
+    second: DarkLabLady_12
+  - first:
+      213: -2288512430334872486
+    second: DarkLabLady_13
+  - first:
+      213: 4276249998207847791
+    second: DarkLabLady_14
+  - first:
+      213: -5372464419985755830
+    second: DarkLabLady_15
+  - first:
+      213: -2075700276177663853
+    second: DarkLabLady_16
+  - first:
+      213: -7976394228857843698
+    second: DarkLabLady_17
+  - first:
+      213: 6530915652660261079
+    second: DarkLabLady_18
+  - first:
+      213: -5961609822407856239
+    second: DarkLabLady_19
+  - first:
+      213: 3686513182703540034
+    second: DarkLabLady_20
+  - first:
+      213: 2615990311577582475
+    second: DarkLabLady_21
+  - first:
+      213: -6063123592418480459
+    second: DarkLabLady_22
+  - first:
+      213: 4256843031420254708
+    second: DarkLabLady_23
+  - first:
+      213: 5681508477772056169
+    second: DarkLabLady_24
+  - first:
+      213: 3526387315239325371
+    second: DarkLabLady_25
+  - first:
+      213: -6413532096616785110
+    second: DarkLabLady_26
+  - first:
+      213: 4901688089548419784
+    second: DarkLabLady_27
+  - first:
+      213: 1550779526030244599
+    second: DarkLabLady_28
+  - first:
+      213: -3619349430018325991
+    second: DarkLabLady_29
+  - first:
+      213: -7952645449217137407
+    second: DarkLabLady_30
+  - first:
+      213: -763733879584640413
+    second: DarkLabLady_31
+  - first:
+      213: -2453917246956235702
+    second: DarkLabLady_32
+  - first:
+      213: -1492994753627345310
+    second: DarkLabLady_33
+  - first:
+      213: -1696858249604478455
+    second: DarkLabLady_34
+  - first:
+      213: -635674825450966584
+    second: DarkLabLady_35
+  - first:
+      213: -3280869325800457381
+    second: DarkLabLady_36
+  - first:
+      213: 4859756915589539860
+    second: DarkLabLady_37
+  - first:
+      213: 5067823060430958545
+    second: DarkLabLady_38
+  - first:
+      213: -8145677474205820888
+    second: DarkLabLady_39
+  - first:
+      213: 5826022993582234736
+    second: DarkLabLady_40
+  - first:
+      213: 4965085333010030234
+    second: DarkLabLady_41
+  - first:
+      213: -4190132192353322779
+    second: DarkLabLady_42
+  - first:
+      213: 4480717143877600413
+    second: DarkLabLady_43
+  - first:
+      213: 6997377301992018252
+    second: DarkLabLady_44
+  - first:
+      213: -712803203126287719
+    second: DarkLabLady_45
+  - first:
+      213: -8081088984919168918
+    second: DarkLabLady_46
+  - first:
+      213: 161299481927582762
+    second: DarkLabLady_47
+  - first:
+      213: 5849740363054597896
+    second: DarkLabLady_48
+  - first:
+      213: -4203286552855906990
+    second: DarkLabLady_49
+  - first:
+      213: -8538380025566385284
+    second: DarkLabLady_50
+  - first:
+      213: 235311241910597873
+    second: DarkLabLady_51
+  - first:
+      213: -3591187771662594022
+    second: DarkLabLady_52
+  - first:
+      213: -795035054198894688
+    second: DarkLabLady_53
+  - first:
+      213: 915663661804228642
+    second: DarkLabLady_54
+  - first:
+      213: -4280990190801789301
+    second: DarkLabLady_55
+  - first:
+      213: -4487479287770408305
+    second: DarkLabLady_56
+  - first:
+      213: 1040262769609583448
+    second: DarkLabLady_57
+  - first:
+      213: -3408576384652878222
+    second: DarkLabLady_58
+  - first:
+      213: -309249613642455878
+    second: DarkLabLady_59
+  - first:
+      213: 4588827738070080924
+    second: DarkLabLady_60
+  - first:
+      213: -3414033631937142707
+    second: DarkLabLady_61
+  - first:
+      213: 7963431949738703482
+    second: DarkLabLady_62
+  - first:
+      213: 5854872843431530165
+    second: DarkLabLady_63
+  - first:
+      213: 3675286540392554656
+    second: DarkLabLady_64
+  - first:
+      213: -1461601370358556732
+    second: DarkLabLady_65
+  - first:
+      213: -7911706592845111589
+    second: DarkLabLady_66
+  - first:
+      213: 5885913134572953564
+    second: DarkLabLady_67
+  - first:
+      213: -3750367842744936913
+    second: DarkLabLady_68
+  - first:
+      213: -9132962074899000094
+    second: DarkLabLady_69
+  - first:
+      213: 1621846804683859032
+    second: DarkLabLady_70
+  - first:
+      213: 1535504480194057823
+    second: DarkLabLady_71
+  - first:
+      213: -3237627480063977915
+    second: DarkLabLady_72
+  - first:
+      213: -4495117271939053689
+    second: DarkLabLady_73
+  - first:
+      213: 2069323900674886687
+    second: DarkLabLady_74
+  - first:
+      213: -1389607100611274600
+    second: DarkLabLady_75
+  - first:
+      213: 506462536132017500
+    second: DarkLabLady_76
+  - first:
+      213: 4842276644372956634
+    second: DarkLabLady_77
+  - first:
+      213: -3433020897270388513
+    second: DarkLabLady_78
+  - first:
+      213: -8288824800198154775
+    second: DarkLabLady_79
+  - first:
+      213: -7565767630398893818
+    second: DarkLabLady_80
+  - first:
+      213: 2082505202776400232
+    second: DarkLabLady_81
+  - first:
+      213: -4452902092042063860
+    second: DarkLabLady_82
+  - first:
+      213: -5302004950101381177
+    second: DarkLabLady_83
+  - first:
+      213: -5566762856575572089
+    second: DarkLabLady_84
+  - first:
+      213: -6994962455869146594
+    second: DarkLabLady_85
+  - first:
+      213: 326087709970971835
+    second: DarkLabLady_86
+  - first:
+      213: -789649157558759239
+    second: DarkLabLady_87
+  - first:
+      213: -6063836582857725473
+    second: DarkLabLady_88
+  - first:
+      213: 3035881599570695386
+    second: DarkLabLady_89
+  - first:
+      213: -9098850928397621919
+    second: DarkLabLady_90
+  - first:
+      213: 2292515064519205631
+    second: DarkLabLady_91
+  - first:
+      213: -4973301748920573775
+    second: DarkLabLady_92
+  - first:
+      213: -32680623431565850
+    second: DarkLabLady_93
+  - first:
+      213: 6969544897877319684
+    second: DarkLabLady_94
+  - first:
+      213: 2380095382552239991
+    second: DarkLabLady_95
+  - first:
+      213: 9157466099315038201
+    second: DarkLabLady_96
+  - first:
+      213: -4889624433558149701
+    second: DarkLabLady_97
+  - first:
+      213: 3269308957279620269
+    second: DarkLabLady_98
+  - first:
+      213: -1855372296657337265
+    second: DarkLabLady_99
+  - first:
+      213: 4183524635723123095
+    second: DarkLabLady_100
+  - first:
+      213: 5563869080609143196
+    second: DarkLabLady_101
+  - first:
+      213: 3843420670974475894
+    second: DarkLabLady_102
+  - first:
+      213: -6628958633845656546
+    second: DarkLabLady_103
+  - first:
+      213: -3402742919935470936
+    second: DarkLabLady_104
+  - first:
+      213: 3647174616032980963
+    second: DarkLabLady_105
+  - first:
+      213: -2528959982718063435
+    second: DarkLabLady_106
+  - first:
+      213: 4556403765782412605
+    second: DarkLabLady_107
+  - first:
+      213: 510011760230237119
+    second: DarkLabLady_108
+  - first:
+      213: -2513649379685107634
+    second: DarkLabLady_109
+  - first:
+      213: 8173968269814090490
+    second: DarkLabLady_110
+  - first:
+      213: -8790509171595072682
+    second: DarkLabLady_111
+  - first:
+      213: 3873660400346946051
+    second: DarkLabLady_112
+  - first:
+      213: 4630511201290291514
+    second: DarkLabLady_113
+  - first:
+      213: -5305990190151126033
+    second: DarkLabLady_114
+  - first:
+      213: 1907635721045866964
+    second: DarkLabLady_115
+  - first:
+      213: -7017056420158691654
+    second: DarkLabLady_116
+  - first:
+      213: 2106895254538648203
+    second: DarkLabLady_117
+  - first:
+      213: -8467061234005615064
+    second: DarkLabLady_118
+  - first:
+      213: 7304851488148324088
+    second: DarkLabLady_119
+  - first:
+      213: 4651903054389522444
+    second: DarkLabLady_120
+  - first:
+      213: 9030446945211102559
+    second: DarkLabLady_121
+  - first:
+      213: -5716639456058433952
+    second: DarkLabLady_122
+  - first:
+      213: 3344891208844522023
+    second: DarkLabLady_123
+  - first:
+      213: -305945462581727049
+    second: DarkLabLady_124
+  - first:
+      213: 8310358891364793463
+    second: DarkLabLady_125
+  - first:
+      213: 6077825185235254957
+    second: DarkLabLady_126
+  - first:
+      213: 5296402847745864016
+    second: DarkLabLady_127
+  - first:
+      213: 393509506992423664
+    second: DarkLabLady_128
+  - first:
+      213: 3096454838800855129
+    second: DarkLabLady_129
+  - first:
+      213: 8096155454431361794
+    second: DarkLabLady_130
+  - first:
+      213: 5938913488464020100
+    second: DarkLabLady_131
+  - first:
+      213: -8212090585678004739
+    second: DarkLabLady_132
+  - first:
+      213: 3420738212132888075
+    second: DarkLabLady_133
+  - first:
+      213: 4312472096702002021
+    second: DarkLabLady_134
+  - first:
+      213: 3872394398800280122
+    second: DarkLabLady_135
+  - first:
+      213: 8404342360171508788
+    second: DarkLabLady_136
+  - first:
+      213: -134545755761853908
+    second: DarkLabLady_137
+  - first:
+      213: -6039821790094484650
+    second: DarkLabLady_138
+  - first:
+      213: 3889440468287708122
+    second: DarkLabLady_139
+  - first:
+      213: -8097737812398673682
+    second: DarkLabLady_140
+  - first:
+      213: -7170244080026864630
+    second: DarkLabLady_141
+  - first:
+      213: 4095512399092253855
+    second: DarkLabLady_142
+  - first:
+      213: 5460773466297598055
+    second: DarkLabLady_143
+  - first:
+      213: 7379451722378501451
+    second: DarkLabLady_144
+  - first:
+      213: 7472178996386060239
+    second: DarkLabLady_145
+  - first:
+      213: 563863046392813414
+    second: DarkLabLady_146
+  - first:
+      213: 2370918321450909702
+    second: DarkLabLady_147
+  - first:
+      213: -7302215788382721324
+    second: DarkLabLady_148
+  - first:
+      213: -2958465197795276401
+    second: DarkLabLady_149
+  - first:
+      213: 7553252044019194059
+    second: DarkLabLady_150
+  - first:
+      213: 4354401934188538414
+    second: DarkLabLady_151
+  - first:
+      213: -1076121069864689488
+    second: DarkLabLady_152
+  - first:
+      213: 3890498550939094638
+    second: DarkLabLady_153
+  - first:
+      213: -166547605552759465
+    second: DarkLabLady_154
+  - first:
+      213: -2373779736001519297
+    second: DarkLabLady_155
+  - first:
+      213: 7289536529246328150
+    second: DarkLabLady_156
+  - first:
+      213: 5306922174094831963
+    second: DarkLabLady_157
+  - first:
+      213: -4044505919585244781
+    second: DarkLabLady_158
+  - first:
+      213: -1691972883802185495
+    second: DarkLabLady_159
+  - first:
+      213: 7830527236743587916
+    second: DarkLabLady_160
+  - first:
+      213: 6559083789993260987
+    second: DarkLabLady_161
+  - first:
+      213: -3695295952673819759
+    second: DarkLabLady_162
+  - first:
+      213: 7311963976476497152
+    second: DarkLabLady_163
+  - first:
+      213: 437679243493536056
+    second: DarkLabLady_164
+  - first:
+      213: 4530152111638860151
+    second: DarkLabLady_165
+  - first:
+      213: -3754412557151389430
+    second: DarkLabLady_166
+  - first:
+      213: -3695524877501553529
+    second: DarkLabLady_167
+  - first:
+      213: 6490280610711642442
+    second: DarkLabLady_168
+  - first:
+      213: -4418886312678693195
+    second: DarkLabLady_169
+  - first:
+      213: 82083466068612512
+    second: DarkLabLady_170
+  - first:
+      213: -3301354995960480910
+    second: DarkLabLady_171
+  - first:
+      213: -2204443071099232430
+    second: DarkLabLady_172
+  - first:
+      213: -1522822174729424069
+    second: DarkLabLady_173
+  - first:
+      213: -3180220743571449186
+    second: DarkLabLady_174
+  - first:
+      213: -4913891628411870145
+    second: DarkLabLady_175
+  - first:
+      213: -7316004383442294692
+    second: DarkLabLady_176
+  - first:
+      213: 5335097081063349887
+    second: DarkLabLady_177
+  - first:
+      213: -3181390352950735073
+    second: DarkLabLady_178
+  - first:
+      213: -5998034845199992471
+    second: DarkLabLady_179
+  - first:
+      213: -2585347167256057240
+    second: DarkLabLady_180
+  - first:
+      213: 1571361028560324583
+    second: DarkLabLady_181
+  - first:
+      213: -8957887381115502651
+    second: DarkLabLady_182
+  - first:
+      213: -6599874448177130400
+    second: DarkLabLady_183
+  - first:
+      213: -4519748333559311061
+    second: DarkLabLady_184
+  - first:
+      213: -1926456638997063147
+    second: DarkLabLady_185
+  - first:
+      213: -4554261090932103089
+    second: DarkLabLady_186
+  - first:
+      213: 8352281520619014535
+    second: DarkLabLady_187
+  - first:
+      213: 224924384250624356
+    second: DarkLabLady_188
+  - first:
+      213: 3594603249836630680
+    second: DarkLabLady_189
+  - first:
+      213: 7713836560602041838
+    second: DarkLabLady_190
+  - first:
+      213: -6802696164876554904
+    second: DarkLabLady_191
+  - first:
+      213: -3404533174443000710
+    second: DarkLabLady_192
+  - first:
+      213: -5930762976902634091
+    second: DarkLabLady_193
+  - first:
+      213: 3214077159819192638
+    second: DarkLabLady_194
+  - first:
+      213: -2669224771987257770
+    second: DarkLabLady_195
+  - first:
+      213: 4409811323364097385
+    second: DarkLabLady_196
+  - first:
+      213: 9184590101123322468
+    second: DarkLabLady_197
+  - first:
+      213: -2880392198040296676
+    second: DarkLabLady_198
+  - first:
+      213: 4758683691207092063
+    second: DarkLabLady_199
+  - first:
+      213: -7468639048957594868
+    second: DarkLabLady_200
+  - first:
+      213: 6442098163936096511
+    second: DarkLabLady_201
+  - first:
+      213: -5289489699348700600
+    second: DarkLabLady_202
+  - first:
+      213: -5979145564085568318
+    second: DarkLabLady_203
+  - first:
+      213: -991895650538272551
+    second: DarkLabLady_204
+  - first:
+      213: 1085151080736016844
+    second: DarkLabLady_205
+  - first:
+      213: -514675162015613910
+    second: DarkLabLady_206
+  - first:
+      213: 4580085165467721694
+    second: DarkLabLady_207
+  - first:
+      213: 1337891936490654770
+    second: DarkLabLady_208
+  - first:
+      213: 8530466762696518640
+    second: DarkLabLady_209
+  - first:
+      213: 4119118007345892835
+    second: DarkLabLady_210
+  - first:
+      213: -5424440576585134564
+    second: DarkLabLady_211
+  - first:
+      213: -4546979800512031204
+    second: DarkLabLady_212
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DarkLabLady_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7da623f955d84a41aea68827ae31faa
+      internalID: 2317594481507187649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cd027060ca539449354bd6c736f5ec
+      internalID: -8509995404937682968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 237
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0672fb3148041448280e2a2a373697
+      internalID: -9125239879175624031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 236
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5685fdf6e40e044bb219d1f1508ce7
+      internalID: 5172743054153541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 236
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84923a1e1c456914ebb091e2802c6fb1
+      internalID: -7411517022981429086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f03949c5302d2446af7e0eb33a12b62
+      internalID: 3308486542956540539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd3d7951ea253548bcc48db1ad069ee
+      internalID: -4614225078184288465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c32d4690ed0c2f44940ac35c156c346
+      internalID: -5687738670859060979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadaa2a5f83d02c4f8566f1cddee2f3c
+      internalID: -4666453322385547909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_9
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 237
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a519ca589b81a4e99e793fc04af0bf
+      internalID: -7782317575750613970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 237
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f66bfc7bfdeea84bad83edc05667a69
+      internalID: 754525999663607287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 236
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8df8ac6419ab644f82181f9787a87c7
+      internalID: 2604595701594886519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 236
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e370903a6de084ca8fadd487f29f17
+      internalID: -4000695962108575663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_13
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 236
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed51943cec021fc48bec4273312f4911
+      internalID: -2288512430334872486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 225
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c723cd802f9cb4d85b059e778a3eb2
+      internalID: 4276249998207847791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_15
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bf6efb0360c5d419366bcd9aa3626c
+      internalID: -5372464419985755830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 225
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724cefa1630a1dc47a4278d1a158f81c
+      internalID: -2075700276177663853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_17
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 225
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc32fbbe968fe17439374c7f0b5fb2ff
+      internalID: -7976394228857843698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_18
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 237
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd998f6705ff8c34bb85398d496305be
+      internalID: 6530915652660261079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_19
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 237
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4a8e34f92d4b146b2f5116e395c930
+      internalID: -5961609822407856239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 236
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d97199bb48fd0b4387a03143e1fa8be
+      internalID: 3686513182703540034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_21
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 236
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de32c77e2df0bf4a931de503b721728
+      internalID: 2615990311577582475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_22
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 236
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e00ef8726ab72499a859f2302e84e2
+      internalID: -6063123592418480459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_23
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 226
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399bb06df6bb0a54bae7ee0e9daeb46d
+      internalID: 4256843031420254708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 224
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef29c5ee19579f4cbee131397a3d839
+      internalID: 5681508477772056169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_25
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 224
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9ba07bc5334c945924ed3e3bb39104
+      internalID: 3526387315239325371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_26
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 226
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4c04281b3dc4e4480118cd59aeacad
+      internalID: -6413532096616785110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_27
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 225
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38db9fc48f77ef944aceb6396c916a92
+      internalID: 4901688089548419784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_28
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 225
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac060dc75aa69494a88cedf5f543ba86
+      internalID: 1550779526030244599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_29
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 238
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d3f5d465bc55347a35a4f1d0efef1f
+      internalID: -3619349430018325991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_30
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 238
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4054a4fdab9734cafcc7fe14bca992
+      internalID: -7952645449217137407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_31
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 237
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149dc687f2224e342833d2130040c77c
+      internalID: -763733879584640413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_32
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 237
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8cc3eaaa8d3994ba03971c17f1b592
+      internalID: -2453917246956235702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_33
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 237
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e302c75d22680448a401ad21747e75
+      internalID: -1492994753627345310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_34
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b744995c019b64893fdbd5007f76e0
+      internalID: -1696858249604478455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_35
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be1b51bf10214a4baaffa8cccb3ecf0
+      internalID: -635674825450966584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 205
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dcf6f4c227d0b44ac377458829f075
+      internalID: -3280869325800457381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_37
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 204
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1bc127e5cc57243bb1fb3b8dd4a6aa
+      internalID: 4859756915589539860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_38
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a0e6e4b52c8b04ea37a1bf7b352791
+      internalID: 5067823060430958545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 204
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a147a2eda055f745a5856448b722b05
+      internalID: -8145677474205820888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_40
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569f7ee46bfca654f89464fd9c576d32
+      internalID: 5826022993582234736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_41
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b248a6b368a61a43adde99fc329500a
+      internalID: 4965085333010030234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_42
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c83877e94047144bc03233d2544ea1
+      internalID: -4190132192353322779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_43
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450d97ec27a7f894f8c2acc6359a26c4
+      internalID: 4480717143877600413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_44
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 206
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b5270aeefef424aafaf138e94f39da
+      internalID: 6997377301992018252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_45
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 206
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f41ba0f727c590428579f1afb0bc8be
+      internalID: -712803203126287719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_46
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4096854b9d6fa47995032625b19ee1
+      internalID: -8081088984919168918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_47
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 205
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6956753935ae034c994385fbb7ca452
+      internalID: 161299481927582762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_48
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 193
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d59dac038fd3314fb6fdf923990a07b
+      internalID: 5849740363054597896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_49
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 193
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec0758726486064da1e6e01f5163750
+      internalID: -4203286552855906990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_50
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbe3a9a2a0a5f54eb8583c728563e45
+      internalID: -8538380025566385284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_51
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 193
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc85d55dfbcb9e4dbfd0a75a77ea92e
+      internalID: 235311241910597873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_52
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 205
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597e17052d729174cae015fc56f0098d
+      internalID: -3591187771662594022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_53
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 205
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84852ba98555d5645a9944acc47e9a10
+      internalID: -795035054198894688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_54
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 204
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f40e93541128840a3231704fd51c60
+      internalID: 915663661804228642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_55
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 204
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f596aa63e18129d4dbed00b43453d339
+      internalID: -4280990190801789301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_56
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 193
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6bb9da1c982e242a1da74b901f1859
+      internalID: -4487479287770408305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_57
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 193
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8654f07afea07384e8466135e72be456
+      internalID: 1040262769609583448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_58
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 194
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7156eea2595de4789b3cd90cbf2278
+      internalID: -3408576384652878222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_59
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 192
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272f5381a7a66bb478ef4171ec304332
+      internalID: -309249613642455878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_60
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 192
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab265ee2f9f7b8449dbc8bb922ebd28
+      internalID: 4588827738070080924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_61
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 194
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fb1a1ab742e9a4f83b4580b5ef46bf
+      internalID: -3414033631937142707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_62
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 206
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d661fa2d16fef49820d022c8f201ae
+      internalID: 7963431949738703482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_63
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 206
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b9a1b6922d25741b0bc222b0f8dba8
+      internalID: 5854872843431530165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_64
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1792a89c381fac84b8f70364ac57f3c0
+      internalID: 3675286540392554656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_65
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 205
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dac2b3afa7b5149a5d4fa993b46750
+      internalID: -1461601370358556732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_66
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546095c953e6c7a428fe7fc7d3b91947
+      internalID: -7911706592845111589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_67
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847f1c8a97ab14146ac00c7275548b62
+      internalID: 5885913134572953564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_68
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 173
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d01c74bf0d510d4dada91d61d2ad5cf
+      internalID: -3750367842744936913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_69
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 172
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcce0575493a87e4191a0e80147e3d2f
+      internalID: -9132962074899000094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_70
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 173
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdbc3df7be2f2549aa9950926e7edcc
+      internalID: 1621846804683859032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_71
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 172
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6d1f85878e2244b8a303e3421a7d8e
+      internalID: 1535504480194057823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65cb9f25f753794fa613e2cc6e30fc4
+      internalID: -3237627480063977915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_73
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44173597fcb63b4ba050e4462191f36
+      internalID: -4495117271939053689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_74
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125adf478cf1825489bcacc1d77c0b87
+      internalID: 2069323900674886687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_75
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 160
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df91ac17d953424da05ede179cc0493
+      internalID: -1389607100611274600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_76
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 172
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782347f01bc1c94449bcc3e6da2c5b40
+      internalID: 506462536132017500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_77
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 172
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7557562974f0043459a349e601864f83
+      internalID: 4842276644372956634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_78
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 171
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22a8de8854cffd4d947479eda063d0e
+      internalID: -3433020897270388513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_79
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 172
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a3011c4089ae249aa09931c6d0fb88
+      internalID: -8288824800198154775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 171
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891f14f3d3ed9ef4cbf2796eb7183e06
+      internalID: -7565767630398893818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_81
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 161
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edd077bfcf72d54da3001b0bb02df7b
+      internalID: 2082505202776400232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_82
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 162
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d0e9ff7fdf3004498a7bf5c9b4f980
+      internalID: -4452902092042063860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_83
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 161
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92444f7b1de35bf4794cd1f8cfbbefda
+      internalID: -5302004950101381177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_84
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 162
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db829c35ac6fa14291e00f787dce201
+      internalID: -5566762856575572089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_85
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 174
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e6e902862735a4bbc7e23ebe0a332b
+      internalID: -6994962455869146594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_86
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 174
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a77a8e01e9b1b46947354072c6bad2
+      internalID: 326087709970971835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_87
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 173
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698a8fd071f5cdb4c9f4c93544d43eb9
+      internalID: -789649157558759239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_88
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 173
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa0e2cb886f1c742b6fd02bf83d25e6
+      internalID: -6063836582857725473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_89
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 173
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5af285fb9b268c41b553feed9c9efe8
+      internalID: 3035881599570695386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_90
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 165
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212b3da471b65546890f1aaa0d84f92
+      internalID: -9098850928397621919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_91
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 162
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2971dcc48fa62c4585e7097da240b90
+      internalID: 2292515064519205631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_92
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 164
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c740f0ac575d8214294143adba25e8a7
+      internalID: -4973301748920573775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_93
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 165
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8919e7223e69574397c49b838733c9d
+      internalID: -32680623431565850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_94
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 161
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a19ee591548a4b48b7fac94640c1b71
+      internalID: 6969544897877319684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_95
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 164
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70938f18440e574c8513715e6a3ed88
+      internalID: 2380095382552239991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_96
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 173
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e832263f6aa22304bb71368ba4d69969
+      internalID: 9157466099315038201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_97
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 173
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cc3285969eedf479be9af87d1622ae
+      internalID: -4889624433558149701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_98
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 172
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0a16c708ae7604e8d6af903b93ea6a
+      internalID: 3269308957279620269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_99
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 173
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f478daa8caa7a45a3721c5dd7508c8
+      internalID: -1855372296657337265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_100
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 172
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e997ac8413857b4691bb6b92b25a3a9
+      internalID: 4183524635723123095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_101
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f276d121423f74fb8b5020ba039094
+      internalID: 5563869080609143196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_102
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a48a7c803907643a6991ff2f1f6247
+      internalID: 3843420670974475894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_103
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 141
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36a3411f770fa942b4c72ccd4176ccd
+      internalID: -6628958633845656546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_104
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 140
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25048f27548bb5f40b607fe416e6b282
+      internalID: -3402742919935470936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_105
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 140
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c564f46f0c24840a2986f51b2d7b53
+      internalID: 3647174616032980963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_106
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 140
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb8ff1852fb74d41a6199d5e5a83db2
+      internalID: -2528959982718063435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_107
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314abf17d03aa414ba10f6f815ea9389
+      internalID: 4556403765782412605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_108
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015480362ef9109498cf3ffae8dac117
+      internalID: 510011760230237119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_109
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f2a13275cecb34e8c498243b2e9d01
+      internalID: -2513649379685107634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_110
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 128
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b49557e3fa0570458262b0a17dba627
+      internalID: 8173968269814090490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_111
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 140
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce74a10bd7dc32f4dbea1637bda67a38
+      internalID: -8790509171595072682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_112
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 140
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2cef558e2ec8043abb368f87f01048
+      internalID: 3873660400346946051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_113
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877f6a44994d8894796d3cbc9fb848c2
+      internalID: 4630511201290291514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_114
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 139
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abe2dfbc264e6b479419303e2023d51
+      internalID: -5305990190151126033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_115
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43a2e43970840143bec186d0ccc8637
+      internalID: 1907635721045866964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_116
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f787397971c294999e29dae6212439
+      internalID: -7017056420158691654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_117
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432e355ae30355419035af53151484b
+      internalID: 2106895254538648203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_118
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a100cae71ddcd7e4ba8a658d9db51370
+      internalID: -8467061234005615064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_119
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c9b584f48a5d444926329408a4d557
+      internalID: 7304851488148324088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_120
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 140
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5ffcc9e2984de42ba4533caace7ea6
+      internalID: 4651903054389522444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_121
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 140
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c37d8c02bcabf46916461027a1591a
+      internalID: 9030446945211102559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_122
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b81cc7204b21243ae83fe9bcf9a7e5
+      internalID: -5716639456058433952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_123
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 140
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181554e62580b7f4eaae15d865e0b6c4
+      internalID: 3344891208844522023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_124
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 139
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05036303520f46c4b8433be852b8c9ee
+      internalID: -305945462581727049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_125
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 132
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8913e3d6b63c5a438353b9a21789693
+      internalID: 8310358891364793463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_126
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 129
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce74e366160155840a17121da99979f5
+      internalID: 6077825185235254957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_127
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 133
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70dbd21427d4fb4eb8970bdfd526a26
+      internalID: 5296402847745864016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_128
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 132
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9952fa958a7250d4fbf80a3adceda24c
+      internalID: 393509506992423664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_129
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 130
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74492474d1b948c44851f4c24fc420e8
+      internalID: 3096454838800855129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_130
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 133
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495232d4e0174ce41b4100d4857067a2
+      internalID: 8096155454431361794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_131
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3625dd84c42c04d9ba73b7fa549311
+      internalID: 5938913488464020100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_132
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 143
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d83d53e02dc2e46b5219f171af7fe3
+      internalID: -8212090585678004739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_133
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 142
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fd12a1b0950b343b4ffbab8cd7f647
+      internalID: 3420738212132888075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_134
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 142
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a68c0042bcf30419de9305bd9c001a
+      internalID: 4312472096702002021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_135
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 142
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc521d634b031ea48aac87e402e0f551
+      internalID: 3872394398800280122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_136
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a15b501c85a844585bb5863f9403f8
+      internalID: 8404342360171508788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_137
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 96
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fc579d29a8ff84e9e050f587c8f00d
+      internalID: -134545755761853908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_138
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa12a23f2b00044b80e5520922f3729
+      internalID: -6039821790094484650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_139
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefc1ea23077b1c479697a1d03f10ca5
+      internalID: 3889440468287708122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_140
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 112
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86707d689cc2d4a4b92406721ccd9433
+      internalID: -8097737812398673682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_141
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 111
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b9116c38ee5654a8d95a615d8b53dc
+      internalID: -7170244080026864630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_142
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 111
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d9fb3fd8edd2e4aba6884a13b61f55
+      internalID: 4095512399092253855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_143
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 111
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d8c769e9b1c6644afbb74f73d3f041
+      internalID: 5460773466297598055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_144
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb12201c563175e4aaf60581ea7c323f
+      internalID: 7379451722378501451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_145
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc01d1f5430665a4c9b2ba7be0945bb1
+      internalID: 7472178996386060239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_146
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f317f968596a374dba914f2f506d21b
+      internalID: 563863046392813414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_147
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcd023bbc285fa4ebcdb6df88243a87
+      internalID: 2370918321450909702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_148
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 113
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae93c5bd259ffd345bd6b069a82de007
+      internalID: -7302215788382721324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_149
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 112
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5253f1bbf9d59f8419f2184851d69440
+      internalID: -2958465197795276401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_150
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 112
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2d42cf92b84334f8290a2f2bb55ec6
+      internalID: 7553252044019194059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_151
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 112
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5813dd58d7f3f284c8837e5635210c46
+      internalID: 4354401934188538414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_152
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 81
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bd290eccc5e744a85e3fea24c7137a
+      internalID: -1076121069864689488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_153
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 81
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319911820d767b04fb0e61e14aaf73cf
+      internalID: 3890498550939094638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_154
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 81
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5523226a53a73004186c8a4d15e036cd
+      internalID: -166547605552759465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_155
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 81
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39546cfea920eb8458952ce77756b693
+      internalID: -2373779736001519297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_156
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3ab361d3bfee04aaafa4020752624a
+      internalID: 7289536529246328150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_157
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 112
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211a1416aa4b5444bb58a2038c7e2257
+      internalID: 5306922174094831963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_158
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e81d847d4539bd49b287184cd7601e8
+      internalID: -4044505919585244781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_159
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19078e9fbd98875499548225cf45619b
+      internalID: -1691972883802185495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_160
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 65
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba2c5b03df86184f91739e2f60d5b82
+      internalID: 7830527236743587916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_161
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 64
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfd90dc26b60d24ea49911f5ffcbb07
+      internalID: 6559083789993260987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_162
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 66
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78110b85abeee2a4894a66103a539075
+      internalID: -3695295952673819759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_163
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 66
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536c1b9ce447faa41a990f344ebe3a3f
+      internalID: 7311963976476497152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_164
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 66
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a30580966cd906408c75e7b49426983
+      internalID: 437679243493536056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_165
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 66
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f4bd67130f4064eac5db2b6d80166a
+      internalID: 4530152111638860151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_166
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 90
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87db48832f4df24a9c4bc7060c725f7
+      internalID: -3754412557151389430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_167
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 90
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767260182898222499c624476547c4b2
+      internalID: -3695524877501553529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_168
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 77
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b2efc5ee627414ea55da7abc031965
+      internalID: 6490280610711642442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_169
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 76
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971e3bb7649af9b47990544028655342
+      internalID: -4418886312678693195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_170
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 76
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322f84cd331b2464f8f452cc4840ea70
+      internalID: 82083466068612512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_171
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 78
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69889ff7e78bdda4e8dc5dfd19c33cc2
+      internalID: -3301354995960480910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_172
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 77
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ce9542664681e44a27c0bf0fbfe7ea
+      internalID: -2204443071099232430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_173
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 77
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb59a455e2ea364da6fbdab913f4a76
+      internalID: -1522822174729424069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_174
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 33
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b812177870bee5845acb3b2718469e5b
+      internalID: -3180220743571449186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_175
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 33
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75240d4d07aa34a478c3b0cb131cbeed
+      internalID: -4913891628411870145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_176
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 33
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323612d749c900c498843fb6e668c90d
+      internalID: -7316004383442294692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_177
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 33
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5738ae641c04fcc45a9446011bffe065
+      internalID: 5335097081063349887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_178
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 64
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53974278ba6307e479601c14234f50cb
+      internalID: -3181390352950735073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_179
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 33
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8127dcb7ca6411449a178703982601b
+      internalID: -5998034845199992471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_180
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 33
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ea9cdd942f09949a3a6dad9d2dead4
+      internalID: -2585347167256057240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_181
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef14196f246c0644991ac2481e75fdf7
+      internalID: 1571361028560324583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_182
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 32
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f714e21ec53b3e4282233abc3af0b04
+      internalID: -8957887381115502651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_183
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 47
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4eeba8c95ca404ab2f472f8fa144e6
+      internalID: -6599874448177130400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_184
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 46
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d7b12e351090a45a42b456820791fb
+      internalID: -4519748333559311061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_185
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbd292ce92547a4d9214fd864a609e9
+      internalID: -1926456638997063147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_186
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 46
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b9294d3d0568941a393633647ce08f
+      internalID: -4554261090932103089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_187
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 38
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a8c4e8dc924c5438e8da36270266bd
+      internalID: 8352281520619014535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_188
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 41
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cfe74dbe6a4804aaa41ee998bd82e7
+      internalID: 224924384250624356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_189
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 38
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cef95c3f69bb2d478d9528f48d7a2f4
+      internalID: 3594603249836630680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_190
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 41
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55ebe910a3de05428f555ee31ad4fc8
+      internalID: 7713836560602041838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_191
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7411b2d4e7b1a4fa6f9ca838a6795a
+      internalID: -6802696164876554904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_192
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 47
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e46b033a501de4fb7e3178b6b91d19
+      internalID: -3404533174443000710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_193
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 48
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8ab4c152a3f444986886942c78cdb3
+      internalID: -5930762976902634091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_194
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 47
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b192ef03e6f544c8c7783ab13f2cd7
+      internalID: 3214077159819192638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_195
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 44
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da2382a38b6f784787b1137f6af721c
+      internalID: -2669224771987257770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_196
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 44
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03feb840911a088409a26c3c08f06fe8
+      internalID: 4409811323364097385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_197
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2370b1a5fb81c3d4db367560fb0016f7
+      internalID: 9184590101123322468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_198
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bbab812ec39c84797c42706c68702b
+      internalID: -2880392198040296676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_199
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb987114540776c4d9a8b63127821e09
+      internalID: 4758683691207092063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_200
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6076ee5d62bc04cad0d330248d5733
+      internalID: -7468639048957594868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_201
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562e736fe0323554d82f55fa2482ca41
+      internalID: 6442098163936096511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_202
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 11
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa56438b8f6caf48a8c593e0fc678fb
+      internalID: -5289489699348700600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_203
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 11
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c17365f9765f1e46a30e9eac8535e38
+      internalID: -5979145564085568318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_204
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 11
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28150f761d7ee24dac37f45b1cd1ff1
+      internalID: -991895650538272551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_205
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103287651f663ed41abd6e47e80f89ad
+      internalID: 1085151080736016844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_206
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb16b20763268544b495095fab7c2f0
+      internalID: -514675162015613910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_207
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 6
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87781d8ab20f73248a4f14dfe1a178a3
+      internalID: 4580085165467721694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_208
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 9
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b0e7b87bb61d946bc893f3095eef93
+      internalID: 1337891936490654770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_209
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 15
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae567effba3f86046878b489ee59ac9e
+      internalID: 8530466762696518640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_210
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 14
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35cd81a0ae25af4980b8ac0f6b721d0
+      internalID: 4119118007345892835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_211
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 14
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c66a06f8fb4234baa589761d1ae9d4
+      internalID: -5424440576585134564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkLabLady_212
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 14
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c2b14122d6749469f0ae9b9b4cc9bb
+      internalID: -4546979800512031204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

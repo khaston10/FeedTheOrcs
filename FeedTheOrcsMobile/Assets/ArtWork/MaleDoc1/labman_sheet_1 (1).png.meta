@@ -1,0 +1,5083 @@
+fileFormatVersion: 2
+guid: 52a25b77686226b47a78900f4b844d81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1553612097563574041
+    second: labman_sheet_1 (1)_0
+  - first:
+      213: -581448629963371551
+    second: labman_sheet_1 (1)_1
+  - first:
+      213: 6752906881161530675
+    second: labman_sheet_1 (1)_2
+  - first:
+      213: 7674826214912623017
+    second: labman_sheet_1 (1)_3
+  - first:
+      213: -4824845265243218666
+    second: labman_sheet_1 (1)_4
+  - first:
+      213: 2100830504428063803
+    second: labman_sheet_1 (1)_5
+  - first:
+      213: 4003055776082364006
+    second: labman_sheet_1 (1)_6
+  - first:
+      213: 914522348767467627
+    second: labman_sheet_1 (1)_7
+  - first:
+      213: 6369331423289546689
+    second: labman_sheet_1 (1)_8
+  - first:
+      213: -5691793279914686619
+    second: labman_sheet_1 (1)_9
+  - first:
+      213: -9013760091675857216
+    second: labman_sheet_1 (1)_10
+  - first:
+      213: 7325506157911874422
+    second: labman_sheet_1 (1)_11
+  - first:
+      213: 4305969490653681009
+    second: labman_sheet_1 (1)_12
+  - first:
+      213: 8817841538885647237
+    second: labman_sheet_1 (1)_13
+  - first:
+      213: 5139869677105084321
+    second: labman_sheet_1 (1)_14
+  - first:
+      213: -1060859260500253832
+    second: labman_sheet_1 (1)_15
+  - first:
+      213: 7243654370116794673
+    second: labman_sheet_1 (1)_16
+  - first:
+      213: 8312105439976308115
+    second: labman_sheet_1 (1)_17
+  - first:
+      213: -4242488027212384645
+    second: labman_sheet_1 (1)_18
+  - first:
+      213: -7756571257425622170
+    second: labman_sheet_1 (1)_19
+  - first:
+      213: -7771705558935427530
+    second: labman_sheet_1 (1)_20
+  - first:
+      213: 8203946204869745738
+    second: labman_sheet_1 (1)_21
+  - first:
+      213: 5731054173864635265
+    second: labman_sheet_1 (1)_22
+  - first:
+      213: 6876872726199313370
+    second: labman_sheet_1 (1)_23
+  - first:
+      213: 7330109514135583310
+    second: labman_sheet_1 (1)_24
+  - first:
+      213: 7374319376645919797
+    second: labman_sheet_1 (1)_25
+  - first:
+      213: 536477762490821820
+    second: labman_sheet_1 (1)_26
+  - first:
+      213: -9100062122682200280
+    second: labman_sheet_1 (1)_27
+  - first:
+      213: -76891515569928142
+    second: labman_sheet_1 (1)_28
+  - first:
+      213: 1570458689789973705
+    second: labman_sheet_1 (1)_29
+  - first:
+      213: -468838225689654427
+    second: labman_sheet_1 (1)_30
+  - first:
+      213: -8453504324050518259
+    second: labman_sheet_1 (1)_31
+  - first:
+      213: -5965966964864677001
+    second: labman_sheet_1 (1)_32
+  - first:
+      213: 2765047745436070644
+    second: labman_sheet_1 (1)_33
+  - first:
+      213: 4317693947047715244
+    second: labman_sheet_1 (1)_34
+  - first:
+      213: -6040997958363116402
+    second: labman_sheet_1 (1)_35
+  - first:
+      213: 5116863698934164767
+    second: labman_sheet_1 (1)_36
+  - first:
+      213: -8260725676152486265
+    second: labman_sheet_1 (1)_37
+  - first:
+      213: 4376000145249738521
+    second: labman_sheet_1 (1)_38
+  - first:
+      213: 6122964200324962899
+    second: labman_sheet_1 (1)_39
+  - first:
+      213: 3821736246625191549
+    second: labman_sheet_1 (1)_40
+  - first:
+      213: -9018034176086420308
+    second: labman_sheet_1 (1)_41
+  - first:
+      213: -1702421816010327138
+    second: labman_sheet_1 (1)_42
+  - first:
+      213: -1256826265572908968
+    second: labman_sheet_1 (1)_43
+  - first:
+      213: -957175708703308732
+    second: labman_sheet_1 (1)_44
+  - first:
+      213: 6031780297957815891
+    second: labman_sheet_1 (1)_45
+  - first:
+      213: -5518690419698567402
+    second: labman_sheet_1 (1)_46
+  - first:
+      213: 9126112195693707420
+    second: labman_sheet_1 (1)_47
+  - first:
+      213: -8032507619162697543
+    second: labman_sheet_1 (1)_48
+  - first:
+      213: 2669788543706314480
+    second: labman_sheet_1 (1)_49
+  - first:
+      213: -850171441335856933
+    second: labman_sheet_1 (1)_50
+  - first:
+      213: 5236005571599050491
+    second: labman_sheet_1 (1)_51
+  - first:
+      213: -9127798497282708454
+    second: labman_sheet_1 (1)_52
+  - first:
+      213: -85979508995595705
+    second: labman_sheet_1 (1)_53
+  - first:
+      213: -3136459741824339214
+    second: labman_sheet_1 (1)_54
+  - first:
+      213: 7563061853907347853
+    second: labman_sheet_1 (1)_55
+  - first:
+      213: -6437678762851064782
+    second: labman_sheet_1 (1)_56
+  - first:
+      213: -799629373813063904
+    second: labman_sheet_1 (1)_57
+  - first:
+      213: -3183855189659260951
+    second: labman_sheet_1 (1)_58
+  - first:
+      213: -7948810183171673888
+    second: labman_sheet_1 (1)_59
+  - first:
+      213: -344469551979593940
+    second: labman_sheet_1 (1)_60
+  - first:
+      213: -7191678746511719218
+    second: labman_sheet_1 (1)_61
+  - first:
+      213: 2386779072922097520
+    second: labman_sheet_1 (1)_62
+  - first:
+      213: 7814373050764068505
+    second: labman_sheet_1 (1)_63
+  - first:
+      213: -8668303112992570393
+    second: labman_sheet_1 (1)_64
+  - first:
+      213: -5732368446093988620
+    second: labman_sheet_1 (1)_65
+  - first:
+      213: 8392322566865012374
+    second: labman_sheet_1 (1)_66
+  - first:
+      213: 430134887238221163
+    second: labman_sheet_1 (1)_67
+  - first:
+      213: -6088442246300801890
+    second: labman_sheet_1 (1)_68
+  - first:
+      213: -421440177680993852
+    second: labman_sheet_1 (1)_69
+  - first:
+      213: 7817651809181629913
+    second: labman_sheet_1 (1)_70
+  - first:
+      213: 5786502436783967841
+    second: labman_sheet_1 (1)_71
+  - first:
+      213: -4491866855513229644
+    second: labman_sheet_1 (1)_72
+  - first:
+      213: 309659654962679796
+    second: labman_sheet_1 (1)_73
+  - first:
+      213: 6295087779544312016
+    second: labman_sheet_1 (1)_74
+  - first:
+      213: -2048860048727710119
+    second: labman_sheet_1 (1)_75
+  - first:
+      213: 4670600762592116411
+    second: labman_sheet_1 (1)_76
+  - first:
+      213: 9154727098881620518
+    second: labman_sheet_1 (1)_77
+  - first:
+      213: -201246177032788049
+    second: labman_sheet_1 (1)_78
+  - first:
+      213: 1619779033581794607
+    second: labman_sheet_1 (1)_79
+  - first:
+      213: 3805209572847516148
+    second: labman_sheet_1 (1)_80
+  - first:
+      213: 8971438052846094854
+    second: labman_sheet_1 (1)_81
+  - first:
+      213: 2563425703171930254
+    second: labman_sheet_1 (1)_82
+  - first:
+      213: 1954412138587042104
+    second: labman_sheet_1 (1)_83
+  - first:
+      213: -959742528554739276
+    second: labman_sheet_1 (1)_84
+  - first:
+      213: 4989615297501932192
+    second: labman_sheet_1 (1)_85
+  - first:
+      213: 5723063847786710745
+    second: labman_sheet_1 (1)_86
+  - first:
+      213: -6864658506762136480
+    second: labman_sheet_1 (1)_87
+  - first:
+      213: 4052779696332369674
+    second: labman_sheet_1 (1)_88
+  - first:
+      213: 60046191077705237
+    second: labman_sheet_1 (1)_89
+  - first:
+      213: 7149292772446210462
+    second: labman_sheet_1 (1)_90
+  - first:
+      213: -6553137069882306485
+    second: labman_sheet_1 (1)_91
+  - first:
+      213: -751620166665233092
+    second: labman_sheet_1 (1)_92
+  - first:
+      213: -242140083741009289
+    second: labman_sheet_1 (1)_93
+  - first:
+      213: 6386906797660067821
+    second: labman_sheet_1 (1)_94
+  - first:
+      213: 3696478414693232366
+    second: labman_sheet_1 (1)_95
+  - first:
+      213: -7461462284243458123
+    second: labman_sheet_1 (1)_96
+  - first:
+      213: -6282919727165326513
+    second: labman_sheet_1 (1)_97
+  - first:
+      213: -4632421142402459643
+    second: labman_sheet_1 (1)_98
+  - first:
+      213: -3945258617848520895
+    second: labman_sheet_1 (1)_99
+  - first:
+      213: -2270537003790307579
+    second: labman_sheet_1 (1)_100
+  - first:
+      213: 3697084884448035604
+    second: labman_sheet_1 (1)_101
+  - first:
+      213: 4706845141822962414
+    second: labman_sheet_1 (1)_102
+  - first:
+      213: 294835132106905536
+    second: labman_sheet_1 (1)_103
+  - first:
+      213: -1179748391818110759
+    second: labman_sheet_1 (1)_104
+  - first:
+      213: -6976134470026241423
+    second: labman_sheet_1 (1)_105
+  - first:
+      213: -4907361554479310325
+    second: labman_sheet_1 (1)_106
+  - first:
+      213: -9152588095061427753
+    second: labman_sheet_1 (1)_107
+  - first:
+      213: -5101079541385931722
+    second: labman_sheet_1 (1)_108
+  - first:
+      213: -4415401677268807928
+    second: labman_sheet_1 (1)_109
+  - first:
+      213: -2278744509914650462
+    second: labman_sheet_1 (1)_110
+  - first:
+      213: 3207032021685908338
+    second: labman_sheet_1 (1)_111
+  - first:
+      213: 7896660587002262083
+    second: labman_sheet_1 (1)_112
+  - first:
+      213: 5140894480477425918
+    second: labman_sheet_1 (1)_113
+  - first:
+      213: -8353479907573830894
+    second: labman_sheet_1 (1)_114
+  - first:
+      213: -61665201815052394
+    second: labman_sheet_1 (1)_115
+  - first:
+      213: 3137452184237710484
+    second: labman_sheet_1 (1)_116
+  - first:
+      213: 240893892687491916
+    second: labman_sheet_1 (1)_117
+  - first:
+      213: -7107674444010311033
+    second: labman_sheet_1 (1)_118
+  - first:
+      213: 7504582342272852147
+    second: labman_sheet_1 (1)_119
+  - first:
+      213: 4930512682678410635
+    second: labman_sheet_1 (1)_120
+  - first:
+      213: 2796457240248221811
+    second: labman_sheet_1 (1)_121
+  - first:
+      213: 9019284232085030868
+    second: labman_sheet_1 (1)_122
+  - first:
+      213: 5873214187735019696
+    second: labman_sheet_1 (1)_123
+  - first:
+      213: -9194362623720436014
+    second: labman_sheet_1 (1)_124
+  - first:
+      213: 6676014952542915007
+    second: labman_sheet_1 (1)_125
+  - first:
+      213: -3964779501394810641
+    second: labman_sheet_1 (1)_126
+  - first:
+      213: -1532173373297362235
+    second: labman_sheet_1 (1)_127
+  - first:
+      213: 7886502421503237018
+    second: labman_sheet_1 (1)_128
+  - first:
+      213: -3934267559366177605
+    second: labman_sheet_1 (1)_129
+  - first:
+      213: -8466021156825114485
+    second: labman_sheet_1 (1)_130
+  - first:
+      213: 3774868909846223143
+    second: labman_sheet_1 (1)_131
+  - first:
+      213: -1915607719753474286
+    second: labman_sheet_1 (1)_132
+  - first:
+      213: -2769806930285333828
+    second: labman_sheet_1 (1)_133
+  - first:
+      213: -3988531883932899456
+    second: labman_sheet_1 (1)_134
+  - first:
+      213: 8596301444402421552
+    second: labman_sheet_1 (1)_135
+  - first:
+      213: 8146871366307236109
+    second: labman_sheet_1 (1)_136
+  - first:
+      213: 3464649315345913285
+    second: labman_sheet_1 (1)_137
+  - first:
+      213: -7209151753713995105
+    second: labman_sheet_1 (1)_138
+  - first:
+      213: -173577426492233342
+    second: labman_sheet_1 (1)_139
+  - first:
+      213: 7750890600042334714
+    second: labman_sheet_1 (1)_140
+  - first:
+      213: 727218543665974869
+    second: labman_sheet_1 (1)_141
+  - first:
+      213: 4980605873036527160
+    second: labman_sheet_1 (1)_142
+  - first:
+      213: 2732050293379684317
+    second: labman_sheet_1 (1)_143
+  - first:
+      213: 5567673370763917213
+    second: labman_sheet_1 (1)_144
+  - first:
+      213: -3803423377667896246
+    second: labman_sheet_1 (1)_145
+  - first:
+      213: 1104793809521351915
+    second: labman_sheet_1 (1)_146
+  - first:
+      213: 8836773732625137416
+    second: labman_sheet_1 (1)_147
+  - first:
+      213: -227153410505692913
+    second: labman_sheet_1 (1)_148
+  - first:
+      213: -729425884559909330
+    second: labman_sheet_1 (1)_149
+  - first:
+      213: -1518200943969438253
+    second: labman_sheet_1 (1)_150
+  - first:
+      213: 6216513583237421066
+    second: labman_sheet_1 (1)_151
+  - first:
+      213: -4149999568801751185
+    second: labman_sheet_1 (1)_152
+  - first:
+      213: 1095240554310203669
+    second: labman_sheet_1 (1)_153
+  - first:
+      213: 5604787848032536525
+    second: labman_sheet_1 (1)_154
+  - first:
+      213: 5744091372612322022
+    second: labman_sheet_1 (1)_155
+  - first:
+      213: 8713975081070151685
+    second: labman_sheet_1 (1)_156
+  - first:
+      213: -1359383182089796698
+    second: labman_sheet_1 (1)_157
+  - first:
+      213: 6770724893805790328
+    second: labman_sheet_1 (1)_158
+  - first:
+      213: 3342600944495507904
+    second: labman_sheet_1 (1)_159
+  - first:
+      213: 7324460375133257680
+    second: labman_sheet_1 (1)_160
+  - first:
+      213: -3877258122872679567
+    second: labman_sheet_1 (1)_161
+  - first:
+      213: 3398164752035309705
+    second: labman_sheet_1 (1)_162
+  - first:
+      213: 6432606811355809004
+    second: labman_sheet_1 (1)_163
+  - first:
+      213: 7793960113003310754
+    second: labman_sheet_1 (1)_164
+  - first:
+      213: 491072860426410474
+    second: labman_sheet_1 (1)_165
+  - first:
+      213: -549126380169778071
+    second: labman_sheet_1 (1)_166
+  - first:
+      213: 4628881498665787560
+    second: labman_sheet_1 (1)_167
+  - first:
+      213: 1818532608695749059
+    second: labman_sheet_1 (1)_168
+  - first:
+      213: -6473587122477877223
+    second: labman_sheet_1 (1)_169
+  - first:
+      213: 7755721175728991132
+    second: labman_sheet_1 (1)_170
+  - first:
+      213: 1860390146065826152
+    second: labman_sheet_1 (1)_171
+  - first:
+      213: -3116573612811598846
+    second: labman_sheet_1 (1)_172
+  - first:
+      213: 8707630794094084866
+    second: labman_sheet_1 (1)_173
+  - first:
+      213: -1549832629232961981
+    second: labman_sheet_1 (1)_174
+  - first:
+      213: -4018816975023814302
+    second: labman_sheet_1 (1)_175
+  - first:
+      213: 494522369944985816
+    second: labman_sheet_1 (1)_176
+  - first:
+      213: 7643621969838341085
+    second: labman_sheet_1 (1)_177
+  - first:
+      213: -976033075687090657
+    second: labman_sheet_1 (1)_178
+  - first:
+      213: 3295353104666378411
+    second: labman_sheet_1 (1)_179
+  - first:
+      213: 1874920432831866062
+    second: labman_sheet_1 (1)_180
+  - first:
+      213: -8215924225353992241
+    second: labman_sheet_1 (1)_181
+  - first:
+      213: 971816330182957517
+    second: labman_sheet_1 (1)_182
+  - first:
+      213: 1403472280296640097
+    second: labman_sheet_1 (1)_183
+  - first:
+      213: -6608713609837407444
+    second: labman_sheet_1 (1)_184
+  - first:
+      213: 1678645471826956850
+    second: labman_sheet_1 (1)_185
+  - first:
+      213: 6794239620864055598
+    second: labman_sheet_1 (1)_186
+  - first:
+      213: 5709878096051439953
+    second: labman_sheet_1 (1)_187
+  - first:
+      213: 5340859763501250312
+    second: labman_sheet_1 (1)_188
+  - first:
+      213: 6262982542578003767
+    second: labman_sheet_1 (1)_189
+  - first:
+      213: 684960684682295963
+    second: labman_sheet_1 (1)_190
+  - first:
+      213: 8605728392465162057
+    second: labman_sheet_1 (1)_191
+  - first:
+      213: -1559891065862096185
+    second: labman_sheet_1 (1)_192
+  - first:
+      213: 4300037305196587528
+    second: labman_sheet_1 (1)_193
+  - first:
+      213: -4599274371940232759
+    second: labman_sheet_1 (1)_194
+  - first:
+      213: 3022228817924456935
+    second: labman_sheet_1 (1)_195
+  - first:
+      213: -6045486719188482145
+    second: labman_sheet_1 (1)_196
+  - first:
+      213: -3688785972087085437
+    second: labman_sheet_1 (1)_197
+  - first:
+      213: -6351500477374806700
+    second: labman_sheet_1 (1)_198
+  - first:
+      213: 4484530359630346978
+    second: labman_sheet_1 (1)_199
+  - first:
+      213: -2005152121831079228
+    second: labman_sheet_1 (1)_200
+  - first:
+      213: 8171142352841518089
+    second: labman_sheet_1 (1)_201
+  - first:
+      213: 2135731752625366483
+    second: labman_sheet_1 (1)_202
+  - first:
+      213: -5330909415522084014
+    second: labman_sheet_1 (1)_203
+  - first:
+      213: 4876798759598730999
+    second: labman_sheet_1 (1)_204
+  - first:
+      213: 1447390728467552106
+    second: labman_sheet_1 (1)_205
+  - first:
+      213: -5223467573450679659
+    second: labman_sheet_1 (1)_206
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 224
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d17ed409c76eb643a01bd21aaad8065
+      internalID: 1553612097563574041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 224
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c288d001ad2d574a9a8bc7ab7022c8f
+      internalID: -581448629963371551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 237
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338240ebd7dabd74ab0a8780c88694fe
+      internalID: 6752906881161530675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 236
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b6972e9ff289644a4cada4c65ecfc9
+      internalID: 7674826214912623017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 236
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9102853efa610254c99ef0e0d94b6be1
+      internalID: -4824845265243218666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3cf74bce89b384bb9a21c24b433d3c
+      internalID: 2100830504428063803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4b7daf08822554b9c013c435078525
+      internalID: 4003055776082364006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c7425742cc30d4481b9066a4755434
+      internalID: 914522348767467627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 224
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d3007f65101c141bf01326fe82f756
+      internalID: 6369331423289546689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 237
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdceeaaf198c7649ad9d3c7ecd9643f
+      internalID: -5691793279914686619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 237
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f838d74e257b67947ab5bc244a324ebe
+      internalID: -9013760091675857216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 236
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8766eefc9f52fb745a4ca74eacf71d36
+      internalID: 7325506157911874422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 236
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4c5fd0a7189bd4b8285d6c3cfb3aca
+      internalID: 4305969490653681009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 236
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b960a88dc7090d7458410d2810f73a1c
+      internalID: 8817841538885647237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 225
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb45017ee22a756498a8b7f638dbe998
+      internalID: 5139869677105084321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 225
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fed232d6f69e447a381d00464e7b54
+      internalID: -1060859260500253832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 225
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679cd3399f74881418538d24c3892b85
+      internalID: 7243654370116794673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 225
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b238a5f416d6b47a1a3c318e320607
+      internalID: 8312105439976308115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_18
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 237
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac743bace1cef9a4691d2591a3622602
+      internalID: -4242488027212384645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_19
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 237
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a529268e4917364388584eac8da271c
+      internalID: -7756571257425622170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 236
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7623b3bc13195624186b46237712397e
+      internalID: -7771705558935427530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_21
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 236
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f70eb2c6cd6d294bb8874158b366dd4
+      internalID: 8203946204869745738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_22
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 236
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d60193ce421c9841b73d22fee306890
+      internalID: 5731054173864635265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_23
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 226
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6838fc48d7d2447b3be229b9fc45a4
+      internalID: 6876872726199313370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 224
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cb8a8565c311442956251c31e6cff7
+      internalID: 7330109514135583310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_25
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 224
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc494c8831242af4f84bcdbf899f0562
+      internalID: 7374319376645919797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_26
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 226
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f11758b90f4074caa31632a8ce6573
+      internalID: 536477762490821820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_27
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 225
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13a41ce7a9bd2947888ea2631858ec8
+      internalID: -9100062122682200280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 225
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4827fb59b87586b42a9c7a424b2ce386
+      internalID: -76891515569928142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 238
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665401446c92bfb41865ebb89dc5eca0
+      internalID: 1570458689789973705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 238
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349079a011fa52c4b94583ae4bc653f6
+      internalID: -468838225689654427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 237
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c101785e6f1d88f4b91167e746838205
+      internalID: -8453504324050518259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 237
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71abebaddf374a4a942fb7df081ce96
+      internalID: -5965966964864677001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 237
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caed1c485594874c914f6f900400e4f
+      internalID: 2765047745436070644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_34
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 192
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c3b35c6826c344aaa05f1b52f68467
+      internalID: 4317693947047715244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_35
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 192
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a923940fa7393242bb086e746ae12e2
+      internalID: -6040997958363116402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 205
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298ee3ffd99571243b72824a958b85c6
+      internalID: 5116863698934164767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_37
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 204
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e205c5c27c0194fa02cad74eab63a1
+      internalID: -8260725676152486265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_38
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 204
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bfd315f84b9bb4da3054f70bdfb965
+      internalID: 4376000145249738521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 204
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2047c9b15c8b9d841ab666af6c2ec5ba
+      internalID: 6122964200324962899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_40
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fafb2e8ed05fc46a5bdd5fad336950
+      internalID: 3821736246625191549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_41
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26ae3e9483b9734bba23f127a09e9bf
+      internalID: -9018034176086420308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_42
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d153e0b11e376444cae82ba58f488680
+      internalID: -1702421816010327138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_43
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 192
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22df66bf0bb564a4ca6cc87267ece559
+      internalID: -1256826265572908968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_44
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 206
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da07a420adef9647b287195f32e3887
+      internalID: -957175708703308732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_45
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 206
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a94a998106c29459b2c5e0563d59c7
+      internalID: 6031780297957815891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_46
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842d3550f26a55b438bf57718a551056
+      internalID: -5518690419698567402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_47
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 205
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac6d158e3196734daa189a88e9a0e1c
+      internalID: 9126112195693707420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_48
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 193
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9af002c3698eff47b41dc0fc41d04a0
+      internalID: -8032507619162697543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_49
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 193
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa91737fc8ad28d4db8991c24ec3deb2
+      internalID: 2669788543706314480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_50
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7c0e0f8daa39c46a3871b5f79975bd
+      internalID: -850171441335856933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_51
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 193
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971a3587342fed4a8639edab7e22cbc
+      internalID: 5236005571599050491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_52
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 205
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edf94b86a9249e4f86eff9560b0ecc7
+      internalID: -9127798497282708454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_53
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 205
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9751f57866a9f1b4b9b784a4fe2e68eb
+      internalID: -85979508995595705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_54
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 204
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609c56ea18db70c4b85e14e4054d6be9
+      internalID: -3136459741824339214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_55
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 204
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748da23da92fdb8409c13974d9f4129f
+      internalID: 7563061853907347853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_56
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 193
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcfdb52db2b2e54b9166ddf5d0dce77
+      internalID: -6437678762851064782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_57
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 193
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87333b0d9e5c27c43a3225b6d44137dc
+      internalID: -799629373813063904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_58
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 194
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd03ecd8aacade4bbfd5ed2e822aa11
+      internalID: -3183855189659260951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_59
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 192
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409e4e0ca99b65245b38cd751ff3666e
+      internalID: -7948810183171673888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_60
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 192
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88951754c6f83524ea715720852c67ef
+      internalID: -344469551979593940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_61
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 194
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83254f51fa7f2b44aa0ab899b0fbf970
+      internalID: -7191678746511719218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_62
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 206
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1a9024e5809a445995255769794f06
+      internalID: 2386779072922097520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_63
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 206
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddaf8c27076f3847ac3afcef06dfe58
+      internalID: 7814373050764068505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_64
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cd1dd382fe1ac4bb7ae037397519d5
+      internalID: -8668303112992570393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_65
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 205
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ce03037edf96445a876452bd616253
+      internalID: -5732368446093988620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_66
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade035223917097409183d3c15b7d1d5
+      internalID: 8392322566865012374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_67
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67db5afaf450141488b0ab706605646e
+      internalID: 430134887238221163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_68
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 173
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fb91725c82acf48a84918df2eadaaf
+      internalID: -6088442246300801890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_69
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 172
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ee1b2511be6394aa4a0290a196344c
+      internalID: -421440177680993852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_70
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 173
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d7797fce5ae8743967aaaaf71ad267
+      internalID: 7817651809181629913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_71
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 172
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f3f1ce9efc74c4cb89ef672d757535
+      internalID: 5786502436783967841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec127fba723d20439c7bfc242a4f090
+      internalID: -4491866855513229644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_73
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739da1a9b50714a4180bff45ada5a4dd
+      internalID: 309659654962679796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_74
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21999eba4b1ed9b4a97d83eda53d36ff
+      internalID: 6295087779544312016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_75
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 160
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b15bb938cb32c446926e390b3b21cab
+      internalID: -2048860048727710119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_76
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 172
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd2f3e96da7aa14cae44130870ceb9d
+      internalID: 4670600762592116411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_77
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 172
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aa6f87d32881941a4557542af13df5
+      internalID: 9154727098881620518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_78
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 171
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c678a1e4be88d43b0d4eeff3729f84
+      internalID: -201246177032788049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_79
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 172
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426ac4e65d0167e418d1bdbf9e53e544
+      internalID: 1619779033581794607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 171
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a323b4601b37f4bbe15d197d8ec8d9
+      internalID: 3805209572847516148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_81
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 161
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16193051a7df15c4b9deeb1976b467fa
+      internalID: 8971438052846094854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_82
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 162
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61d773aa608ba441b23fdbbb2c36bfb
+      internalID: 2563425703171930254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_83
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 161
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cc7012df76c824598c7dcd9dcc168e
+      internalID: 1954412138587042104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_84
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 162
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b704548708d154eac7136b86925a8f
+      internalID: -959742528554739276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_85
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 174
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31575878a864fe546a63606ea9b02b96
+      internalID: 4989615297501932192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_86
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 174
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30e89bf3b7e5204192266e82222eff0
+      internalID: 5723063847786710745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_87
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 173
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12059e3ab927f234084e1b2d387bcb81
+      internalID: -6864658506762136480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_88
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 173
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5498716f971cc44b4fe81c4e963bfe
+      internalID: 4052779696332369674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_89
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 173
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e042421865da14891e8825656aa132
+      internalID: 60046191077705237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_90
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 165
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f46283e81a21d429c165fb52f255d2
+      internalID: 7149292772446210462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_91
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 162
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a55dca1f688c904cb29562bea5fae16
+      internalID: -6553137069882306485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_92
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 164
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9ba0af0f7d1f949ae36e5e742ca2d4
+      internalID: -751620166665233092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_93
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 165
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ad876366401684c83fce665927690e
+      internalID: -242140083741009289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_94
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 161
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baa079d3e4bcca4a9070d17b8bbae68
+      internalID: 6386906797660067821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_95
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 164
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7afab7c3146aa40a22dd421aa861f7
+      internalID: 3696478414693232366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_96
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 173
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0991ac14406b6264283e6912d92ffe68
+      internalID: -7461462284243458123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_97
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 173
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef939699a804bb40b0d135810d28cc5
+      internalID: -6282919727165326513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_98
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 172
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dee4cb78f956748bdba10d08479fac
+      internalID: -4632421142402459643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_99
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 173
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0e8d7320dacbb4c84e6e079a68cbd7
+      internalID: -3945258617848520895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_100
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 172
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd64efa0500ed1428b658eadfbbe21e
+      internalID: -2270537003790307579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_101
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71632d844a6a3bf4094d017379d61697
+      internalID: 3697084884448035604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_102
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f72073cf9baa2641a45346088398d43
+      internalID: 4706845141822962414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_103
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 141
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da591650c3f1dd418bbdb0516b98dc1
+      internalID: 294835132106905536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_104
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 140
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf29ad6c28f0f4ab33bd9a0d7634d3
+      internalID: -1179748391818110759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_105
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 140
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6534ef133fc654583d4b54b319d74d
+      internalID: -6976134470026241423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_106
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 140
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1ceb052fdea574692951988829944d
+      internalID: -4907361554479310325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_107
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f700bb24da07adb418ab293bf507ea42
+      internalID: -9152588095061427753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_108
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642f24ec461825341a29ef18842f43cc
+      internalID: -5101079541385931722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_109
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec59dbdad428be459c76b96f5846b99
+      internalID: -4415401677268807928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_110
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 128
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ecc09ea3bd71141bcb42f17c5a4b05
+      internalID: -2278744509914650462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_111
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 140
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90148dbbd03c7f44f863ac688bb32c2e
+      internalID: 3207032021685908338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_112
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 140
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61031f6c730b1914a99d18a678a4a1dd
+      internalID: 7896660587002262083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_113
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a95ef62fed7384ca3c502b4bd4c2a9
+      internalID: 5140894480477425918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_114
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 139
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa7252722c396543b8f3c77d92c86a6
+      internalID: -8353479907573830894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_115
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b967d19e8c35c4b8578aa1dd0784e7
+      internalID: -61665201815052394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_116
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 130
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cb515276084ed41bc0039816d943b6
+      internalID: 3137452184237710484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_117
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e454c9c58c28e824c9597eee986417ad
+      internalID: 240893892687491916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_118
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 130
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96010d7da4124ed45b0a4502bc667052
+      internalID: -7107674444010311033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_119
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56af9ea0dec67640b768023827c9130
+      internalID: 7504582342272852147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_120
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 140
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aef20d769c593b46bf7ddc8c144dc02
+      internalID: 4930512682678410635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_121
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 140
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea7c6f6d8995dc48a9d6555d03c5321
+      internalID: 2796457240248221811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_122
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 139
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740227208eaacc244a04e27b8ae47201
+      internalID: 9019284232085030868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_123
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 140
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4459026d9377aac48ab1b2fe5289c00c
+      internalID: 5873214187735019696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_124
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 139
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdd37f72fe155443ba8743f7bc71864
+      internalID: -9194362623720436014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_125
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 132
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715586598d3585649a175a75471d434e
+      internalID: 6676014952542915007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_126
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 129
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979add37b04bb8a4ca8262fde0ebc1d3
+      internalID: -3964779501394810641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_127
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 133
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d5ce587b23c2c49a54a5994e5b6d8f
+      internalID: -1532173373297362235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_128
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 132
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb8d6d9bba67ae4dab4a6d248f16469
+      internalID: 7886502421503237018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_129
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 130
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ee378541a88bb4ca2c02ce08bff559
+      internalID: -3934267559366177605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_130
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 133
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f98f145ec08c2545aa813ec4707d6f8
+      internalID: -8466021156825114485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_131
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcc4c8765b4967498529a30aa4e3960
+      internalID: 3774868909846223143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_132
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 143
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145d11db0c16dfb4da3c732111fffd82
+      internalID: -1915607719753474286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_133
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 142
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7afb090a9c7524b9e4068233b359dd
+      internalID: -2769806930285333828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_134
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 142
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a851d6e1ab0564b8436826a1f32e5d
+      internalID: -3988531883932899456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_135
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 142
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad294c74710fbb478434c71c9cad2c0
+      internalID: 8596301444402421552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_136
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 96
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344c0d552a0ec3041b9a750794e7d019
+      internalID: 8146871366307236109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_137
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 96
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2b078c4df5b0d4c961a8f2fef089f9
+      internalID: 3464649315345913285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_138
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 96
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf707123c08d3234bb712f6cb812b893
+      internalID: -7209151753713995105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_139
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 96
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8160939c84b6d64e872b2641ef18306
+      internalID: -173577426492233342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_140
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 112
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de3f9a4d9b03914fb71a44de32cf2b4
+      internalID: 7750890600042334714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_141
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 111
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b6f6cc1c2de3044b3a21fd0b9e913d
+      internalID: 727218543665974869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_142
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 111
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1612e51e14bd2854a9c953ef23c47f9a
+      internalID: 4980605873036527160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_143
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 111
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5c89376d537ee44a209666e8d8febd
+      internalID: 2732050293379684317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_144
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b06c6bd51e268f4ab79a1455102f05e
+      internalID: 5567673370763917213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_145
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6065d621f215d42814f9be942cc3df
+      internalID: -3803423377667896246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_146
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5094cb1602f4d4145b224071efc340f9
+      internalID: 1104793809521351915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_147
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe85e9e158e684a4280e59f82a453ec3
+      internalID: 8836773732625137416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_148
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 113
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac24ea3a24a739408bf1adf464a85c4
+      internalID: -227153410505692913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_149
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 112
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40abc18c3e3a964dbf4f0b03e783eae
+      internalID: -729425884559909330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_150
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 112
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a876290cff5ed542a7824850a58281f
+      internalID: -1518200943969438253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_151
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 112
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580065400809a9c489f9a1438738797c
+      internalID: 6216513583237421066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_152
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 81
+        width: 192
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dd3e76c95da6e4a9004f50b9285632
+      internalID: -4149999568801751185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_153
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fcc29bfbfb0cc48988e82e6b14fe0d
+      internalID: 1095240554310203669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_154
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 112
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f77fed6712d02e41895e283fc748f3c
+      internalID: 5604787848032536525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_155
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91debba9b46d5042b82743935ac94a0
+      internalID: 5744091372612322022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_156
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f932173499dbea644b21c793562a74d0
+      internalID: 8713975081070151685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_157
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 64
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736db8190ad21c94b8a3888f2730d159
+      internalID: -1359383182089796698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_158
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 64
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6afdd97534f06746842e47f821b0c35
+      internalID: 6770724893805790328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_159
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142d60e60da987943a6aa7d6d676f7bf
+      internalID: 3342600944495507904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_160
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b729277d11076468ff2afd8ee83e54
+      internalID: 7324460375133257680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_161
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41be7693e516ef40bdd11d7e004333d
+      internalID: -3877258122872679567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_162
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ec90db854161d4db5ae94d6002a713
+      internalID: 3398164752035309705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_163
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 90
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aad2578ef6ce19448e358846141d759
+      internalID: 6432606811355809004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_164
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 90
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c7135899effe2458130c1bcf48303b
+      internalID: 7793960113003310754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_165
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 77
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae9adcde1a916c499cd3111b0bea9f7
+      internalID: 491072860426410474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_166
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 76
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601ea8b34a8384649b8b9f3cfd8cb15f
+      internalID: -549126380169778071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_167
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 76
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3553edb8de51a87459771d997aa15d70
+      internalID: 4628881498665787560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_168
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 78
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec2787a6fbf424991265f5d0051787
+      internalID: 1818532608695749059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_169
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 77
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a75d2c1d810ed4aa84b813248f9458
+      internalID: -6473587122477877223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_170
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 77
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa10af6790a1e46bd86a53b57a9cd3
+      internalID: 7755721175728991132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_171
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 33
+        width: 192
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbd8c7b58c6420489ebd2a34d20715f
+      internalID: 1860390146065826152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_172
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 64
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac5b7548ae8c2e4aaa3ee6b629559cf
+      internalID: -3116573612811598846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_173
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 33
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841ffc0558071f145b9a4971f937a5c0
+      internalID: 8707630794094084866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_174
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 32
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503419c8a58fea94d8d53f04ac7aee53
+      internalID: -1549832629232961981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_175
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fd9efcdc9c8ed4895db0db567c2e38
+      internalID: -4018816975023814302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_176
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 32
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5279c25b17b20844ca032685ad784ecf
+      internalID: 494522369944985816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_177
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 47
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e809f13ed0d504cb2f0eaf1c7e2fc8
+      internalID: 7643621969838341085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_178
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 46
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32042986681d4fd48aad80a24d1a7497
+      internalID: -976033075687090657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_179
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5e3e51937405a42a6eff6f0e49755d
+      internalID: 3295353104666378411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_180
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 46
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5056342e13c6dd04eb18ef0d8366077f
+      internalID: 1874920432831866062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_181
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 38
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5b052270c0f1340a259217726c5f45
+      internalID: -8215924225353992241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_182
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 41
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31eebe9f3ce2ef499d849b479d2825b
+      internalID: 971816330182957517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_183
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 38
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19972ad31f4146428fe36038323ba04
+      internalID: 1403472280296640097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_184
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 41
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7df3c79260f6c4f85b08a2f77960df
+      internalID: -6608713609837407444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_185
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0082bc24a96cae4da39738987b035e6
+      internalID: 1678645471826956850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_186
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 47
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41327694781e1646a801a7fff6515e8
+      internalID: 6794239620864055598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_187
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 48
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd81a9f9ee24e449b79e36783064fd4
+      internalID: 5709878096051439953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_188
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 47
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcaf70e5a60b6642afb25816d99b835
+      internalID: 5340859763501250312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_189
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 44
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b4dfe5f78a923458321a953ed4cd14
+      internalID: 6262982542578003767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_190
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 44
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630cb9c98e250cd4396509e55beee080
+      internalID: 684960684682295963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_191
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166b62dea5401c34a8ba6bce2863daaf
+      internalID: 8605728392465162057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_192
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08831abbebfae44f909db0430a42d68
+      internalID: -1559891065862096185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_193
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecc8deff7e88a74c92332288e8e3127
+      internalID: 4300037305196587528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_194
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b0012802b00cd46b957370b3fb7344
+      internalID: -4599274371940232759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_195
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b8c251b5ea4704892862c91a7beeac
+      internalID: 3022228817924456935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_196
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 11
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48ac70a5cdea2d46bc44b8bfb33e828
+      internalID: -6045486719188482145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_197
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 11
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e330c9dc3dcb64f9e7868115904e4a
+      internalID: -3688785972087085437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_198
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 11
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49208e1bf8ddb924591d86a934c40c2b
+      internalID: -6351500477374806700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_199
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e84041e2126e0a40ba038b6f966723c
+      internalID: 4484530359630346978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_200
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e943d7a8898fc4f9051b2145491cc6
+      internalID: -2005152121831079228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_201
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 6
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ad284070f90b74a95c534ce829a079
+      internalID: 8171142352841518089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_202
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 9
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6926404b31718443ae5daf162d3e94e
+      internalID: 2135731752625366483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_203
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 15
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f011fa509c1d4164db7092f607a51108
+      internalID: -5330909415522084014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_204
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 14
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d284ed0f16e2da459e61f499d74c2fe
+      internalID: 4876798759598730999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_205
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 14
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6e4eefe1cece943afb7a05a60cecc5
+      internalID: 1447390728467552106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labman_sheet_1 (1)_206
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 14
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2e76c755a1c6b46b173c6d46f7a7a2
+      internalID: -5223467573450679659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
