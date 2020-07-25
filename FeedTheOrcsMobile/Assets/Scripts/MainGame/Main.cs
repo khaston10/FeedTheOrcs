@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -622,7 +621,7 @@ public AudioSource musicSource;
         activePhysicalPatients[bed] = physicalPatientTemp;
 
         // Place patient on bed.
-        physicalPatientTemp.transform.position = physicalBeds[bed].transform.position + (Vector3.up * .6f);
+        physicalPatientTemp.transform.position = physicalBeds[bed].transform.position + (Vector3.up * 1f);
     }
 
     public void RemovePhysicalPatientFromBed(int bed)

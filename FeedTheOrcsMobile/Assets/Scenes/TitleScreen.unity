@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -479,15 +480,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1905397044}
     m_Modifications:
-    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
+    - target: {fileID: 3057489113628959742, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
-      propertyPath: m_Name
-      value: WallRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
-        type: 3}
-      propertyPath: m_TagString
-      value: Right
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4334572413413185765, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
@@ -544,10 +540,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3057489113628959742, guid: c3345cb51657d504c9f51490294a136a,
+    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
+      propertyPath: m_Name
+      value: WallRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3345cb51657d504c9f51490294a136a, type: 3}
@@ -1004,15 +1005,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1905397044}
     m_Modifications:
-    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
+    - target: {fileID: 3057489113628959742, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
-      propertyPath: m_Name
-      value: WallTop
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
-        type: 3}
-      propertyPath: m_TagString
-      value: Top
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4334572413413185765, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
@@ -1069,10 +1065,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3057489113628959742, guid: c3345cb51657d504c9f51490294a136a,
+    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
+      propertyPath: m_Name
+      value: WallTop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Top
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3345cb51657d504c9f51490294a136a, type: 3}
@@ -1413,15 +1414,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1905397044}
     m_Modifications:
-    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
+    - target: {fileID: 3057489113628959742, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
-      propertyPath: m_Name
-      value: WallLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
-        type: 3}
-      propertyPath: m_TagString
-      value: Left
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4334572413413185765, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
@@ -1478,10 +1474,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3057489113628959742, guid: c3345cb51657d504c9f51490294a136a,
+    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
+      propertyPath: m_Name
+      value: WallLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Left
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3345cb51657d504c9f51490294a136a, type: 3}
@@ -5298,15 +5299,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1905397044}
     m_Modifications:
-    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
+    - target: {fileID: 3057489113628959742, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
-      propertyPath: m_Name
-      value: WallBottom
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
-        type: 3}
-      propertyPath: m_TagString
-      value: Bottom
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4334572413413185765, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
@@ -5363,10 +5359,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3057489113628959742, guid: c3345cb51657d504c9f51490294a136a,
+    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
         type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
+      propertyPath: m_Name
+      value: WallBottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334003967101686279, guid: c3345cb51657d504c9f51490294a136a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bottom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3345cb51657d504c9f51490294a136a, type: 3}
