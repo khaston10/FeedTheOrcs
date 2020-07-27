@@ -17,9 +17,7 @@ public class EndController : MonoBehaviour
 
     #region Text objects to update
     public Text titeText;
-    public Text dayText;
     public Text patientsSavedText;
-    public Text patientsLostText;
     public GameObject creditsPanel;
     #endregion
 
@@ -59,11 +57,9 @@ public class EndController : MonoBehaviour
 
     public void SetTextToEndGameScreen()
     {
-        if (statusOfDoctor == "INFECTED") titeText.text = nameOfDoctor + " is INFECTED";
-        else titeText.text = "Too Many Patients Waiting!";
-        dayText.text = day.ToString();
+        if (statusOfDoctor == "EXHAUSTED") titeText.text = nameOfDoctor + " is EXHAUSTED";
+        else titeText.text = "Too Many Customers Waiting!";
         patientsSavedText.text = patientsHealed.ToString();
-        patientsLostText.text = patientsDeceased.ToString();
     }
 
     public void ClickCredits()
@@ -72,6 +68,14 @@ public class EndController : MonoBehaviour
 
         // Play Click Sound
         clickGood1.Play();
+    }
+
+    public void ClickMainMenu()
+    {
+        // Play Click Sound
+        clickGood1.Play();
+
+        SceneManager.LoadScene(1);
     }
 
     public void ExitCreditsPanel()

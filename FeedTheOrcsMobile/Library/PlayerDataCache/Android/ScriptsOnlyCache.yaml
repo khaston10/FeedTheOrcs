@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     - GlobalCont
     - GlobalPatientData
     - Main
-    - OpenURL
     - PatientData
     - TitleController
     - TriggerController
@@ -20,6 +19,12 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -81,15 +86,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12206}
     - Class: 114
-      Script: {instanceID: 12228}
-    - Class: 114
       Script: {instanceID: 12358}
     - Class: 114
       Script: {instanceID: 12720}
     - Class: 114
       Script: {instanceID: 13104}
-    - Class: 114
-      Script: {instanceID: 13124}
     - Class: 114
       Script: {instanceID: 13140}
     - Class: 115
@@ -507,7 +508,7 @@ ScriptsOnlyBuild:
     className: MesoGuiHandler
   - hash:
       serializedVersion: 2
-      Hash: 1d9019604edfabdc0125ca171210225a
+      Hash: 77468e0e79be3db5ccc20778e7b7362a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: VirusControllerTitle
@@ -531,7 +532,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 28a74f39fcf272e56bfa6499e82c1424
+      Hash: d9fa55915f926ac67c44403a0a9a2173
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Main
@@ -753,19 +754,13 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: e87e4a4b53652e3121c1de39d982a768
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OpenURL
-  - hash:
-      serializedVersion: 2
       Hash: 7072231382eb3c4871b3dd75ad0227e1
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: 37705f9bbd66d4e3480363505ccf8f62
+      Hash: f3a3caffd4c30d54713b37b065cf3876
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EndController
@@ -786,4 +781,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/TitleScreen.unity
   - Assets/Scenes/MainGame.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: C:/Users/kevoh/Unity Projects/CoronavirusMobile/CoronaHeroesV9.apk
+  playerPath: C:/Users/kevoh/Unity Projects/CoronavirusMobile/TestBuilds/FeedTheOrcsV1.apk

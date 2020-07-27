@@ -64,7 +64,9 @@ public class PatientData : MonoBehaviour
 
                 if (tempIndex != 0)
                 {
-                    statusOfPatient = GlobalPatientData.statusOfPatients[tempIndex - 1];
+                    // Grab a random number stricly less then tempIndex and 0 or greater.
+
+                    statusOfPatient = GlobalPatientData.statusOfPatients[Random.Range(0, tempIndex)];
                 }
 
                 // Update patient data on screen.
@@ -131,7 +133,7 @@ public class PatientData : MonoBehaviour
     #region Functions
     public void LoadPatientData()
     {
-        randomIndex = Random.Range(0, 12);
+        randomIndex = Random.Range(0, 11);
         nameOfPatient = GlobalPatientData.namesOfPatients[randomIndex];
         ageOfPatient = GlobalPatientData.agesOfPatients[randomIndex];
         sexOfPatient = GlobalPatientData.sexesOfPatients[randomIndex];

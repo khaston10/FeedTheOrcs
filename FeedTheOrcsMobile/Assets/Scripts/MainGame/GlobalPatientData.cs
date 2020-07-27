@@ -731,11 +731,11 @@ public class GlobalPatientData : MonoBehaviour
 
     #endregion
 
-    public static string[] namesOfPatients = new string[] { "Mary", "John", "Robert", "William", "James", "Dorothy", "Helen", "Charles", "George", "Joseph", "Margaret" };
+    public static string[] namesOfPatients = new string[] { "Bumph", "Sog", "Lurog", "Stugbu", "Dur", "Mor", "Bogdub", "Xunaakt", "Verthurg", "Xagu", "Gonk" };
     public static int[] agesOfPatients = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
     public static string[] sexesOfPatients = new string[] { "F", "M", "M", "M", "M", "F", "F", "M", "M", "M", "F" };
 
-    public static string[] statusOfPatients = new string[] { "HEALTHY", "INFECTED", "DEHYDRATED", "PNEUMONIA", "CRITICAL", "DECEASED" };
+    public static string[] statusOfPatients = new string[] { "FED", "THIRSTY", "HUNGRY", "RAVENOUS", "STARVED", "DISSATISFIED" };
     public static Sprite[] picOfPatient = new Sprite[12];
 
     private void Awake()

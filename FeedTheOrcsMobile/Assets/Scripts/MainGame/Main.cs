@@ -15,7 +15,6 @@ public class Main : MonoBehaviour
     #endregion
 
     #region Variables - Text objects to update
-    public Text dayText;
     public Text numberOfNewPatientsText;
     public Text[] nameOfPatientsText;
     public Text[] ageOfPatientsText;
@@ -155,7 +154,6 @@ public AudioSource musicSource;
         HideDischargePanel();
 
         // Set text objects to inital values.
-        dayText.text = "1";
         numberOfNewPatientsText.text = "0";
         currentMoneyText.text = currentMoney.ToString();
 
@@ -188,9 +186,9 @@ public AudioSource musicSource;
         SetBedButtonsOnOff(6, false);
 
         // Create Doctor from Prefab that matches.
-        if (nameOfDoctor == "Nate") doctor = Instantiate(doctorPrefab1);
-        else if (nameOfDoctor == "Ariko") doctor = Instantiate(doctorPrefab2);
-        else if (nameOfDoctor == "Nataly") doctor = Instantiate(doctorPrefab3);
+        if (nameOfDoctor == "Nar") doctor = Instantiate(doctorPrefab1);
+        else if (nameOfDoctor == "Gnurl") doctor = Instantiate(doctorPrefab2);
+        else if (nameOfDoctor == "Tarfu") doctor = Instantiate(doctorPrefab3);
         else doctor = Instantiate(doctorPrefab4);
         doctor.transform.position = Vector3.zero;
 
@@ -241,7 +239,7 @@ public AudioSource musicSource;
             needsToWashHands = true;
 
             // Set doctors status to "CONTAMINATED"
-            statusOfDoctor = "CONTAMINATED";
+            statusOfDoctor = "EXHAUSTED";
             statusOfDoctorText.text = statusOfDoctor;
             
 
@@ -363,7 +361,7 @@ public AudioSource musicSource;
         if (location == 1)
         {
             // Check to see if patient is healthy.
-            if (currentPatients[doctorsCurrentBed].GetComponent<PatientData>().statusOfPatient == "HEALTHY")
+            if (currentPatients[doctorsCurrentBed].GetComponent<PatientData>().statusOfPatient == "FED")
             {
                 // Delete the patient and update stat.
                 Destroy(currentPatients[doctorsCurrentBed]);
@@ -396,7 +394,7 @@ public AudioSource musicSource;
 
             else
             {
-                Debug.Log("Patient is not healthy");
+                Debug.Log("Patient is not fed");
                 clickBad1.Play();
             }
         }
@@ -404,7 +402,7 @@ public AudioSource musicSource;
         else if (location == 2)
         {
             // Check to see if patient is dead.
-            if (currentPatients[doctorsCurrentBed].GetComponent<PatientData>().statusOfPatient == "DECEASED")
+            if (currentPatients[doctorsCurrentBed].GetComponent<PatientData>().statusOfPatient == "DISSATISFIED")
             {
                 // Delete the patient and update stat.
                 Destroy(currentPatients[doctorsCurrentBed]);
@@ -433,7 +431,7 @@ public AudioSource musicSource;
 
             else
             {
-                Debug.Log("Patient is not dead");
+                Debug.Log("Patient is not dissatisfied");
                 // Play Click Sound
                 clickBad1.Play();
             }
@@ -449,7 +447,6 @@ public AudioSource musicSource;
     {
         // Currently only for Day and New Patients.
         numberOfNewPatientsText.text = numberOfNewPatients.ToString();
-        dayText.text = day.ToString();
     }
 
 
@@ -547,7 +544,7 @@ public AudioSource musicSource;
 
         else
         {
-            Debug.Log("Bed Is Taken");
+            Debug.Log("Table Is Taken");
             return false;
         }
     }
@@ -616,7 +613,7 @@ public AudioSource musicSource;
     public void PlacePhysicalPatientOnBed(int bed)
     {
         // Pic a physical patient image depending on the age and gender.
-        var indexTemp = System.Array.IndexOf(GlobalPatientData.picOfPatient, currentPatients[bed].GetComponent<PatientData>().picOfPatient);
+        var indexTemp = Random.Range(0, physicalPatientPrefabs.Length);
         physicalPatientTemp = Instantiate(physicalPatientPrefabs[indexTemp]);
         activePhysicalPatients[bed] = physicalPatientTemp;
 

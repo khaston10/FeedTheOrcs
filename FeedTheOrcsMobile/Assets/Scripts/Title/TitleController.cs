@@ -38,7 +38,7 @@ public class TitleController : MonoBehaviour
     public string[] doctorsNames = new string[4] { "D1", "D2", "D3", "D4" };
     public int[] agesOfDoctors = new int[4] { 40, 29, 32, 56 };
     public string[] genderOfDoctors = new string[4] { "M", "M", "M", "M" };
-    public string[] taxonomyOfDoctors = new string[4] { "Nurse Practitioner", "Registered Nurse", "MD Pulmonary", "MD Family" };
+    public string[] taxonomyOfDoctors = new string[4] { "Reading", "Blogging", "Pizza", "Video Gaming" };
     #endregion
 
     // Start is called before the first frame update

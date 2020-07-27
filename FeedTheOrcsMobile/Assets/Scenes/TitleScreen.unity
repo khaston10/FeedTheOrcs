@@ -455,7 +455,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: db0b5ac1a2a7c0d4e83b3982bf8448e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52bdace12420bf9458d6ba5353e2e53b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1189,7 +1189,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 450, y: -104.999756}
+  m_AnchoredPosition: {x: 450, y: -105}
   m_SizeDelta: {x: -1100, y: -510}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &428966795
@@ -1612,15 +1612,15 @@ MonoBehaviour:
   geenLightImage: {fileID: 21300000, guid: 0ba6eacafb5789b4b93c7a75aaeca5e2, type: 3}
   blankImage: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   spriteOfDoctors:
-  - {fileID: 21300000, guid: f5038d32dc3c140499a1f281877c8252, type: 3}
-  - {fileID: 21300000, guid: 09ce9849eae5ad04bb01492cd41920c4, type: 3}
-  - {fileID: 21300000, guid: d2559bcc93f3c4d4e81573f604b8ee46, type: 3}
-  - {fileID: 21300000, guid: db0b5ac1a2a7c0d4e83b3982bf8448e0, type: 3}
+  - {fileID: 21300000, guid: 4ce3cf4172d9a094ab241248d5e6499b, type: 3}
+  - {fileID: 21300000, guid: 26fe4f4a6ffc65c479b3ea0dcb2347c2, type: 3}
+  - {fileID: 21300000, guid: 450986a577820ed49a4b88595cf1a4d6, type: 3}
+  - {fileID: 21300000, guid: 52bdace12420bf9458d6ba5353e2e53b, type: 3}
   doctorsNames:
-  - Nate
-  - Ariko
-  - Nataly
-  - Michael
+  - Nar
+  - Gnurl
+  - Tarfu
+  - Ogol
   agesOfDoctors: 280000001d0000002000000038000000
   genderOfDoctors:
   - M
@@ -1628,10 +1628,10 @@ MonoBehaviour:
   - M
   - M
   taxonomyOfDoctors:
-  - Nurse Practitioner
-  - Registered Nurse
-  - MD Pulmonary
-  - MD Family
+  - Reading
+  - Blogging
+  - Pizza
+  - Video Gaming
 --- !u!4 &803511501
 Transform:
   m_ObjectHideFlags: 0
@@ -1658,8 +1658,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27cc9206a30ba604893090cb0d4c937f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  virusPrefab: {fileID: 5674296135056715753, guid: ee9b3a3487203aa478cfca01e3590b61,
-    type: 3}
+  virusPrefab:
+  - {fileID: 5674296135056715753, guid: ee9b3a3487203aa478cfca01e3590b61, type: 3}
+  - {fileID: 5674296135056715753, guid: 1435bfd319f47ec4f87166258c69ef53, type: 3}
+  - {fileID: 5674296135056715753, guid: 00cf39d7398f44346a77b0a3da3213ac, type: 3}
+  - {fileID: 5674296135056715753, guid: babbee5f794889a4c964c03d9f0b8f02, type: 3}
   virusTemp: {fileID: 0}
   virusCountMin: 10
   virusCountMax: 40
@@ -2003,7 +2006,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f5038d32dc3c140499a1f281877c8252, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ce3cf4172d9a094ab241248d5e6499b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3169,7 +3172,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 09ce9849eae5ad04bb01492cd41920c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26fe4f4a6ffc65c479b3ea0dcb2347c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3401,7 +3404,7 @@ GameObject:
   - component: {fileID: 1359644240}
   - component: {fileID: 1359644239}
   m_Layer: 5
-  m_Name: TaxonomyText
+  m_Name: HobbyText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3643,7 +3646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d2559bcc93f3c4d4e81573f604b8ee46, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 450986a577820ed49a4b88595cf1a4d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4403,7 +4406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CORONA-HEROES
+  m_Text: FEED-THE-ORCS
 --- !u!222 &1663735057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4681,7 +4684,7 @@ MonoBehaviour:
 
 
 
-    Taxonomy:
+    Hobbies:
 
 '
 --- !u!222 &1778626239

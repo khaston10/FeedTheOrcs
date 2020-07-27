@@ -30,8 +30,8 @@ public class TriggerController : MonoBehaviour
 
             // If patient is healthy or dead and doctor enters trigger, display the Discharge Panel.
             if (triggerNum != 0 && GameObject.Find("MainController").GetComponent<Main>().currentPatients[triggerNum - 1] != null &&
-                (GameObject.Find("MainController").GetComponent<Main>().currentPatients[triggerNum - 1].GetComponent<PatientData>().statusOfPatient == "HEALTHY" ||
-                GameObject.Find("MainController").GetComponent<Main>().currentPatients[triggerNum - 1].GetComponent<PatientData>().statusOfPatient == "DECEASED"))
+                (GameObject.Find("MainController").GetComponent<Main>().currentPatients[triggerNum - 1].GetComponent<PatientData>().statusOfPatient == "FED" ||
+                GameObject.Find("MainController").GetComponent<Main>().currentPatients[triggerNum - 1].GetComponent<PatientData>().statusOfPatient == "DISSATISFIED"))
             {
                 GameObject.Find("MainController").GetComponent<Main>().DischargePanel.SetActive(true);
             }
