@@ -72,6 +72,8 @@ public class EndController : MonoBehaviour
 
     public void ClickMainMenu()
     {
+        patientsHealed = 0;
+
         // Play Click Sound
         clickGood1.Play();
 

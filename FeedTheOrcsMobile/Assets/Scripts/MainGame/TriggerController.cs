@@ -52,6 +52,17 @@ public class TriggerController : MonoBehaviour
         
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        // If patient is healthy or dead and doctor is on the trigger, display the Discharge Panel.
+        if (triggerNum != 0 && GameObject.Find("MainController").GetComponent<Main>().currentPatients[triggerNum - 1] != null &&
+            (GameObject.Find("MainController").GetComponent<Main>().currentPatients[triggerNum - 1].GetComponent<PatientData>().statusOfPatient == "FED" ||
+            GameObject.Find("MainController").GetComponent<Main>().currentPatients[triggerNum - 1].GetComponent<PatientData>().statusOfPatient == "DISSATISFIED"))
+        {
+            GameObject.Find("MainController").GetComponent<Main>().DischargePanel.SetActive(true);
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D col)
     {
         // Update Current Patient Buttons if Doctor is leaving trigger.

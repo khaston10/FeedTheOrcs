@@ -97,6 +97,8 @@ public class Main : MonoBehaviour
 
     // Handles soap animation.
     public GameObject soapBubblePrefab;
+    public GameObject BeerSprayPrefab;
+    private GameObject beerSpray;
     public GameObject sink;
     private GameObject tempSoapBubble;
     private GameObject[] soapBubbles = new GameObject[10];
@@ -119,12 +121,17 @@ public class Main : MonoBehaviour
 
 #endregion
 
-#region Audio Sources
-public AudioSource musicSource;
+    #region Audio Sources
+    public AudioSource musicSource;
     public AudioSource clickGood1;
     public AudioSource clickGood2;
     public AudioSource clickBad1;
     public AudioSource warning1;
+    public AudioSource serverDrink;
+    public AudioSource unhappy;
+    public AudioClip[] unhappyClips;
+    public AudioSource happy;
+    public AudioClip[] happyClips;
     #endregion
 
     #region Variables - Stats
@@ -181,7 +188,7 @@ public AudioSource musicSource;
             SetNewPatientButtonsOnOff(i, true);
 
             // Clear Patient Information From Screen.
-            ClearPatientDataFromScreen(i);
+            //ClearPatientDataFromScreen(i);
         }
         SetBedButtonsOnOff(6, false);
 
@@ -258,7 +265,7 @@ public AudioSource musicSource;
 
         else if (handWashWarning && handWashingTimer > timeDoctorHasToWashHands)
         {
-            statusOfDoctor = GlobalPatientData.statusOfPatients[1];
+            statusOfDoctor = "EXHAUSTED";
             SaveData();
             SceneManager.LoadScene(2);
         }
@@ -363,13 +370,18 @@ public AudioSource musicSource;
             // Check to see if patient is healthy.
             if (currentPatients[doctorsCurrentBed].GetComponent<PatientData>().statusOfPatient == "FED")
             {
+                //Play a random happy audio clip.
+                var randAudio = Random.Range(0, happyClips.Length);
+                happy.clip = happyClips[randAudio];
+                happy.Play();
+
                 // Delete the patient and update stat.
                 Destroy(currentPatients[doctorsCurrentBed]);
                 currentPatients[doctorsCurrentBed] = null;
                 patientsHealed += 1;
 
                 // Update Patient Data and reset bed button
-                UpdatePatientDataToScreen(doctorsCurrentBed);
+                //UpdatePatientDataToScreen(doctorsCurrentBed);
                 SetNewPatientButtonsOnOff(doctorsCurrentBed, true);
 
                 // Delete Warning Bubble if it is still there.
@@ -404,13 +416,18 @@ public AudioSource musicSource;
             // Check to see if patient is dead.
             if (currentPatients[doctorsCurrentBed].GetComponent<PatientData>().statusOfPatient == "DISSATISFIED")
             {
+                //Play a random unhappy audio clip.
+                var randAudio = Random.Range(0, unhappyClips.Length);
+                unhappy.clip = unhappyClips[randAudio];
+                unhappy.Play();
+
                 // Delete the patient and update stat.
                 Destroy(currentPatients[doctorsCurrentBed]);
                 currentPatients[doctorsCurrentBed] = null;
                 patientsDeceased += 1;
 
                 // Update Patient Data and reset bed button
-                UpdatePatientDataToScreen(doctorsCurrentBed);
+                //UpdatePatientDataToScreen(doctorsCurrentBed);
                 SetNewPatientButtonsOnOff(doctorsCurrentBed, true);
 
                 // Delete Warning Bubble if it is still there.
@@ -506,20 +523,28 @@ public AudioSource musicSource;
         // Check to see if there is any new patients.
         if(numberOfNewPatients > 0)
         {
-            bool providerLoaded = CreatePatientAndPopulateBed(bed);
-            UpdatePatientDataToScreen(bed);
+            // Check to see if the table is available.
+            if (currentPatients[bed] == null)
+            {
+                bool providerLoaded = CreatePatientAndPopulateBed(bed);
+                //UpdatePatientDataToScreen(bed);
 
-            if (providerLoaded) SetNewPatientButtonsOnOff(bed, false);
+                if (providerLoaded) SetNewPatientButtonsOnOff(bed, false);
 
-            numberOfNewPatients -= 1;
-            // Update Text object on screen.
-            UpdateStatsToScreen();
+                numberOfNewPatients -= 1;
+                // Update Text object on screen.
+                UpdateStatsToScreen();
 
-            // Place the image of the patient at the bed.
-            PlacePhysicalPatientOnBed(bed);
+                // Place the image of the patient at the bed.
+                PlacePhysicalPatientOnBed(bed);
 
-            // Play Click Sound
-            clickGood1.Play();
+                // Play Click Sound
+                clickGood1.Play();
+
+                Debug.Log("Orc has been seated");
+            }
+
+            else Debug.Log("Table is full!");
         }
 
         else
@@ -535,56 +560,38 @@ public AudioSource musicSource;
     public bool CreatePatientAndPopulateBed(int bed)
     {
         //Returns True if is successfully loads the patient.
-        if (currentPatients[bed] == null)
-        {
-            GameObject temp = Instantiate(patientPrefab);
-            currentPatients[bed] = temp;
-            return true;
-        }
-
-        else
-        {
-            Debug.Log("Table Is Taken");
-            return false;
-        }
-    }
-
-    public void UpdatePatientDataToScreen(int bed)
-    {
-        if (currentPatients[bed] != null)
-        {
-            nameOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().nameOfPatient;
-            ageOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().ageOfPatient.ToString();
-            sexOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().sexOfPatient;
-            statusOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().statusOfPatient;
-            picOfPatientImages[bed].sprite = currentPatients[bed].GetComponent<PatientData>().picOfPatient;
-        }
-
-        else
-        {
-            nameOfPatientsText[bed].text = "";
-            ageOfPatientsText[bed].text = "";
-            sexOfPatientsText[bed].text = "";
-            statusOfPatientsText[bed].text = "";
-            picOfPatientImages[bed].sprite = blankImage;
-        }
-    }
-
-    public void ClearPatientDataFromScreen(int bed)
-    {
-      
-        nameOfPatientsText[bed].text = "";
-        ageOfPatientsText[bed].text = "";
-        sexOfPatientsText[bed].text = "";
-        statusOfPatientsText[bed].text = "";
-        picOfPatientImages[bed].sprite = blankImage;
-
+        GameObject temp = Instantiate(patientPrefab);
+        currentPatients[bed] = temp;
+        return true;
 
     }
+
+    //public void UpdatePatientDataToScreen(int bed)
+    //{
+    //    if (currentPatients[bed] != null)
+    //    {
+    //        nameOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().nameOfPatient;
+    //        ageOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().ageOfPatient.ToString();
+    //        sexOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().sexOfPatient;
+    //        statusOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().statusOfPatient;
+    //        picOfPatientImages[bed].sprite = currentPatients[bed].GetComponent<PatientData>().picOfPatient;
+    //    }
+
+    //    else
+    //    {
+    //        nameOfPatientsText[bed].text = "";
+    //        ageOfPatientsText[bed].text = "";
+    //        sexOfPatientsText[bed].text = "";
+    //        statusOfPatientsText[bed].text = "";
+    //        picOfPatientImages[bed].sprite = blankImage;
+    //    }
+    //}
+
      
     public void ClickPatientPanel(int bedNumber)
     {
         HidePatientPanels();
+
         patientPanels[bedNumber].SetActive(true);
 
         // Play Click Sound
@@ -749,10 +756,13 @@ public AudioSource musicSource;
 
     IEnumerator WaitForHandsToWash()
     {
+        // Play the audio of the server drinking.
+        serverDrink.Play();
+
         // Play the animation and switch the bool so the doctor can not walk away.
         movingDisabledForHandWashing = true;
         docAnim.Play("MWash");
-        CreateSoapBubbles();
+        CreateBeerBubbles();
 
         // Suspend execution for 5 seconds
         yield return new WaitForSeconds(5);
@@ -775,12 +785,18 @@ public AudioSource musicSource;
 
     }
 
-    public void CreateSoapBubbles()
-    { 
+    public void CreateBeerBubbles()
+    {
+        // Create Beer Spay
+        beerSpray = Instantiate(BeerSprayPrefab);
+        var tempVector = new Vector3(-3.87f, .71f, 0f);
+        beerSpray.transform.position = tempVector;
+
+        // Create Beer Bubbles
         for (int i = 0; i < soapBubbles.Length; i++)
         {
-            var randUp = Random.Range(-.4f, .6f);
-            var randRight = Random.Range(-.1f, .1f);
+            var randUp = Random.Range(-1f, 0f);
+            var randRight = Random.Range(3f, 3.5f);
             tempSoapBubble = Instantiate(soapBubblePrefab);
             tempSoapBubble.transform.position = sink.transform.position + (Vector3.up * randUp) + (Vector3.right * randRight);
             soapBubbles[i] = tempSoapBubble;
@@ -789,6 +805,8 @@ public AudioSource musicSource;
      
     public void RemoveSoapBubbles()
     {
+        Destroy(beerSpray);
+
         for (int i = 0; i < soapBubbles.Length; i++)
         {
 

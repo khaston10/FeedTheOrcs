@@ -70,7 +70,7 @@ public class PatientData : MonoBehaviour
                 }
 
                 // Update patient data on screen.
-                GameObject.Find("MainController").GetComponent<Main>().UpdatePatientDataToScreen(System.Array.IndexOf(GameObject.Find("MainController").GetComponent<Main>().currentPatients, gameObject));
+                //GameObject.Find("MainController").GetComponent<Main>().UpdatePatientDataToScreen(System.Array.IndexOf(GameObject.Find("MainController").GetComponent<Main>().currentPatients, gameObject));
             }
 
             else
@@ -85,7 +85,7 @@ public class PatientData : MonoBehaviour
                 }
 
                 // Update patient data on screen.
-                GameObject.Find("MainController").GetComponent<Main>().UpdatePatientDataToScreen(bedAssigned);
+                //GameObject.Find("MainController").GetComponent<Main>().UpdatePatientDataToScreen(bedAssigned);
             }
 
             // Create New Warning Bubble if needed and set needsTreatment if needed.
