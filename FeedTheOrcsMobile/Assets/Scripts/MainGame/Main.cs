@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Security.Cryptography;
 
 public class Main : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class Main : MonoBehaviour
     public Button[] patientPanelButtons;
     public GameObject[] patientPanels;
     public GameObject DischargePanel;
+    public GameObject SpeechBubbleGood;
+    private GameObject tempSpeechBubbleGood;
+    public GameObject SpeechBubbleBad;
+    private GameObject tempSpeechBubbleBad;
 
     #endregion
 
@@ -94,6 +99,9 @@ public class Main : MonoBehaviour
     public float warningTime; // The warning bubble will turn more serious if there is only this amount of time left.
     private bool handWashWarning;
     private bool movingDisabledForHandWashing;
+
+    // Deals with discharging.
+    private bool dischargeButtonIsAvailable = true;
 
     // Handles soap animation.
     public GameObject soapBubblePrefab;
@@ -362,46 +370,115 @@ public class Main : MonoBehaviour
         DischargePanel.SetActive(false);
     }
 
+    IEnumerator WaitForOrcToSpeak(int i)
+    {
+
+        dischargeButtonIsAvailable = false;
+
+        // Play the audio for unhappy if the int i == 0 and happy if i == 1.
+        if (i == 1)
+        {
+            // Create a speech bubble at the orc's location.
+            tempSpeechBubbleGood = Instantiate(SpeechBubbleGood);
+            tempSpeechBubbleGood.transform.position = warningBubbleLocations[doctorsCurrentBed + 1].transform.position;
+
+            //Play a random happy audio clip.
+            var randAudio = Random.Range(0, happyClips.Length);
+            happy.clip = happyClips[randAudio];
+            happy.Play();
+
+            // Suspend execution for 5 seconds
+            yield return new WaitForSeconds(2);
+
+            // Delete the patient and update stat.
+            Destroy(currentPatients[doctorsCurrentBed]);
+            currentPatients[doctorsCurrentBed] = null;
+            patientsHealed += 1;
+
+            // Update Patient Data and reset bed button
+            //UpdatePatientDataToScreen(doctorsCurrentBed);
+            SetNewPatientButtonsOnOff(doctorsCurrentBed, true);
+
+            // Delete Warning Bubble if it is still there.
+            if (activeWarningBubbles[doctorsCurrentBed + 1] != null)
+            {
+                DestroyWarningBubbleAtBed(doctorsCurrentBed + 1);
+            }
+
+            // Destroy the physical patient image.
+            RemovePhysicalPatientFromBed(doctorsCurrentBed);
+
+            // Player gets MONEY$$$$
+            currentMoney += 5;
+            currentMoneyText.text = currentMoney.ToString();
+
+            // Play Click Sound
+            clickGood1.Play();
+
+            // Hide Panel and reset the discharge button.
+            HideDischargePanel();
+            dischargeButtonIsAvailable = true;
+
+            // Delete the speech bubble.
+            Destroy(tempSpeechBubbleGood);
+        }
+
+        else
+        {
+            // Create a speech bubble at the orc's location.
+            tempSpeechBubbleBad = Instantiate(SpeechBubbleBad);
+            tempSpeechBubbleBad.transform.position = warningBubbleLocations[doctorsCurrentBed + 1].transform.position;
+
+            //Play a random angry audio clip.
+            var randAudio = Random.Range(0, unhappyClips.Length);
+            unhappy.clip = unhappyClips[randAudio];
+            unhappy.Play();
+
+            // Suspend execution for 5 seconds
+            yield return new WaitForSeconds(2);
+
+            // Delete the patient and update stat.
+            Destroy(currentPatients[doctorsCurrentBed]);
+            currentPatients[doctorsCurrentBed] = null;
+            patientsDeceased += 1;
+
+            // Update Patient Data and reset bed button
+            //UpdatePatientDataToScreen(doctorsCurrentBed);
+            SetNewPatientButtonsOnOff(doctorsCurrentBed, true);
+
+            // Delete Warning Bubble if it is still there.
+            if (activeWarningBubbles[doctorsCurrentBed + 1] != null)
+            {
+                DestroyWarningBubbleAtBed(doctorsCurrentBed + 1);
+            }
+
+            // Destroy the physical patient image.
+            RemovePhysicalPatientFromBed(doctorsCurrentBed);
+
+            // Play Click Sound
+            clickGood1.Play();
+
+            // Hide Panel and reset the discharge button
+            HideDischargePanel();
+            dischargeButtonIsAvailable = true;
+
+            // Delete the speech bubble.
+            Destroy(tempSpeechBubbleBad);
+        }
+
+        
+    }
+
     public void ClickDischargePanelDischarge(int location)
     {
 
-        if (location == 1)
+        if (location == 1 && dischargeButtonIsAvailable)
         {
             // Check to see if patient is healthy.
             if (currentPatients[doctorsCurrentBed].GetComponent<PatientData>().statusOfPatient == "FED")
             {
-                //Play a random happy audio clip.
-                var randAudio = Random.Range(0, happyClips.Length);
-                happy.clip = happyClips[randAudio];
-                happy.Play();
-
-                // Delete the patient and update stat.
-                Destroy(currentPatients[doctorsCurrentBed]);
-                currentPatients[doctorsCurrentBed] = null;
-                patientsHealed += 1;
-
-                // Update Patient Data and reset bed button
-                //UpdatePatientDataToScreen(doctorsCurrentBed);
-                SetNewPatientButtonsOnOff(doctorsCurrentBed, true);
-
-                // Delete Warning Bubble if it is still there.
-                if (activeWarningBubbles[doctorsCurrentBed + 1] != null)
-                {
-                    DestroyWarningBubbleAtBed(doctorsCurrentBed + 1);
-                }
-
-                // Destroy the physical patient image.
-                RemovePhysicalPatientFromBed(doctorsCurrentBed);
-
-                // Player gets MONEY$$$$
-                currentMoney += 5;
-                currentMoneyText.text = currentMoney.ToString();
-
-                // Play Click Sound
-                clickGood1.Play();
-
-                // Hide Panel
-                HideDischargePanel();
+                // Play audio clip and start co routine to wait for clip to finish.
+                StartCoroutine(WaitForOrcToSpeak(1));
             }
 
             else
@@ -411,39 +488,13 @@ public class Main : MonoBehaviour
             }
         }
 
-        else if (location == 2)
+        else if (location == 2 && dischargeButtonIsAvailable)
         {
             // Check to see if patient is dead.
             if (currentPatients[doctorsCurrentBed].GetComponent<PatientData>().statusOfPatient == "DISSATISFIED")
             {
-                //Play a random unhappy audio clip.
-                var randAudio = Random.Range(0, unhappyClips.Length);
-                unhappy.clip = unhappyClips[randAudio];
-                unhappy.Play();
-
-                // Delete the patient and update stat.
-                Destroy(currentPatients[doctorsCurrentBed]);
-                currentPatients[doctorsCurrentBed] = null;
-                patientsDeceased += 1;
-
-                // Update Patient Data and reset bed button
-                //UpdatePatientDataToScreen(doctorsCurrentBed);
-                SetNewPatientButtonsOnOff(doctorsCurrentBed, true);
-
-                // Delete Warning Bubble if it is still there.
-                if (activeWarningBubbles[doctorsCurrentBed + 1] != null)
-                {
-                    DestroyWarningBubbleAtBed(doctorsCurrentBed + 1);
-                }
-
-                // Destroy the physical patient image.
-                RemovePhysicalPatientFromBed(doctorsCurrentBed);
-
-                // Play Click Sound
-                clickGood1.Play();
-
-                // Hide Panel
-                HideDischargePanel();
+                // Play audio clip and start co routine to wait for clip to finish.
+                StartCoroutine(WaitForOrcToSpeak(0));
             }
 
             else
@@ -455,9 +506,9 @@ public class Main : MonoBehaviour
         }
 
         
+        else clickBad1.Play(); ;
 
 
-        
     }
 
     public void UpdateStatsToScreen()

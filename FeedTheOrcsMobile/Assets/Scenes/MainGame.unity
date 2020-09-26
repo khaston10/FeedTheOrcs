@@ -22407,6 +22407,10 @@ MonoBehaviour:
   - {fileID: 214321824}
   - {fileID: 1574131955}
   DischargePanel: {fileID: 334082916}
+  SpeechBubbleGood: {fileID: 3415090463961302625, guid: 7de1b350a4feda1489e3904d8cab2841,
+    type: 3}
+  SpeechBubbleBad: {fileID: 4946520832683731789, guid: e3321e0fc37172a48bd9643af171bb9d,
+    type: 3}
   numberOfNewPatientsText: {fileID: 2487058}
   nameOfPatientsText:
   - {fileID: 0}
