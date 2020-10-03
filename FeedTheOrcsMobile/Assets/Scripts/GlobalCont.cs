@@ -20,6 +20,8 @@ public class GlobalCont : MonoBehaviour
     public int patientsHealed;
     public int patientsDeceased;
     public int gameDifficulty;
+    public int[] highScores;
+    public bool newHighScore;
     #endregion
 
     void Awake()

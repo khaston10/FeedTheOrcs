@@ -2289,6 +2289,8 @@ MonoBehaviour:
   patientsHealed: 0
   patientsDeceased: 0
   gameDifficulty: 0
+  highScores: 000000000000000000000000
+  newHighScore: 0
 --- !u!4 &1077119665
 Transform:
   m_ObjectHideFlags: 0

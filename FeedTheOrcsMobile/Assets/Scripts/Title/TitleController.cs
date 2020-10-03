@@ -63,6 +63,7 @@ public class TitleController : MonoBehaviour
 
         tutorialPanel.SetActive(false);
 
+
     }
 
     // Update is called once per frame

@@ -19,6 +19,8 @@ public class EndController : MonoBehaviour
     public Text titeText;
     public Text patientsSavedText;
     public GameObject creditsPanel;
+    public Text[] highScoreTexts;
+    public Text newHighScoreText;
     #endregion
 
     #region Audio Sources
@@ -53,7 +55,16 @@ public class EndController : MonoBehaviour
         patientsHealed = GlobalCont.Instance.patientsHealed;
         patientsDeceased = GlobalCont.Instance.patientsDeceased;
         gameDifficulty = GlobalCont.Instance.gameDifficulty;
-    }
+
+        for (int i = 0; i < GlobalCont.Instance.highScores.Length; i++)
+        {
+            highScoreTexts[i].text = GlobalCont.Instance.highScores[i].ToString();
+        }
+
+        // If the player has achieved a high score we will make the "New High Score" object active.
+        if (GlobalCont.Instance.newHighScore) newHighScoreText.text = "New High Score";
+        else newHighScoreText.text = "";
+}
 
     public void SetTextToEndGameScreen()
     {
@@ -72,12 +83,13 @@ public class EndController : MonoBehaviour
 
     public void ClickMainMenu()
     {
-        patientsHealed = 0;
+        GlobalCont.Instance.patientsHealed = 0;
+        GlobalCont.Instance.newHighScore = false;
 
         // Play Click Sound
         clickGood1.Play();
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void ExitCreditsPanel()

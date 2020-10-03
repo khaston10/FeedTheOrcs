@@ -78,21 +78,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11692}
+      Script: {instanceID: 11694}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11796}
     - Class: 114
-      Script: {instanceID: 11936}
+      Script: {instanceID: 11938}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12362}
+      Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12726}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 13112}
     - Class: 114
-      Script: {instanceID: 13142}
+      Script: {instanceID: 13146}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -157,21 +157,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11680}
+      Script: {instanceID: 11682}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11796}
     - Class: 114
-      Script: {instanceID: 12050}
+      Script: {instanceID: 12052}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12232}
+      Script: {instanceID: 12234}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12726}
     - Class: 114
-      Script: {instanceID: 12882}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 13112}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -234,31 +234,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11692}
-    - Class: 114
       Script: {instanceID: 11694}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 11936}
+      Script: {instanceID: 11796}
     - Class: 114
-      Script: {instanceID: 11998}
+      Script: {instanceID: 11938}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12232}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12246}
+      Script: {instanceID: 12234}
     - Class: 114
-      Script: {instanceID: 12362}
+      Script: {instanceID: 12248}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 13096}
+      Script: {instanceID: 12726}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 13100}
     - Class: 114
-      Script: {instanceID: 13124}
+      Script: {instanceID: 13112}
+    - Class: 114
+      Script: {instanceID: 13128}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -454,7 +454,7 @@ ScriptsOnlyBuild:
     className: TriggerController
   - hash:
       serializedVersion: 2
-      Hash: 7d970eaca0400e1ca7a755cd430f91cf
+      Hash: af42f85d30e26ac7c71319edf17cd349
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GlobalCont
@@ -532,7 +532,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: a2f717955bbcbfaf96f078ef85d60ff6
+      Hash: c0c3f481038a480b304fd2b75f05fd91
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Main
@@ -760,7 +760,7 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: f3a3caffd4c30d54713b37b065cf3876
+      Hash: 4e3a10a71c25ad66ca1ce7744d9a5ac2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EndController
@@ -781,4 +781,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/TitleScreen.unity
   - Assets/Scenes/MainGame.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: C:/Users/kevoh/Unity Projects/CoronavirusMobile/TestBuilds/FeedTheOrcsV2.apk
+  playerPath: C:/Users/kevoh/Unity Projects/CoronavirusMobile/TestBuilds/FeedTheOrcsV8.apk

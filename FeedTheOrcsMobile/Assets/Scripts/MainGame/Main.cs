@@ -16,11 +16,15 @@ public class Main : MonoBehaviour
     private GameObject tempSpeechBubbleGood;
     public GameObject SpeechBubbleBad;
     private GameObject tempSpeechBubbleBad;
+    public GameObject[] foodOnTableImgs;
+    public Sprite[] foodOnTableSprites;
+    
 
     #endregion
 
     #region Variables - Text objects to update
     public Text numberOfNewPatientsText;
+    public Text numberOfPatientsHealed;
     public Text[] nameOfPatientsText;
     public Text[] ageOfPatientsText;
     public Text[] sexOfPatientsText;
@@ -149,6 +153,9 @@ public class Main : MonoBehaviour
     public int gameDifficulty;
     public int numberOfNewPatients;
     public int timeBetweenNewPatients; // In seconds
+    private int lowestHighScore;
+    private int lowestHighScoreIndex;
+    public int[] highScores;
 
     // Variables to keep each day moving.
     public float mainTimer;
@@ -170,6 +177,7 @@ public class Main : MonoBehaviour
 
         // Set text objects to inital values.
         numberOfNewPatientsText.text = "0";
+        numberOfPatientsHealed.text = "0";
         currentMoneyText.text = currentMoney.ToString();
 
         // Load Doctor Data to screen.
@@ -306,6 +314,9 @@ public class Main : MonoBehaviour
         spriteOfDoctor = GlobalCont.Instance.spriteOfDoctor;
         gameDifficulty = GlobalCont.Instance.gameDifficulty;
         GlobalCont.Instance.gameDifficulty = gameDifficulty;
+        highScores = GlobalCont.Instance.highScores;
+
+        LoadHighScoreFromPlayerPrefs();
     }
 
     public void SaveData()
@@ -319,6 +330,50 @@ public class Main : MonoBehaviour
         GlobalCont.Instance.patientsDeceased = patientsDeceased;
         GlobalCont.Instance.spriteOfDoctor = spriteOfDoctor;
 
+        SaveHighScoreToPlayerPrefs();
+
+    }
+
+    public void SaveHighScoreToPlayerPrefs()
+    {
+        Debug.Log("Saving High Scores from Player Prefs ...");
+
+        // Check to see if the player's score is a New High Score.
+        // 1. Find the lowest high score.
+        lowestHighScore = highScores[0];
+        lowestHighScoreIndex = 0;
+
+        for (int i = 1; i < highScores.Length; i++)
+        {
+            if (highScores[i] < lowestHighScore)
+            {
+                lowestHighScore = highScores[i];
+                lowestHighScoreIndex = i;
+            } 
+        }
+
+        // 2. Compare the lowest high score to the player's score.
+        //    If the player's score is greater then we will replace the score and set newHighScore bool true.
+        if (patientsHealed > lowestHighScore)
+        {
+            highScores[lowestHighScoreIndex] = patientsHealed;
+            GlobalCont.Instance.newHighScore = true;
+        }
+
+        // Save this data to player prefs.
+        PlayerPrefs.SetInt("HighScore01", highScores[0]);
+        PlayerPrefs.SetInt("HighScore02", highScores[1]);
+        PlayerPrefs.SetInt("HighScore03", highScores[2]);
+    }
+
+    public void LoadHighScoreFromPlayerPrefs()
+    {
+        Debug.Log("Loading High Scores from Player Prefs ...");
+
+        // Load data if it exists.
+        highScores[0] = PlayerPrefs.GetInt("HighScore01", 0);
+        highScores[1] = PlayerPrefs.GetInt("HighScore02", 0);
+        highScores[2] = PlayerPrefs.GetInt("HighScore03", 0);
     }
 
     public void LoadGameDifficulty()
@@ -421,6 +476,9 @@ public class Main : MonoBehaviour
 
             // Delete the speech bubble.
             Destroy(tempSpeechBubbleGood);
+
+            // Update player's score to screen.
+            UpdateStatsToScreen();
         }
 
         else
@@ -479,6 +537,7 @@ public class Main : MonoBehaviour
             {
                 // Play audio clip and start co routine to wait for clip to finish.
                 StartCoroutine(WaitForOrcToSpeak(1));
+
             }
 
             else
@@ -515,6 +574,7 @@ public class Main : MonoBehaviour
     {
         // Currently only for Day and New Patients.
         numberOfNewPatientsText.text = numberOfNewPatients.ToString();
+        numberOfPatientsHealed.text = patientsHealed.ToString();
     }
 
 
@@ -608,6 +668,7 @@ public class Main : MonoBehaviour
 
     }
     
+
     public bool CreatePatientAndPopulateBed(int bed)
     {
         //Returns True if is successfully loads the patient.
@@ -659,6 +720,15 @@ public class Main : MonoBehaviour
 
         // Save bubble to array for deletion latter.
         activeWarningBubbles[bed] = t;
+
+        // Clear the food on table image if it is not empty already.
+        if (bed != 0)
+        {
+            var tempSprite = foodOnTableImgs[bed - 1].GetComponent<SpriteRenderer>();
+            tempSprite.sprite = foodOnTableSprites[4];
+        }
+        
+  
 
     }
 
@@ -727,6 +797,10 @@ public class Main : MonoBehaviour
             {
                 // Play Click Sound
                 clickGood1.Play();
+
+                // Place food on table by loading in the correct image.
+                var tempSprite = foodOnTableImgs[bed].GetComponent<SpriteRenderer>();
+                tempSprite.sprite = foodOnTableSprites[treatment];
 
                 // Destory the warning Message and change patients bool, so they get healther.
                 DestroyWarningBubbleAtBed(bed + 1);
