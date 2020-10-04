@@ -20444,7 +20444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -14.3}
+  m_AnchoredPosition: {x: 0, y: -14.300003}
   m_SizeDelta: {x: -10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1572957522
@@ -23116,6 +23116,8 @@ MonoBehaviour:
   currentMoney: 0
   currentMoneyText: {fileID: 1487730746}
   costOfSupplies: 02000000050000000800000014000000
+  coinAnimationPreFab: {fileID: 8335993593516125361, guid: 590a60f6cab716c45868335107bca2c5,
+    type: 3}
   musicSource: {fileID: 1706972233}
   clickGood1: {fileID: 839255811}
   clickGood2: {fileID: 1833399490}
@@ -23139,6 +23141,7 @@ MonoBehaviour:
   gameDifficulty: 0
   numberOfNewPatients: 0
   timeBetweenNewPatients: 10
+  highScores: 
   mainTimer: 0
   newPatientTimer: 0
   lenghtOfDay: 30

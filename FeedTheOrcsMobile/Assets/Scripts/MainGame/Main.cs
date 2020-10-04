@@ -131,7 +131,18 @@ public class Main : MonoBehaviour
     public Text currentMoneyText;
     public int[] costOfSupplies;
 
-#endregion
+    #endregion
+
+    #region Variables - Coin Animation
+    public GameObject coinAnimationPreFab;
+    private GameObject coinAnimation;
+    private Vector3 startCoinLocation;
+    private Vector3 hideCoinLocation = new Vector3(15f, 15f, 0f);
+    private Vector3 endCoinLocation = new Vector3(5.7f, 6.3f, 0f); // This is the location of the Coin Icon.
+    private Vector3 errorCoinLocation = new Vector3(1f, 1f, 0f); // This vector is used to see if the coin is close enough to the end location.
+    private bool coinAnimationActive;
+
+    # endregion
 
     #region Audio Sources
     public AudioSource musicSource;
@@ -218,6 +229,10 @@ public class Main : MonoBehaviour
         //Initialize Doctor Animator.
         docAnim = doctor.GetComponentInChildren<Animator>();
 
+        // Initialize coin animation.
+        coinAnimation = Instantiate(coinAnimationPreFab);
+        coinAnimation.transform.position = hideCoinLocation;
+
     }
 
     // Update is called once per frame
@@ -286,11 +301,24 @@ public class Main : MonoBehaviour
             SceneManager.LoadScene(2);
         }
 
+        // If the coin animation bool is true - run the moveCoinFunction.
+        if (coinAnimationActive)
+        {
+            moveCoinAnimation();
+        }
+
+        //else 
+       // {
+            // Move coin to the start location.
+        //    coinAnimation.transform.position = startCoinLocation;
+       // } 
+            
+            
 
 
 
         // End Of Day Tasks
-        if(mainTimer > lenghtOfDay)
+        if (mainTimer > lenghtOfDay)
         {
             // Reset Timer, Advance Day, and Update Stats On Screen.
             day += 1;
@@ -538,6 +566,10 @@ public class Main : MonoBehaviour
                 // Play audio clip and start co routine to wait for clip to finish.
                 StartCoroutine(WaitForOrcToSpeak(1));
 
+                // Play coin animation.
+                coinAnimation.transform.position = doctor.transform.position;
+                coinAnimationActive = true;
+
             }
 
             else
@@ -554,6 +586,10 @@ public class Main : MonoBehaviour
             {
                 // Play audio clip and start co routine to wait for clip to finish.
                 StartCoroutine(WaitForOrcToSpeak(0));
+
+                // Play coin animation.
+                startCoinLocation = currentPatients[doctorsCurrentBed].transform.position;
+                coinAnimationActive = true;
             }
 
             else
@@ -987,6 +1023,31 @@ public class Main : MonoBehaviour
 
 
     }
+
+    #endregion
+
+    #region
+
+    public void moveCoinAnimation()
+    {
+        
+
+        // Check to see if the coin is at (close to) the end location.
+        // If it is then move the coin to a hidden location.
+        if ((coinAnimation.transform.position - endCoinLocation).magnitude < errorCoinLocation.magnitude)
+        {
+            coinAnimationActive = false;
+            coinAnimation.transform.position = hideCoinLocation;
+        }
+
+        else
+        {
+            coinAnimation.transform.position = Vector3.MoveTowards(coinAnimation.transform.position, endCoinLocation, 10f * Time.deltaTime);
+        }
+
+
+    }
+
 
     #endregion
 
