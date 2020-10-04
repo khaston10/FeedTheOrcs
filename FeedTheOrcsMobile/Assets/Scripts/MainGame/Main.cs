@@ -18,7 +18,24 @@ public class Main : MonoBehaviour
     private GameObject tempSpeechBubbleBad;
     public GameObject[] foodOnTableImgs;
     public Sprite[] foodOnTableSprites;
-    
+
+    public GameObject newUpgradePanel;
+    public Text newUpgradeInformationText;
+    public Image newUpgradeInformationImg;
+
+
+    public GameObject RedTrollUseButton;
+    private Image RedTrollUseImage;
+    public Sprite RedBullActiveSprite;
+    public Sprite RedBullInActiveSprite;
+    public GameObject RedTrollBuyButton;
+
+    public GameObject OrcBanquetUseButton;
+    private Image OrcBanquetUseImage;
+    public Sprite OrcBanquetActiveSprite;
+    public Sprite OrcBanquetInActiveSprite;
+    public GameObject OrcBanquetBuyButton;
+
 
     #endregion
 
@@ -133,6 +150,21 @@ public class Main : MonoBehaviour
 
     #endregion
 
+    #region Variables - InstantUpgrades
+    // Currently there are 2 instant upgrades the player can access.
+
+    
+
+    // Orc Banquet - Feeds all orcs instantly
+
+    // Red Troll - Increases the player's speed for 10 seconds.
+    private int redTrollTimerLength = 10;
+    private float redTrollTimer;
+    private bool redTrollUpgradeActive;
+
+
+    #endregion
+
     #region Variables - Coin Animation
     public GameObject coinAnimationPreFab;
     private GameObject coinAnimation;
@@ -233,6 +265,9 @@ public class Main : MonoBehaviour
         coinAnimation = Instantiate(coinAnimationPreFab);
         coinAnimation.transform.position = hideCoinLocation;
 
+        // Initialize images for instant upgrades.
+        RedTrollUseImage = RedTrollUseButton.GetComponent<Image>();
+        OrcBanquetUseImage = OrcBanquetUseButton.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -307,16 +342,7 @@ public class Main : MonoBehaviour
             moveCoinAnimation();
         }
 
-        //else 
-       // {
-            // Move coin to the start location.
-        //    coinAnimation.transform.position = startCoinLocation;
-       // } 
-            
-            
-
-
-
+      
         // End Of Day Tasks
         if (mainTimer > lenghtOfDay)
         {
@@ -325,6 +351,35 @@ public class Main : MonoBehaviour
             UpdateStatsToScreen();
             mainTimer = 0;
         }
+
+        // Check to if the RedTroll is active. If it is, update the timer and disable the speed upgrade at the appropriate time.
+        if(redTrollUpgradeActive)
+        {
+            if (redTrollTimer > 0)
+            {
+                redTrollTimer -= 1 * Time.deltaTime;
+            }
+
+            else
+            {
+                redTrollUpgradeActive = false;
+                doctorSpeed = 4;
+            }
+        }
+
+        // Check to see if it is time to make the next upgrade available.
+        if (patientsHealed == 2 && RedTrollUseButton)
+        {
+            RedTrollUseButton.SetActive(true);
+            LoadNewUpgradePanel(0);
+        }
+
+        else if (patientsHealed == 4 && OrcBanquetUseButton)
+        {
+            OrcBanquetUseButton.SetActive(true);
+            LoadNewUpgradePanel(1);
+        }
+
 
     }
 
@@ -1026,7 +1081,8 @@ public class Main : MonoBehaviour
 
     #endregion
 
-    #region
+
+    #region Functions - Coin Animation
 
     public void moveCoinAnimation()
     {
@@ -1048,6 +1104,142 @@ public class Main : MonoBehaviour
 
     }
 
+
+    #endregion
+
+    #region Functions - Instant Upgrades
+
+    public void LoadNewUpgradePanel(int upgrade)
+    {
+        // Display the new upgrade panel.
+        newUpgradePanel.SetActive(true);
+
+        // Load the correct information and picture.
+        if (upgrade == 0)
+        {
+            newUpgradeInformationText.text = "Fizzy Drink";
+            newUpgradeInformationImg.sprite = RedBullActiveSprite;
+        }
+
+        else if (upgrade == 1)
+        {
+            newUpgradeInformationText.text = "Feed the Orcs";
+            newUpgradeInformationImg.sprite = OrcBanquetActiveSprite;
+        }
+
+        else
+        {
+            newUpgradeInformationText.text = "Tips, Tips, Tips";
+            newUpgradeInformationImg.sprite = RedBullActiveSprite;
+        }
+
+    }
+
+    public void ClickCloseNewUpgradePanel()
+    {
+        newUpgradePanel.SetActive(false);
+    }
+
+    public void ClickUseRedTroll()
+    {
+        // Check to see if the Red Troll is active - available for use.
+        if (RedTrollUseImage.sprite == RedBullActiveSprite)
+        {
+            Debug.Log("Using Red Troll");
+
+            // Set the Red Troll image to "In Active".
+            RedTrollUseImage.sprite = RedBullInActiveSprite;
+
+            // Set up the upgrade.
+            doctorSpeed = 10;
+            redTrollTimer = redTrollTimerLength;
+            redTrollUpgradeActive = true;
+        }
+
+        else
+        {
+            Debug.Log("Need to buy more Red Troll");
+
+            // Bring up the Buy Button.
+            RedTrollBuyButton.SetActive(true);
+
+        }
+    }
+
+    public void ClickBuyRedTroll()
+    {
+
+        if (currentMoney > 20)
+        {
+            currentMoney -= 20;
+
+            // Set the Red Troll image to "In Active".
+            RedTrollUseImage.sprite = RedBullActiveSprite;
+
+            // Update current money text on screen.
+            currentMoneyText.text = currentMoney.ToString();
+
+            // Hide the Buy Button.
+            RedTrollBuyButton.SetActive(false);
+        }
+
+        else
+        {
+            clickBad1.Play();
+
+            // Hide the Buy Button.
+            RedTrollBuyButton.SetActive(false);
+        }
+
+    }
+
+    public void ClickUseOrcBanquet()
+    {
+        // Check to see if the OrcBanquet is active - available for use.
+        if (OrcBanquetUseImage.sprite == OrcBanquetActiveSprite)
+        {
+            Debug.Log("Using OrcBanquet");
+
+            // Need to DO...
+
+        }
+
+        else
+        {
+            Debug.Log("Need to buy more OrcBanquet");
+
+            // Bring up the Buy Button.
+            OrcBanquetBuyButton.SetActive(true);
+
+        }
+    }
+
+    public void ClickBuyOrcBanquet()
+    {
+
+        if (currentMoney > 20)
+        {
+            currentMoney -= 20;
+
+            // Set the OrcBanquet image to "In Active".
+            OrcBanquetUseImage.sprite = OrcBanquetActiveSprite;
+
+            // Update current money text on screen.
+            currentMoneyText.text = currentMoney.ToString();
+
+            // Hide the Buy Button.
+            OrcBanquetBuyButton.SetActive(false);
+        }
+
+        else
+        {
+            clickBad1.Play();
+
+            // Hide the Buy Button.
+            OrcBanquetBuyButton.SetActive(false);
+        }
+
+    }
 
     #endregion
 
