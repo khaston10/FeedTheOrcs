@@ -36,6 +36,12 @@ public class Main : MonoBehaviour
     public Sprite OrcBanquetInActiveSprite;
     public GameObject OrcBanquetBuyButton;
 
+    public GameObject DragonsWealthUseButton;
+    private Image DragonsWealthUseImage;
+    public Sprite DragonsWealthActiveSprite;
+    public Sprite DragonsWealthInActiveSprite;
+    public GameObject DragonsWealthBuyButton;
+
 
     #endregion
 
@@ -161,6 +167,9 @@ public class Main : MonoBehaviour
     private int redTrollTimerLength = 10;
     private float redTrollTimer;
     private bool redTrollUpgradeActive;
+    private int dragonsWealthTimerLength = 10;
+    private float dragonsWealthTimer;
+    private bool dragonsWealthUpgradeActive;
 
 
     #endregion
@@ -268,6 +277,7 @@ public class Main : MonoBehaviour
         // Initialize images for instant upgrades.
         RedTrollUseImage = RedTrollUseButton.GetComponent<Image>();
         OrcBanquetUseImage = OrcBanquetUseButton.GetComponent<Image>();
+        DragonsWealthUseImage = DragonsWealthUseButton.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -367,17 +377,36 @@ public class Main : MonoBehaviour
             }
         }
 
+        if (dragonsWealthUpgradeActive)
+        {
+            if (dragonsWealthTimer > 0)
+            {
+                dragonsWealthTimer -= 1 * Time.deltaTime;
+            }
+
+            else
+            {
+                dragonsWealthUpgradeActive = false;
+            }
+        }
+
         // Check to see if it is time to make the next upgrade available.
-        if (patientsHealed == 2 && RedTrollUseButton)
+        if (patientsHealed == 2 && RedTrollUseButton.activeInHierarchy == false)
         {
             RedTrollUseButton.SetActive(true);
             LoadNewUpgradePanel(0);
         }
 
-        else if (patientsHealed == 4 && OrcBanquetUseButton)
+        else if (patientsHealed == 4 && OrcBanquetUseButton.activeInHierarchy == false)
         {
             OrcBanquetUseButton.SetActive(true);
             LoadNewUpgradePanel(1);
+        }
+
+        else if (patientsHealed == 6 && DragonsWealthUseButton.activeInHierarchy == false)
+        {
+            DragonsWealthUseButton.SetActive(true);
+            LoadNewUpgradePanel(2);
         }
 
 
@@ -546,7 +575,7 @@ public class Main : MonoBehaviour
             // Destroy the physical patient image.
             RemovePhysicalPatientFromBed(doctorsCurrentBed);
 
-            // Player gets MONEY$$$$
+            // Player gets MONEY$$$$ - If the player has Dragons Wealth active then the 
             currentMoney += 5;
             currentMoneyText.text = currentMoney.ToString();
 
@@ -1107,6 +1136,7 @@ public class Main : MonoBehaviour
 
     #endregion
 
+
     #region Functions - Instant Upgrades
 
     public void LoadNewUpgradePanel(int upgrade)
@@ -1129,8 +1159,8 @@ public class Main : MonoBehaviour
 
         else
         {
-            newUpgradeInformationText.text = "Tips, Tips, Tips";
-            newUpgradeInformationImg.sprite = RedBullActiveSprite;
+            newUpgradeInformationText.text = "Dragons Wealth";
+            newUpgradeInformationImg.sprite = DragonsWealthActiveSprite;
         }
 
     }
@@ -1238,8 +1268,57 @@ public class Main : MonoBehaviour
             // Hide the Buy Button.
             OrcBanquetBuyButton.SetActive(false);
         }
+    }
+
+    public void ClickUseDragonsWealth()
+    {
+        // Check to see if the DragonsWealth is active - available for use.
+        if (DragonsWealthUseImage.sprite == DragonsWealthActiveSprite)
+        {
+            Debug.Log("Using DragonsWealth");
+
+        dragonsWealthUpgradeActive = true;
+
+        }
+
+        else
+        {
+            Debug.Log("Need to buy more DragonsWealth");
+
+            // Bring up the Buy Button.
+            DragonsWealthBuyButton.SetActive(true);
+
+        }
+    }
+
+    public void ClickBuyDragonsWealth()
+    {
+
+        if (currentMoney > 20)
+        {
+            currentMoney -= 20;
+
+            // Set the DragonsWealth image to "In Active".
+            OrcBanquetUseImage.sprite = OrcBanquetActiveSprite;
+
+            // Update current money text on screen.
+            currentMoneyText.text = currentMoney.ToString();
+
+            // Hide the Buy Button.
+            DragonsWealthBuyButton.SetActive(false);
+        }
+
+        else
+        {
+            clickBad1.Play();
+
+            // Hide the Buy Button.
+            DragonsWealthBuyButton.SetActive(false);
+        }
 
     }
+
+    
 
     #endregion
 
