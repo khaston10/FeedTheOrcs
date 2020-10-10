@@ -1277,7 +1277,12 @@ public class Main : MonoBehaviour
         {
             Debug.Log("Using DragonsWealth");
 
-        dragonsWealthUpgradeActive = true;
+            // Set the Dragons Wealth image to "In Active".
+            DragonsWealthUseImage.sprite = DragonsWealthInActiveSprite;
+
+            // Set up the upgrade.
+            dragonsWealthTimer = dragonsWealthTimerLength;
+            dragonsWealthUpgradeActive = true;
 
         }
 
@@ -1299,7 +1304,7 @@ public class Main : MonoBehaviour
             currentMoney -= 20;
 
             // Set the DragonsWealth image to "In Active".
-            OrcBanquetUseImage.sprite = OrcBanquetActiveSprite;
+            DragonsWealthUseImage.sprite = DragonsWealthActiveSprite;
 
             // Update current money text on screen.
             currentMoneyText.text = currentMoney.ToString();
