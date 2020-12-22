@@ -19,8 +19,10 @@ public class PatientData : MonoBehaviour
     public int currentWarningMessageIndex;
     private int randomIndex;
 
+    // This variable helps to stop the clock when the game is paused.
+    public bool gameIsPaused;
     #endregion
-    // Start is called before the first frame update
+    
     void Awake()
     {
         // Populate all the basic information for the patient
@@ -49,7 +51,7 @@ public class PatientData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        patientTimer += Time.deltaTime;
+        if(!gameIsPaused) patientTimer += Time.deltaTime;
 
         
         // Check to see if the patient needs to be updated.

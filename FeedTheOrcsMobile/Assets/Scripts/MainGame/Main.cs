@@ -47,6 +47,7 @@ public class Main : MonoBehaviour
 
     #region Variables - Text objects to update
     public Text numberOfNewPatientsText;
+    public Text lobbyLimitText;
     public Text numberOfPatientsHealed;
     public Text[] nameOfPatientsText;
     public Text[] ageOfPatientsText;
@@ -86,8 +87,6 @@ public class Main : MonoBehaviour
     public GameObject[] warningBubbleLocations; // 0 - Sink, 1 - Bed 1, 2 - Bed 2, ...
     public GameObject[] activeWarningBubbles = new GameObject[7]; // This is used to keep track of active bubbles for deletion.
     public GameObject t; // Used when creating new Warning Bubbles to temporaly hold the object;
-
-    public int waitingRoomFullLimit; // How many patients can be in the waiting room before game over.
 
     // This deals with putting an image of the patient in the bad.
     public GameObject[] physicalPatientPrefabs;
@@ -156,32 +155,54 @@ public class Main : MonoBehaviour
 
     #endregion
 
-    #region Variables - InstantUpgrades
-    // Currently there are 2 instant upgrades the player can access.
-
-    
-
-    // Orc Banquet - Feeds all orcs instantly
+    #region Variables - Consumables
 
     // Red Troll - Increases the player's speed for 10 seconds.
+    // OrcBanquet - Feeds all orcs that are seated instantly.
+    // Dragons Wealth - THis makes all orcs pay 4 times the amount.
     private int redTrollTimerLength = 10;
     private float redTrollTimer;
     private bool redTrollUpgradeActive;
+    private bool orcBanquetUpgradeActive;
     private int dragonsWealthTimerLength = 10;
     private float dragonsWealthTimer;
     private bool dragonsWealthUpgradeActive;
+    public Slider redTrollSlider;
+    public Slider dragonsWealthSlider;
+
+
+    #endregion
+
+    #region Variables - Upgrades
+    public GameObject UpgradePanel;
+    private int UpgradeGems;
+    public Text upgradeGemsText;
+
+    // Upgrade Lobby Size
+    private int waitingRoomFullLimit; // How many patients can be in the waiting room before game over.
+
+    //Upgrade Popularity
+    public int timeBetweenNewPatients; // In seconds
+
+    //Upgrade Frugality
+
+
+    //upgrade Efficiency
 
 
     #endregion
 
     #region Variables - Coin Animation
     public GameObject coinAnimationPreFab;
+    public GameObject dragonsWealthCoinAnimationPreFab;
     private GameObject coinAnimation;
+    private GameObject dragonsWealthCoinAnimation;
     private Vector3 startCoinLocation;
     private Vector3 hideCoinLocation = new Vector3(15f, 15f, 0f);
     private Vector3 endCoinLocation = new Vector3(5.7f, 6.3f, 0f); // This is the location of the Coin Icon.
     private Vector3 errorCoinLocation = new Vector3(1f, 1f, 0f); // This vector is used to see if the coin is close enough to the end location.
     private bool coinAnimationActive;
+    private bool dragonsWealthCoinAnimationActive;
 
     # endregion
 
@@ -204,7 +225,6 @@ public class Main : MonoBehaviour
     public int patientsDeceased;
     public int gameDifficulty;
     public int numberOfNewPatients;
-    public int timeBetweenNewPatients; // In seconds
     private int lowestHighScore;
     private int lowestHighScoreIndex;
     public int[] highScores;
@@ -213,6 +233,22 @@ public class Main : MonoBehaviour
     public float mainTimer;
     public float newPatientTimer;
     public int lenghtOfDay; // In seconds.
+
+    private bool gameIsPaused;
+    #endregion
+
+    #region Variables - Tips&Tricks
+    public GameObject tipsAndTricksPanel;
+    public GameObject ConsumableSubPanel;
+    public GameObject foodSubPanel;
+    public GameObject upgradeSubPanel;
+    public Text consumableName;
+    public Text foodName;
+    public Text upgradeName;
+    public Text consumableDescriptionText;
+    public Text foodDescriptionText;
+    public Text upgradeDescriptionText;
+
     #endregion
 
     // Start is called before the first frame update
@@ -230,7 +266,9 @@ public class Main : MonoBehaviour
         // Set text objects to inital values.
         numberOfNewPatientsText.text = "0";
         numberOfPatientsHealed.text = "0";
+        lobbyLimitText.text = "/ " + waitingRoomFullLimit.ToString();
         currentMoneyText.text = currentMoney.ToString();
+        upgradeGemsText.text = UpgradeGems.ToString();
 
         // Load Doctor Data to screen.
         LoadDoctorsPage();
@@ -273,8 +311,10 @@ public class Main : MonoBehaviour
         // Initialize coin animation.
         coinAnimation = Instantiate(coinAnimationPreFab);
         coinAnimation.transform.position = hideCoinLocation;
+        dragonsWealthCoinAnimation = Instantiate(dragonsWealthCoinAnimationPreFab);
+        dragonsWealthCoinAnimation.transform.position = hideCoinLocation;
 
-        // Initialize images for instant upgrades.
+        // Initialize images for instant upgrades and timer values.
         RedTrollUseImage = RedTrollUseButton.GetComponent<Image>();
         OrcBanquetUseImage = OrcBanquetUseButton.GetComponent<Image>();
         DragonsWealthUseImage = DragonsWealthUseButton.GetComponent<Image>();
@@ -283,133 +323,138 @@ public class Main : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (movingDisabledForHandWashing == false)
+        // If the game is paused we do not want to update anything.
+        if (!gameIsPaused)
         {
-            // Move Doctor Towards Trigger if Doc Is Moving.
-            doctor.transform.position = Vector3.MoveTowards(doctor.transform.position, targetPos, doctorSpeed * Time.deltaTime);
-        }
-        
-
-        // Main Game Loop - THINGS PUT HERE NEED TO BE CLEAN AND STREAM LINED!!!
-        mainTimer += Time.deltaTime; // Update Timer
-        newPatientTimer += Time.deltaTime;
-        handWashingTimer += Time.deltaTime;
-
-        // New Patient Update
-        if(newPatientTimer > timeBetweenNewPatients)
-        {
-            numberOfNewPatients += 1;
-            UpdateStatsToScreen();
-
-            // Check to see if waiting room is full - GAMEOVER
-            if (numberOfNewPatients > waitingRoomFullLimit)
+            if (movingDisabledForHandWashing == false)
             {
+                // Move Doctor Towards Trigger if Doc Is Moving.
+                doctor.transform.position = Vector3.MoveTowards(doctor.transform.position, targetPos, doctorSpeed * Time.deltaTime);
+            }
+
+
+            // Main Game Loop - THINGS PUT HERE NEED TO BE CLEAN AND STREAM LINED!!!
+            mainTimer += Time.deltaTime; // Update Timer
+            newPatientTimer += Time.deltaTime;
+            handWashingTimer += Time.deltaTime;
+
+            // New Patient Update
+            if (newPatientTimer > timeBetweenNewPatients)
+            {
+                numberOfNewPatients += 1;
+                UpdateStatsToScreen();
+
+                // Check to see if waiting room is full - GAMEOVER
+                if (numberOfNewPatients > waitingRoomFullLimit)
+                {
+                    SaveData();
+                    SceneManager.LoadScene(2);
+                }
+
+                //Reset Timer
+                newPatientTimer = 0;
+            }
+
+            // Hand Wash Update
+            if (needsToWashHands == false && handWashingTimer > timeBetweenHandWash)
+            {
+                // Create warning bubble at hand wash station.
+                CreateWarningBubbleAtBed(0, 6);
+
+                // Set bool so doctor needs to wash hands.
+                needsToWashHands = true;
+
+                // Set doctors status to "CONTAMINATED"
+                statusOfDoctor = "EXHAUSTED";
+                statusOfDoctorText.text = statusOfDoctor;
+
+
+                // reset timer.
+                handWashingTimer = 0;
+            }
+
+            else if (handWashWarning == false && needsToWashHands && handWashingTimer > timeDoctorHasToWashHands - warningTime)
+            {
+                // Replace the warning bubble with a RED warning bubble so the user knows there is only a few seconds to infection.
+                DestroyWarningBubbleAtBed(0);
+                CreateWarningBubbleAtBed(0, 7);
+
+                handWashWarning = true;
+            }
+
+            else if (handWashWarning && handWashingTimer > timeDoctorHasToWashHands)
+            {
+                statusOfDoctor = "EXHAUSTED";
                 SaveData();
                 SceneManager.LoadScene(2);
             }
 
-            //Reset Timer
-            newPatientTimer = 0;
-        }
-
-        // Hand Wash Update
-        if (needsToWashHands == false && handWashingTimer > timeBetweenHandWash)
-        {
-            // Create warning bubble at hand wash station.
-            CreateWarningBubbleAtBed(0, 6);
-
-            // Set bool so doctor needs to wash hands.
-            needsToWashHands = true;
-
-            // Set doctors status to "CONTAMINATED"
-            statusOfDoctor = "EXHAUSTED";
-            statusOfDoctorText.text = statusOfDoctor;
-            
-
-            // reset timer.
-            handWashingTimer = 0;
-        }
-
-        else if (handWashWarning == false && needsToWashHands && handWashingTimer > timeDoctorHasToWashHands - warningTime)
-        {
-            // Replace the warning bubble with a RED warning bubble so the user knows there is only a few seconds to infection.
-            DestroyWarningBubbleAtBed(0);
-            CreateWarningBubbleAtBed(0, 7);
-
-            handWashWarning = true;
-        }
-
-        else if (handWashWarning && handWashingTimer > timeDoctorHasToWashHands)
-        {
-            statusOfDoctor = "EXHAUSTED";
-            SaveData();
-            SceneManager.LoadScene(2);
-        }
-
-        // If the coin animation bool is true - run the moveCoinFunction.
-        if (coinAnimationActive)
-        {
-            moveCoinAnimation();
-        }
-
-      
-        // End Of Day Tasks
-        if (mainTimer > lenghtOfDay)
-        {
-            // Reset Timer, Advance Day, and Update Stats On Screen.
-            day += 1;
-            UpdateStatsToScreen();
-            mainTimer = 0;
-        }
-
-        // Check to if the RedTroll is active. If it is, update the timer and disable the speed upgrade at the appropriate time.
-        if(redTrollUpgradeActive)
-        {
-            if (redTrollTimer > 0)
+            // If the coin animation bool is true - run the moveCoinFunction.
+            if (coinAnimationActive || dragonsWealthCoinAnimationActive)
             {
-                redTrollTimer -= 1 * Time.deltaTime;
+                moveCoinAnimation();
             }
 
-            else
-            {
-                redTrollUpgradeActive = false;
-                doctorSpeed = 4;
-            }
-        }
 
-        if (dragonsWealthUpgradeActive)
-        {
-            if (dragonsWealthTimer > 0)
+            // End Of Day Tasks
+            if (mainTimer > lenghtOfDay)
             {
-                dragonsWealthTimer -= 1 * Time.deltaTime;
+                // Reset Timer, Advance Day, and Update Stats On Screen.
+                day += 1;
+                UpdateStatsToScreen();
+                mainTimer = 0;
             }
 
-            else
+            // Check to if the RedTroll is active. If it is, update the timer and disable the speed upgrade at the appropriate time.
+            if (redTrollUpgradeActive)
             {
-                dragonsWealthUpgradeActive = false;
+                if (redTrollTimer > 0)
+                {
+                    redTrollTimer -= 1 * Time.deltaTime;
+                    redTrollSlider.value = CalculateSliderValue("RedTroll");
+                }
+
+                else
+                {
+                    redTrollUpgradeActive = false;
+                    doctorSpeed = 4;
+                }
             }
+
+            if (dragonsWealthUpgradeActive)
+            {
+                if (dragonsWealthTimer > 0)
+                {
+                    dragonsWealthTimer -= 1 * Time.deltaTime;
+                    dragonsWealthSlider.value = CalculateSliderValue("DragonsWealth");
+                }
+
+                else
+                {
+                    dragonsWealthUpgradeActive = false;
+                }
+            }
+
+            // Check to see if it is time to make the next upgrade available.
+            if (patientsHealed == 2 && RedTrollUseButton.activeInHierarchy == false)
+            {
+                RedTrollUseButton.SetActive(true);
+                LoadNewUpgradePanel(0);
+            }
+
+            else if (patientsHealed == 4 && OrcBanquetUseButton.activeInHierarchy == false)
+            {
+                OrcBanquetUseButton.SetActive(true);
+                LoadNewUpgradePanel(1);
+            }
+
+            else if (patientsHealed == 6 && DragonsWealthUseButton.activeInHierarchy == false)
+            {
+                DragonsWealthUseButton.SetActive(true);
+                LoadNewUpgradePanel(2);
+            }
+
         }
-
-        // Check to see if it is time to make the next upgrade available.
-        if (patientsHealed == 2 && RedTrollUseButton.activeInHierarchy == false)
-        {
-            RedTrollUseButton.SetActive(true);
-            LoadNewUpgradePanel(0);
-        }
-
-        else if (patientsHealed == 4 && OrcBanquetUseButton.activeInHierarchy == false)
-        {
-            OrcBanquetUseButton.SetActive(true);
-            LoadNewUpgradePanel(1);
-        }
-
-        else if (patientsHealed == 6 && DragonsWealthUseButton.activeInHierarchy == false)
-        {
-            DragonsWealthUseButton.SetActive(true);
-            LoadNewUpgradePanel(2);
-        }
-
-
     }
 
     #region Functions
@@ -490,38 +535,16 @@ public class Main : MonoBehaviour
 
     public void LoadGameDifficulty()
     {
-        if (gameDifficulty == 0)
-        {
+        // This function will need to be re worked once upgrades are implementaed.
             timeBetweenNewPatients = 10;
-            waitingRoomFullLimit = 10;
+            waitingRoomFullLimit = 5;
             timeDoctorHasToWashHands = 30;
             timeBetweenHandWashMin = 20;
             timeBetweenHandWashMax = 120;
             warningTime = 10;
             currentMoney = 50;
-        }
+            UpgradeGems = 2;
 
-        else if (gameDifficulty == 1)
-        {
-            timeBetweenNewPatients = 8;
-            waitingRoomFullLimit = 10;
-            timeDoctorHasToWashHands = 20;
-            timeBetweenHandWashMin = 20;
-            timeBetweenHandWashMax = 60;
-            warningTime = 8;
-            currentMoney = 20;
-        }
-
-        else
-        {
-            timeBetweenNewPatients = 6;
-            waitingRoomFullLimit = 10;
-            timeDoctorHasToWashHands = 15;
-            timeBetweenHandWashMin = 20;
-            timeBetweenHandWashMax = 40;
-            warningTime = 5;
-            currentMoney = 0;
-        }
     }
 
     public void HidePatientPanels()
@@ -545,6 +568,9 @@ public class Main : MonoBehaviour
         // Play the audio for unhappy if the int i == 0 and happy if i == 1.
         if (i == 1)
         {
+            // Set the movement ability.
+            movingDisabledForHandWashing = true;
+
             // Create a speech bubble at the orc's location.
             tempSpeechBubbleGood = Instantiate(SpeechBubbleGood);
             tempSpeechBubbleGood.transform.position = warningBubbleLocations[doctorsCurrentBed + 1].transform.position;
@@ -556,6 +582,9 @@ public class Main : MonoBehaviour
 
             // Suspend execution for 5 seconds
             yield return new WaitForSeconds(2);
+
+            // Set the movement ability.
+            movingDisabledForHandWashing = false;
 
             // Delete the patient and update stat.
             Destroy(currentPatients[doctorsCurrentBed]);
@@ -576,7 +605,14 @@ public class Main : MonoBehaviour
             RemovePhysicalPatientFromBed(doctorsCurrentBed);
 
             // Player gets MONEY$$$$ - If the player has Dragons Wealth active then the 
-            currentMoney += 5;
+            if (dragonsWealthUpgradeActive)
+            {
+                currentMoney += 20;
+            }
+            else
+            {
+                currentMoney += 5;
+            }
             currentMoneyText.text = currentMoney.ToString();
 
             // Play Click Sound
@@ -651,8 +687,20 @@ public class Main : MonoBehaviour
                 StartCoroutine(WaitForOrcToSpeak(1));
 
                 // Play coin animation.
-                coinAnimation.transform.position = doctor.transform.position;
-                coinAnimationActive = true;
+                startCoinLocation = doctor.transform.position;
+                Debug.Log(startCoinLocation);
+                if (dragonsWealthUpgradeActive)
+                {
+                    dragonsWealthCoinAnimationActive = true;
+                    dragonsWealthCoinAnimation.transform.position = startCoinLocation;
+                }
+
+                else
+                {
+                    coinAnimationActive = true;
+                    coinAnimation.transform.position = startCoinLocation;
+                }
+                
 
             }
 
@@ -670,10 +718,6 @@ public class Main : MonoBehaviour
             {
                 // Play audio clip and start co routine to wait for clip to finish.
                 StartCoroutine(WaitForOrcToSpeak(0));
-
-                // Play coin animation.
-                startCoinLocation = currentPatients[doctorsCurrentBed].transform.position;
-                coinAnimationActive = true;
             }
 
             else
@@ -695,6 +739,8 @@ public class Main : MonoBehaviour
         // Currently only for Day and New Patients.
         numberOfNewPatientsText.text = numberOfNewPatients.ToString();
         numberOfPatientsHealed.text = patientsHealed.ToString();
+        lobbyLimitText.text = "/ " + waitingRoomFullLimit.ToString();
+        upgradeGemsText.text = UpgradeGems.ToString();
     }
 
 
@@ -797,6 +843,16 @@ public class Main : MonoBehaviour
         return true;
 
     }
+
+
+    public void PauseUnpausePatients(bool isPaused)
+    {
+        for (int i = 0; i < currentPatients.Length; i++)
+        {
+            if (currentPatients[i] != null) currentPatients[i].GetComponent<PatientData>().gameIsPaused = isPaused;
+        }
+    }
+
 
     //public void UpdatePatientDataToScreen(int bed)
     //{
@@ -1059,8 +1115,6 @@ public class Main : MonoBehaviour
         }
     }
 
-
-
     #endregion
 
 
@@ -1115,21 +1169,35 @@ public class Main : MonoBehaviour
 
     public void moveCoinAnimation()
     {
-        
-
         // Check to see if the coin is at (close to) the end location.
         // If it is then move the coin to a hidden location.
-        if ((coinAnimation.transform.position - endCoinLocation).magnitude < errorCoinLocation.magnitude)
+        if (coinAnimationActive)
         {
-            coinAnimationActive = false;
-            coinAnimation.transform.position = hideCoinLocation;
-        }
+            if ((coinAnimation.transform.position - endCoinLocation).magnitude < errorCoinLocation.magnitude)
+            {
+                coinAnimation.transform.position = hideCoinLocation;
+                coinAnimationActive = false;
+            }
 
-        else
+            else
+            {
+                coinAnimation.transform.position = Vector3.MoveTowards(coinAnimation.transform.position, endCoinLocation, 10f * Time.deltaTime);
+            }
+        }
+        
+        else if (dragonsWealthCoinAnimationActive)
         {
-            coinAnimation.transform.position = Vector3.MoveTowards(coinAnimation.transform.position, endCoinLocation, 10f * Time.deltaTime);
-        }
+            if ((dragonsWealthCoinAnimation.transform.position - endCoinLocation).magnitude < errorCoinLocation.magnitude)
+            {
+                dragonsWealthCoinAnimationActive = false;
+                dragonsWealthCoinAnimation.transform.position = hideCoinLocation;
+            }
 
+            else
+            {
+                dragonsWealthCoinAnimation.transform.position = Vector3.MoveTowards(dragonsWealthCoinAnimation.transform.position, endCoinLocation, 10f * Time.deltaTime);
+            }
+        }
 
     }
 
@@ -1137,7 +1205,7 @@ public class Main : MonoBehaviour
     #endregion
 
 
-    #region Functions - Instant Upgrades
+    #region Functions - Consumables
 
     public void LoadNewUpgradePanel(int upgrade)
     {
@@ -1230,7 +1298,44 @@ public class Main : MonoBehaviour
         {
             Debug.Log("Using OrcBanquet");
 
-            // Need to DO...
+            for(int i = 0; i < currentPatients.Length; i++)
+            {
+                if (currentPatients[i] != null)
+                {
+                    // Delete the patient and update stat.
+                    Destroy(currentPatients[i]);
+                    currentPatients[i] = null;
+                    patientsHealed += 1;
+
+                    // Update Patient Data and reset bed button
+                    //UpdatePatientDataToScreen(doctorsCurrentBed);
+                    SetNewPatientButtonsOnOff(i, true);
+
+                    // Delete Warning Bubble if it is still there.
+                    if (activeWarningBubbles[i + 1] != null)
+                    {
+                        DestroyWarningBubbleAtBed(i + 1);
+                    }
+
+                    // Destroy the physical patient image.
+                    RemovePhysicalPatientFromBed(i);
+
+                    // Player gets MONEY$$$$ - If the player has Dragons Wealth active then the 
+                    if (dragonsWealthUpgradeActive)
+                    {
+                        currentMoney += 20;
+                    }
+                    else
+                    {
+                        currentMoney += 5;
+                    }
+                    currentMoneyText.text = currentMoney.ToString();
+                }
+            }
+
+            // Set the Orc Banquet image to "In Active".
+            OrcBanquetUseImage.sprite = OrcBanquetInActiveSprite;
+
 
         }
 
@@ -1323,7 +1428,175 @@ public class Main : MonoBehaviour
 
     }
 
-    
+    float CalculateSliderValue(string nameOfUpgrade)
+    {
+        if (nameOfUpgrade == "RedTroll")
+        {
+            return (redTrollTimer / redTrollTimerLength);
+        }
+
+        else if (nameOfUpgrade == "DragonsWealth")
+        {
+            return (dragonsWealthTimer / dragonsWealthTimerLength);
+        }
+
+        else
+        {
+            Debug.Log("Upgrade was not names correctly when calling CalculateSliderValue");
+            return 0f;
+        }
+    }
+
+    #endregion
+
+
+    #region Functions - Tips&Ticks
+
+    public void OpenCloseTipsPanel()
+    {
+        if (tipsAndTricksPanel.activeInHierarchy)
+        {
+            tipsAndTricksPanel.SetActive(false);
+            gameIsPaused = false;
+            PauseUnpausePatients(false);
+        }
+        else
+        {
+            tipsAndTricksPanel.SetActive(true);
+            gameIsPaused = true;
+            PauseUnpausePatients(true);
+        }
+    }
+
+    public void OpenTipsSubPanel(string nameOfPanel)
+    {
+        if (nameOfPanel == "Consumables")
+        {
+            ConsumableSubPanel.SetActive(true);
+            foodSubPanel.SetActive(false);
+            upgradeSubPanel.SetActive(false);
+        }
+
+        else if (nameOfPanel == "Food")
+        {
+            ConsumableSubPanel.SetActive(false);
+            foodSubPanel.SetActive(true);
+            upgradeSubPanel.SetActive(false);
+        }
+
+        else if (nameOfPanel == "Upgrades")
+        {
+            ConsumableSubPanel.SetActive(false);
+            foodSubPanel.SetActive(false);
+            upgradeSubPanel.SetActive(true);
+        }
+
+        else Debug.Log("Invalid use of OpenTipsSubPanel");
+    }
+
+    public void GetDescriptionForConsumables(int description)
+    {
+        // RedTroll - 1, OrcBanquet - 2, DragonsWealth - 3
+        if (description == 1)
+        {
+            consumableName.text = "RED TROLL";
+            consumableDescriptionText.text = "Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink.";
+        }
+
+        else if (description == 2)
+        {
+            consumableName.text = "ORC BANQUET";
+            consumableDescriptionText.text = "Let's throw a party!";
+        }
+
+        else if (description == 3)
+        {
+            consumableName.text = "DRAON'S WEALTH";
+            consumableDescriptionText.text = "Give me money. Give me money. Give me money. Give me money. Give me money.";
+        }
+
+        else
+        {
+            Debug.Log("Invalid function call");
+        }
+    }
+
+    public void GetDescriptionForFood(string nameOfFood)
+    {
+        if (nameOfFood == "Ale")
+        {
+            foodName.text = "Ale";
+            foodDescriptionText.text = "Aggressively bold, .... ";
+        }
+
+        else if (nameOfFood == "Classic Combo")
+        {
+            foodName.text = "Classic Combo";
+            foodDescriptionText.text = "Aggressively bo, .... ";
+        }
+
+        else if (nameOfFood == "The Hungry Orc")
+        {
+            foodName.text = "The Hungry Orc";
+            foodDescriptionText.text = "Aggressively , .... ";
+        }
+
+        else if (nameOfFood == "Gut Buster Deluxe")
+        {
+            foodName.text = "Gut Buster Deluxe";
+            foodDescriptionText.text = "The Gut Buster Deluxe, .... ";
+        }
+
+        else Debug.Log("Invalid use of GetDescriptionForFood");
+    }
+
+    public void GetDescriptionForUpgrade(string nameOfUpgrade)
+    {
+        if (nameOfUpgrade == "Upgrade01")
+        {
+            upgradeName.text = "Lobby Size";
+            upgradeDescriptionText.text = "If the lobby fills full of hungry Orcs, they will overrun the diner.\nIncrease the size of the lobby.";
+        }
+
+        else if (nameOfUpgrade == "Upgrade02")
+        {
+            upgradeName.text = "Popularity";
+            upgradeDescriptionText.text = "Increase Jughog's Diner popularity within the Orc community.\nMore Orcs will come.";
+        }
+
+        else if (nameOfUpgrade == "Upgrade03")
+        {
+            upgradeName.text = "Frugality";
+            upgradeDescriptionText.text = "The frugal Orc spends less on ingredents.\nFood costs less to make.";
+        }
+
+        else if (nameOfUpgrade == "Upgrade04")
+        {
+            upgradeName.text = "Efficiency";
+            upgradeDescriptionText.text = "Efficient, Efficient, Efficient\nTimed consumables will last longer.";
+        }
+
+        else Debug.Log("Invalid use of GetDescriptionForUpgrade");
+    }
+    #endregion
+
+    #region Functions - Upgrades
+
+    public void OpenCloseUpgradePanel()
+    {
+        if (UpgradePanel.activeInHierarchy)
+        {
+            UpgradePanel.SetActive(false);
+            gameIsPaused = false;
+            PauseUnpausePatients(false);
+        }
+        else
+        {
+            UpgradePanel.SetActive(true);
+            gameIsPaused = true;
+            PauseUnpausePatients(true);
+        }
+    }
 
     #endregion
 

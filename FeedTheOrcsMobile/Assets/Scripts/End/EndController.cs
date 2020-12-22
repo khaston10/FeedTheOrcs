@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class EndController : MonoBehaviour
 {
@@ -16,11 +17,12 @@ public class EndController : MonoBehaviour
     #endregion
 
     #region Text objects to update
-    public Text titeText;
+    public Text rankText;
     public Text patientsSavedText;
     public GameObject creditsPanel;
     public Text[] highScoreTexts;
-    public Text newHighScoreText;
+    public Slider rankSlider;
+    private float sliderTimer = 0;
     #endregion
 
     #region Audio Sources
@@ -44,6 +46,9 @@ public class EndController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Update slider.
+        if (sliderTimer < 1) rankSlider.value = CalculateSliderValue();
+        sliderTimer += Time.deltaTime;
         
     }
 
@@ -61,15 +66,21 @@ public class EndController : MonoBehaviour
             highScoreTexts[i].text = GlobalCont.Instance.highScores[i].ToString();
         }
 
-        // If the player has achieved a high score we will make the "New High Score" object active.
-        if (GlobalCont.Instance.newHighScore) newHighScoreText.text = "New High Score";
-        else newHighScoreText.text = "";
-}
+    }
 
     public void SetTextToEndGameScreen()
     {
-        if (statusOfDoctor == "EXHAUSTED") titeText.text = nameOfDoctor + " is EXHAUSTED";
-        else titeText.text = "Too Many Customers Waiting!";
+        if (patientsHealed <= 10) rankText.text = "RANK: GRUNT DISHWASHER";
+        else if (patientsHealed <= 20) rankText.text = "RANK: DISHWASHER";
+        else if (patientsHealed <= 30) rankText.text = "RANK: MASTER DISHWASHER";
+        else if (patientsHealed <= 40) rankText.text = "RANK: GRUNT COOK";
+        else if (patientsHealed <= 50) rankText.text = "RANK: COOK";
+        else if (patientsHealed <= 60) rankText.text = "RANK: MASTER COOK";
+        else if (patientsHealed <= 70) rankText.text = "RANK: GRUNT CHEF";
+        else if (patientsHealed <= 80) rankText.text = "RANK: CHEF";
+        else if (patientsHealed <= 90) rankText.text = "RANK: MASTER CHEF";
+        else if (patientsHealed <= 100) rankText.text = "RANK: DEMIGOD CHEF";
+
         patientsSavedText.text = patientsHealed.ToString();
     }
 
@@ -97,4 +108,10 @@ public class EndController : MonoBehaviour
         creditsPanel.SetActive(false);
         clickGood2.Play();
     }
+
+    float CalculateSliderValue()
+    {
+        return ((patientsHealed * sliderTimer) / 100);
+    }
+
 }
