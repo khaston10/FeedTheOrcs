@@ -1052,7 +1052,12 @@ public class Main : MonoBehaviour
 
         }
 
-        else clickBad1.Play();
+        else
+        {
+            clickBad1.Play();
+            Debug.Log("Trying to wash hands");
+        }
+        
     }
 
     IEnumerator WaitForHandsToWash()
