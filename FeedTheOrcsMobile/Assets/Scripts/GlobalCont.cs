@@ -23,6 +23,9 @@ public class GlobalCont : MonoBehaviour
     public int[] highScores;
     public bool newHighScore;
     public int wealth;
+    public int waitingRoomFullLimit;
+    public int numberOfNewPatients;
+    public bool playerHasRunOutOfSuppliesAndMoney;
     #endregion
 
     void Awake()

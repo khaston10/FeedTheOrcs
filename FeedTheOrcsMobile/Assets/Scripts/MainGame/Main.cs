@@ -246,6 +246,7 @@ public class Main : MonoBehaviour
     private int lowestHighScore;
     private int lowestHighScoreIndex;
     public int[] highScores;
+    private bool playerHasRunOutOfSuppliesAndMoney;
 
     // Variables to keep each day moving.
     public float mainTimer;
@@ -272,6 +273,7 @@ public class Main : MonoBehaviour
     public Text upgradeCurrentStatText;
 
     #endregion
+
 
     // Start is called before the first frame update
     void Start()
@@ -424,10 +426,25 @@ public class Main : MonoBehaviour
             {
                 // Reset Timer, Advance Day, and Update Stats On Screen.
                 day += 1;
-                UpdateStatsToScreen();
                 mainTimer = 0;
                 UpgradeGems += upgradeGemRate;
                 newDay.Play();
+                UpdateStatsToScreen();
+
+                // Check to see if player still has money and supplies.
+                if (CheckToSeeIfPlayerIsOutOfMoney())
+                {
+                    playerHasRunOutOfSuppliesAndMoney = true;
+                    SaveData();
+                    SceneManager.LoadScene(2);
+                }
+
+                // Check to see if the 10 day time limit is up.
+                if (day == 11)
+                {
+                    SaveData();
+                    SceneManager.LoadScene(2);
+                }
             }
 
             // Check to if the RedTroll is active. If it is, update the timer and disable the speed upgrade at the appropriate time.
@@ -484,6 +501,7 @@ public class Main : MonoBehaviour
 
     #region Functions
 
+    #region Load-Save Functions
     public void LoadData()
     {
         nameOfDoctor = GlobalCont.Instance.nameOfDoctor;
@@ -512,6 +530,9 @@ public class Main : MonoBehaviour
         GlobalCont.Instance.patientsDeceased = patientsDeceased;
         GlobalCont.Instance.spriteOfDoctor = spriteOfDoctor;
         GlobalCont.Instance.wealth = currentMoney;
+        GlobalCont.Instance.numberOfNewPatients = numberOfNewPatients;
+        GlobalCont.Instance.waitingRoomFullLimit = waitingRoomFullLimit;
+        GlobalCont.Instance.playerHasRunOutOfSuppliesAndMoney = playerHasRunOutOfSuppliesAndMoney;
 
         SaveHighScoreToPlayerPrefs();
 
@@ -608,6 +629,11 @@ public class Main : MonoBehaviour
 
     }
 
+
+    #endregion
+
+
+    #region Mics - Functions
     public void HidePatientPanels()
     {
         for (int i = 0; i < patientPanels.Length; i++)
@@ -809,6 +835,18 @@ public class Main : MonoBehaviour
     {
         return (mainTimer / lenghtOfDay);
     }
+
+    bool CheckToSeeIfPlayerIsOutOfMoney()
+    {
+        if (currentMoney < 5 && numberOfSupplies[0] == 0 && numberOfSupplies[1] == 0 && numberOfSupplies[2] == 0 && numberOfSupplies[3] == 0)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    #endregion
 
 
     #region Functions - Set Lights For Buttons
