@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Security.Cryptography;
+
 
 public class Main : MonoBehaviour
 {
@@ -48,7 +48,7 @@ public class Main : MonoBehaviour
     #region Variables - Text objects to update
     public Text numberOfNewPatientsText;
     public Text lobbyLimitText;
-    public Text numberOfPatientsHealed;
+    public Text currentDayText;
     public Text[] nameOfPatientsText;
     public Text[] ageOfPatientsText;
     public Text[] sexOfPatientsText;
@@ -176,7 +176,19 @@ public class Main : MonoBehaviour
     #region Variables - Upgrades
     public GameObject UpgradePanel;
     private int UpgradeGems;
+    private int upgradeGemRate;
     public Text upgradeGemsText;
+
+    public GameObject[] upgradeLobbySizeBacklights;
+    public GameObject[] upgradePopularityBacklights;
+    public GameObject[] upgradePurseStringsBacklights;
+    public GameObject[] upgradeChemistryBacklights;
+
+    private int upgradeLobbySizeCurrentValue; // This value should be between 0 - 10
+    private int upgradePopularityCurrentValue; // This value should be between 0 - 10
+    private int upgradePurseStringsCurrentValue; // This value should be between 0 - 10
+    private int upgradeChemistryCurrentValue; // This value should be between 0 - 10
+
 
     // Upgrade Lobby Size
     private int waitingRoomFullLimit; // How many patients can be in the waiting room before game over.
@@ -211,6 +223,12 @@ public class Main : MonoBehaviour
     public AudioSource clickGood1;
     public AudioSource clickGood2;
     public AudioSource clickBad1;
+    public AudioSource newDay;
+    public AudioSource newCustomer;
+    public AudioSource spendMoney;
+    public AudioSource getMoney;
+    public AudioSource turnPage;
+    public AudioSource useConsumable;
     public AudioSource warning1;
     public AudioSource serverDrink;
     public AudioSource unhappy;
@@ -233,6 +251,7 @@ public class Main : MonoBehaviour
     public float mainTimer;
     public float newPatientTimer;
     public int lenghtOfDay; // In seconds.
+    public Slider timeOfDaySlider;
 
     private bool gameIsPaused;
     #endregion
@@ -248,6 +267,9 @@ public class Main : MonoBehaviour
     public Text consumableDescriptionText;
     public Text foodDescriptionText;
     public Text upgradeDescriptionText;
+    public Text consumablesCurrentStatText;
+    public Text foodCurrentStatText;
+    public Text upgradeCurrentStatText;
 
     #endregion
 
@@ -265,7 +287,6 @@ public class Main : MonoBehaviour
 
         // Set text objects to inital values.
         numberOfNewPatientsText.text = "0";
-        numberOfPatientsHealed.text = "0";
         lobbyLimitText.text = "/ " + waitingRoomFullLimit.ToString();
         currentMoneyText.text = currentMoney.ToString();
         upgradeGemsText.text = UpgradeGems.ToString();
@@ -335,6 +356,7 @@ public class Main : MonoBehaviour
 
             // Main Game Loop - THINGS PUT HERE NEED TO BE CLEAN AND STREAM LINED!!!
             mainTimer += Time.deltaTime; // Update Timer
+            timeOfDaySlider.value = CalculateTimeOfDaySliderValue();
             newPatientTimer += Time.deltaTime;
             handWashingTimer += Time.deltaTime;
 
@@ -343,6 +365,7 @@ public class Main : MonoBehaviour
             {
                 numberOfNewPatients += 1;
                 UpdateStatsToScreen();
+                newCustomer.Play();
 
                 // Check to see if waiting room is full - GAMEOVER
                 if (numberOfNewPatients > waitingRoomFullLimit)
@@ -403,6 +426,8 @@ public class Main : MonoBehaviour
                 day += 1;
                 UpdateStatsToScreen();
                 mainTimer = 0;
+                UpgradeGems += upgradeGemRate;
+                newDay.Play();
             }
 
             // Check to if the RedTroll is active. If it is, update the timer and disable the speed upgrade at the appropriate time.
@@ -486,6 +511,7 @@ public class Main : MonoBehaviour
         GlobalCont.Instance.patientsHealed = patientsHealed;
         GlobalCont.Instance.patientsDeceased = patientsDeceased;
         GlobalCont.Instance.spriteOfDoctor = spriteOfDoctor;
+        GlobalCont.Instance.wealth = currentMoney;
 
         SaveHighScoreToPlayerPrefs();
 
@@ -536,14 +562,49 @@ public class Main : MonoBehaviour
     public void LoadGameDifficulty()
     {
         // This function will need to be re worked once upgrades are implementaed.
-            timeBetweenNewPatients = 10;
-            waitingRoomFullLimit = 5;
             timeDoctorHasToWashHands = 30;
             timeBetweenHandWashMin = 20;
             timeBetweenHandWashMax = 120;
             warningTime = 10;
+
+        // Set the dificulty values.
+        if (gameDifficulty == 0)
+        {
+            // Set initial upgrade levels and then call the update function.
+            upgradeLobbySizeCurrentValue = 3;
+            upgradePopularityCurrentValue = 3;
+            upgradePurseStringsCurrentValue = 3;
+            upgradeChemistryCurrentValue = 3;
             currentMoney = 50;
             UpgradeGems = 2;
+            upgradeGemRate = 3;
+        }
+
+        else if (gameDifficulty == 1)
+        {
+            // Set initial upgrade levels and then call the update function.
+            upgradeLobbySizeCurrentValue = 2;
+            upgradePopularityCurrentValue = 2;
+            upgradePurseStringsCurrentValue = 2;
+            upgradeChemistryCurrentValue = 2;
+            currentMoney = 10;
+            UpgradeGems = 1;
+            upgradeGemRate = 3;
+        }
+
+        else if (gameDifficulty == 2)
+        {
+            // Set initial upgrade levels and then call the update function.
+            upgradeLobbySizeCurrentValue = 1;
+            upgradePopularityCurrentValue = 1;
+            upgradePurseStringsCurrentValue = 1;
+            upgradeChemistryCurrentValue = 1;
+            currentMoney = 0;
+            UpgradeGems = 0;
+            upgradeGemRate = 3;
+        }
+
+        UpdateUpgradeValues();
 
     }
 
@@ -579,6 +640,7 @@ public class Main : MonoBehaviour
             var randAudio = Random.Range(0, happyClips.Length);
             happy.clip = happyClips[randAudio];
             happy.Play();
+            getMoney.Play();
 
             // Suspend execution for 5 seconds
             yield return new WaitForSeconds(2);
@@ -738,9 +800,14 @@ public class Main : MonoBehaviour
     {
         // Currently only for Day and New Patients.
         numberOfNewPatientsText.text = numberOfNewPatients.ToString();
-        numberOfPatientsHealed.text = patientsHealed.ToString();
+        currentDayText.text = day.ToString();
         lobbyLimitText.text = "/ " + waitingRoomFullLimit.ToString();
         upgradeGemsText.text = UpgradeGems.ToString();
+    }
+
+    float CalculateTimeOfDaySliderValue()
+    {
+        return (mainTimer / lenghtOfDay);
     }
 
 
@@ -1151,10 +1218,10 @@ public class Main : MonoBehaviour
         // Check to see if player has money.
         if (currentMoney > costOfSupplies[supplyType])
         {
-            clickGood1.Play();
+            spendMoney.Play();
             currentMoney -= costOfSupplies[supplyType];
             currentMoneyText.text = currentMoney.ToString();
-            UpdateSupplyIntAndText(supplyType, 10);
+            UpdateSupplyIntAndText(supplyType, 5);
 
             ClickOpenCloseSupplyPanel();
         }
@@ -1257,6 +1324,8 @@ public class Main : MonoBehaviour
             doctorSpeed = 10;
             redTrollTimer = redTrollTimerLength;
             redTrollUpgradeActive = true;
+
+            useConsumable.Play();
         }
 
         else
@@ -1302,8 +1371,9 @@ public class Main : MonoBehaviour
         if (OrcBanquetUseImage.sprite == OrcBanquetActiveSprite)
         {
             Debug.Log("Using OrcBanquet");
+            useConsumable.Play();
 
-            for(int i = 0; i < currentPatients.Length; i++)
+            for (int i = 0; i < currentPatients.Length; i++)
             {
                 if (currentPatients[i] != null)
                 {
@@ -1360,6 +1430,8 @@ public class Main : MonoBehaviour
         if (currentMoney > 20)
         {
             currentMoney -= 20;
+
+            useConsumable.Play();
 
             // Set the OrcBanquet image to "In Active".
             OrcBanquetUseImage.sprite = OrcBanquetActiveSprite;
@@ -1464,12 +1536,17 @@ public class Main : MonoBehaviour
             tipsAndTricksPanel.SetActive(false);
             gameIsPaused = false;
             PauseUnpausePatients(false);
+            clickGood1.Play();
         }
         else
         {
             tipsAndTricksPanel.SetActive(true);
+            consumablesCurrentStatText.text = "";
+            foodCurrentStatText.text = "";
+            upgradeCurrentStatText.text = "";
             gameIsPaused = true;
             PauseUnpausePatients(true);
+            clickGood1.Play();
         }
     }
 
@@ -1480,6 +1557,7 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(true);
             foodSubPanel.SetActive(false);
             upgradeSubPanel.SetActive(false);
+            clickGood1.Play();
         }
 
         else if (nameOfPanel == "Food")
@@ -1487,6 +1565,7 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(false);
             foodSubPanel.SetActive(true);
             upgradeSubPanel.SetActive(false);
+            clickGood1.Play();
         }
 
         else if (nameOfPanel == "Upgrades")
@@ -1494,6 +1573,7 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(false);
             foodSubPanel.SetActive(false);
             upgradeSubPanel.SetActive(true);
+            clickGood1.Play();
         }
 
         else Debug.Log("Invalid use of OpenTipsSubPanel");
@@ -1506,18 +1586,24 @@ public class Main : MonoBehaviour
         {
             consumableName.text = "RED TROLL";
             consumableDescriptionText.text = "Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink.";
+            consumablesCurrentStatText.text = "Red Troll's effects last " + redTrollTimerLength.ToString() + " seconds.";
+            turnPage.Play();
         }
 
         else if (description == 2)
         {
             consumableName.text = "ORC BANQUET";
             consumableDescriptionText.text = "Let's throw a party!";
+            consumablesCurrentStatText.text = "This upgrade has no duration.";
+            turnPage.Play();
         }
 
         else if (description == 3)
         {
             consumableName.text = "DRAON'S WEALTH";
             consumableDescriptionText.text = "Give me money. Give me money. Give me money. Give me money. Give me money.";
+            consumablesCurrentStatText.text = "Dragons Wealth's effects last " + dragonsWealthTimerLength.ToString() + " seconds.";
+            turnPage.Play();
         }
 
         else
@@ -1532,24 +1618,32 @@ public class Main : MonoBehaviour
         {
             foodName.text = "Ale";
             foodDescriptionText.text = "Aggressively bold, .... ";
+            foodCurrentStatText.text = "Current Cost per 5 units: " + costOfSupplies[0].ToString() + " gold.";
+            turnPage.Play();
         }
 
         else if (nameOfFood == "Classic Combo")
         {
             foodName.text = "Classic Combo";
             foodDescriptionText.text = "Aggressively bo, .... ";
+            foodCurrentStatText.text = "Current Cost per 5 units: " + costOfSupplies[1].ToString() + " gold.";
+            turnPage.Play();
         }
 
         else if (nameOfFood == "The Hungry Orc")
         {
             foodName.text = "The Hungry Orc";
             foodDescriptionText.text = "Aggressively , .... ";
+            foodCurrentStatText.text = "Current Cost per 5 units: " + costOfSupplies[2].ToString() + " gold.";
+            turnPage.Play();
         }
 
         else if (nameOfFood == "Gut Buster Deluxe")
         {
             foodName.text = "Gut Buster Deluxe";
             foodDescriptionText.text = "The Gut Buster Deluxe, .... ";
+            foodCurrentStatText.text = "Current Cost per 5 units: " + costOfSupplies[3].ToString() + " gold.";
+            turnPage.Play();
         }
 
         else Debug.Log("Invalid use of GetDescriptionForFood");
@@ -1560,30 +1654,39 @@ public class Main : MonoBehaviour
         if (nameOfUpgrade == "Upgrade01")
         {
             upgradeName.text = "Lobby Size";
-            upgradeDescriptionText.text = "If the lobby fills full of hungry Orcs, they will overrun the diner.\nIncrease the size of the lobby.";
+            upgradeDescriptionText.text = "Hungry Orcs in large numbers spell trouble! If the lobby fills up the Orcs will overun the Slop Hall.\nINCREASE THE LOBBY SIZE BY 0NE.";
+            upgradeCurrentStatText.text = "Current lobby size: " + waitingRoomFullLimit.ToString() + ".";
+            turnPage.Play();
         }
 
         else if (nameOfUpgrade == "Upgrade02")
         {
             upgradeName.text = "Popularity";
-            upgradeDescriptionText.text = "Increase Jughog's Diner popularity within the Orc community.\nMore Orcs will come.";
+            upgradeDescriptionText.text = "Rubbing elbows and shaking hands with influential Orcs is a great way to become Mr. Popular. .\nINCREASE THE RATE OF CUSTOMERS.";
+            upgradeCurrentStatText.text = "An orc will arrive to eat every: " + timeBetweenNewPatients.ToString() + " seconds.";
+            turnPage.Play();
         }
 
         else if (nameOfUpgrade == "Upgrade03")
         {
-            upgradeName.text = "Frugality";
-            upgradeDescriptionText.text = "The frugal Orc spends less on ingredents.\nFood costs less to make.";
+            upgradeName.text = "Purse Strings";
+            upgradeDescriptionText.text = "The frugal Orc spends less on ingredents.\nFOOD COST LESS TO PURCHASE.";
+            upgradeCurrentStatText.text = "Food pricing varies, see FOOD for more information.";
+            turnPage.Play();
         }
 
         else if (nameOfUpgrade == "Upgrade04")
         {
-            upgradeName.text = "Efficiency";
-            upgradeDescriptionText.text = "Efficient, Efficient, Efficient\nTimed consumables will last longer.";
+            upgradeName.text = "Chemistry";
+            upgradeDescriptionText.text = "Recent advances in modern Orcish technology allowing you to do more with less.\nCONSUMABLES LAST LONGER.";
+            upgradeCurrentStatText.text = "Consumable durations vary, see CONSUMABLES for more information.";
+            turnPage.Play();
         }
 
         else Debug.Log("Invalid use of GetDescriptionForUpgrade");
     }
     #endregion
+
 
     #region Functions - Upgrades
 
@@ -1594,13 +1697,229 @@ public class Main : MonoBehaviour
             UpgradePanel.SetActive(false);
             gameIsPaused = false;
             PauseUnpausePatients(false);
+            clickGood1.Play();
         }
         else
         {
             UpgradePanel.SetActive(true);
             gameIsPaused = true;
             PauseUnpausePatients(true);
+            clickGood1.Play();
         }
+    }
+
+    public void IncreaseUpgrade(string nameOfUpgrade)
+    {
+        if (UpgradeGems >= 1)
+        {
+            clickGood1.Play();
+
+            if (nameOfUpgrade == "Lobby Size" && upgradeLobbySizeCurrentValue < 10)
+            {
+                upgradeLobbySizeCurrentValue += 1;
+                UpdateUpgradeValues();
+                lobbyLimitText.text = waitingRoomFullLimit.ToString();
+                UpgradeGems -= 1;
+                UpdateStatsToScreen();
+            }
+
+            else if (nameOfUpgrade == "Popularity" && upgradePopularityCurrentValue < 10)
+            {
+                upgradePopularityCurrentValue += 1;
+                UpdateUpgradeValues();
+                UpgradeGems -= 1;
+                UpdateStatsToScreen();
+            }
+
+            else if (nameOfUpgrade == "Purse Strings" && upgradePurseStringsCurrentValue < 10)
+            {
+                upgradePurseStringsCurrentValue += 1;
+                UpdateUpgradeValues();
+                UpgradeGems -= 1;
+                UpdateStatsToScreen();
+            }
+
+            else if (nameOfUpgrade == "Chemistry" && upgradeChemistryCurrentValue < 10)
+            {
+                upgradeChemistryCurrentValue += 1;
+                UpdateUpgradeValues();
+                UpgradeGems -= 1;
+                UpdateStatsToScreen();
+            }
+
+            else Debug.Log("Function IncreaseUpgrade has been called with invalid argument.");
+        }
+
+        else
+        {
+            clickBad1.Play();
+        }
+    }
+
+    public void UpdateUpgradeBacklights()
+    {
+        // Set all backlights to off.
+        for (int i = 0; i < 10; i++)
+        {
+            upgradeLobbySizeBacklights[i].SetActive(false);
+            upgradePopularityBacklights[i].SetActive(false);
+            upgradePurseStringsBacklights[i].SetActive(false);
+            upgradeChemistryBacklights[i].SetActive(false);
+        }
+        // Set the correct backlights on.
+         for (int i = 0; i < upgradeLobbySizeCurrentValue; i++)
+        {
+            upgradeLobbySizeBacklights[i].SetActive(true);
+        }
+         for (int i = 0; i < upgradePopularityCurrentValue; i++)
+        {
+            upgradePopularityBacklights[i].SetActive(true);
+        }
+         for (int i = 0; i < upgradePurseStringsCurrentValue; i++)
+        {
+            upgradePurseStringsBacklights[i].SetActive(true);
+        }
+         for (int i = 0; i < upgradeChemistryCurrentValue; i++)
+        {
+            upgradeChemistryBacklights[i].SetActive(true);
+        }
+
+    }
+
+    public void UpdateUpgradeValues()
+    {
+        // Deals with the Lobby Size Upgrade.
+        // Lobby size should always fall between 3 - 12
+        #region Lobby Size Ifs
+        if (upgradeLobbySizeCurrentValue == 1) waitingRoomFullLimit = 3;
+        else if (upgradeLobbySizeCurrentValue == 2) waitingRoomFullLimit = 4;
+        else if (upgradeLobbySizeCurrentValue == 3) waitingRoomFullLimit = 5;
+        else if (upgradeLobbySizeCurrentValue == 4) waitingRoomFullLimit = 6;
+        else if (upgradeLobbySizeCurrentValue == 5) waitingRoomFullLimit = 7;
+        else if (upgradeLobbySizeCurrentValue == 6) waitingRoomFullLimit = 8;
+        else if (upgradeLobbySizeCurrentValue == 7) waitingRoomFullLimit = 9;
+        else if (upgradeLobbySizeCurrentValue == 8) waitingRoomFullLimit = 10;
+        else if (upgradeLobbySizeCurrentValue == 9) waitingRoomFullLimit = 11;
+        else if (upgradeLobbySizeCurrentValue == 10) waitingRoomFullLimit = 12;
+        else Debug.Log("The Lobby size value is out of bounds");
+        #endregion
+
+        // Deals with the Popularity Upgrade.
+        // timeBetweenNewPatients should always fall between 20 secs - 3secs
+        #region Popularity Ifs
+        if (upgradePopularityCurrentValue == 1) timeBetweenNewPatients = 20;
+        else if (upgradePopularityCurrentValue == 2) timeBetweenNewPatients = 18;
+        else if (upgradePopularityCurrentValue == 3) timeBetweenNewPatients = 16;
+        else if (upgradePopularityCurrentValue == 4) timeBetweenNewPatients = 14;
+        else if (upgradePopularityCurrentValue == 5) timeBetweenNewPatients = 12;
+        else if (upgradePopularityCurrentValue == 6) timeBetweenNewPatients = 10;
+        else if (upgradePopularityCurrentValue == 7) timeBetweenNewPatients = 8;
+        else if (upgradePopularityCurrentValue == 8) timeBetweenNewPatients = 6;
+        else if (upgradePopularityCurrentValue == 9) timeBetweenNewPatients = 4;
+        else if (upgradePopularityCurrentValue == 10) timeBetweenNewPatients = 3;
+        else Debug.Log("upgradePopularity is out of bounds");
+        #endregion
+
+        // Deals with the Purse Strings Upgrade.
+        // Cost of supplies varies with level and type of food.
+        // Ale 1 - 10;
+        // Classic Combo 2 - 20;
+        // The Hungry Orc 3 - 25;
+        // Gut Buster Deluxe 4 - 30 
+        #region  Purse Strings Ifs
+        if (upgradePurseStringsCurrentValue == 1)
+        {
+            costOfSupplies[0] = 10;
+            costOfSupplies[1] = 20;
+            costOfSupplies[2] = 30;
+            costOfSupplies[3] = 40;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 2)
+        {
+            costOfSupplies[0] = 9;
+            costOfSupplies[1] = 18;
+            costOfSupplies[2] = 26;
+            costOfSupplies[3] = 36;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 3)
+        {
+            costOfSupplies[0] = 8;
+            costOfSupplies[1] = 16;
+            costOfSupplies[2] = 23;
+            costOfSupplies[3] = 32;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 4)
+        {
+            costOfSupplies[0] = 7;
+            costOfSupplies[1] = 14;
+            costOfSupplies[2] = 20;
+            costOfSupplies[3] = 28;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 5)
+        {
+            costOfSupplies[0] = 6;
+            costOfSupplies[1] = 12;
+            costOfSupplies[2] = 18;
+            costOfSupplies[3] = 24;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 6)
+        {
+            costOfSupplies[0] = 5;
+            costOfSupplies[1] = 10;
+            costOfSupplies[2] = 15;
+            costOfSupplies[3] = 20;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 7)
+        {
+            costOfSupplies[0] = 4;
+            costOfSupplies[1] = 8;
+            costOfSupplies[2] = 12;
+            costOfSupplies[3] = 16;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 8)
+        {
+            costOfSupplies[0] = 3;
+            costOfSupplies[1] = 6;
+            costOfSupplies[2] = 9;
+            costOfSupplies[3] = 12;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 9)
+        {
+            costOfSupplies[0] = 2;
+            costOfSupplies[1] = 4;
+            costOfSupplies[2] = 6;
+            costOfSupplies[3] = 8;
+        }
+
+        else if (upgradePurseStringsCurrentValue == 10)
+        {
+            costOfSupplies[0] = 1;
+            costOfSupplies[1] = 2;
+            costOfSupplies[2] = 3;
+            costOfSupplies[3] = 4;
+        }
+        else Debug.Log("Invalid arg for UpdateUpgradeValues Purse Stings");
+
+        #endregion
+
+        // Deals with the Chemistry Upgrade.
+        // Length 10 - 100;
+        #region  Chemistry Ifs
+        redTrollTimerLength = upgradeChemistryCurrentValue * 10;
+        dragonsWealthTimerLength = upgradeChemistryCurrentValue * 10;
+        #endregion
+
+
+        UpdateUpgradeBacklights();
+
     }
 
     #endregion

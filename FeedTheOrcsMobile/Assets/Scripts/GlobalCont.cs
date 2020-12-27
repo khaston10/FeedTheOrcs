@@ -22,6 +22,7 @@ public class GlobalCont : MonoBehaviour
     public int gameDifficulty;
     public int[] highScores;
     public bool newHighScore;
+    public int wealth;
     #endregion
 
     void Awake()
