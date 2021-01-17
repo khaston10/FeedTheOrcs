@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Audio;
 
 public class Main : MonoBehaviour
 {
@@ -219,6 +219,7 @@ public class Main : MonoBehaviour
     # endregion
 
     #region Audio Sources
+    public AudioMixer mixer;
     public AudioSource musicSource;
     public AudioSource clickGood1;
     public AudioSource clickGood2;
@@ -262,6 +263,7 @@ public class Main : MonoBehaviour
     public GameObject ConsumableSubPanel;
     public GameObject foodSubPanel;
     public GameObject upgradeSubPanel;
+    public GameObject settingsSubPanel;
     public Text consumableName;
     public Text foodName;
     public Text upgradeName;
@@ -272,6 +274,11 @@ public class Main : MonoBehaviour
     public Text foodCurrentStatText;
     public Text upgradeCurrentStatText;
 
+    #endregion
+
+    #region Variables - EndOfDay
+    public GameObject EndOFDayPanel;
+    public Text numberOFGemsText;
     #endregion
 
 
@@ -411,7 +418,7 @@ public class Main : MonoBehaviour
             {
                 statusOfDoctor = "EXHAUSTED";
                 SaveData();
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(3);
             }
 
             // If the coin animation bool is true - run the moveCoinFunction.
@@ -431,19 +438,22 @@ public class Main : MonoBehaviour
                 newDay.Play();
                 UpdateStatsToScreen();
 
+                // Open the End Of Day Panel and pause game.
+                OpenCloseEndOfDayPanel(true);
+
                 // Check to see if player still has money and supplies.
                 if (CheckToSeeIfPlayerIsOutOfMoney())
                 {
                     playerHasRunOutOfSuppliesAndMoney = true;
                     SaveData();
-                    SceneManager.LoadScene(2);
+                    SceneManager.LoadScene(3);
                 }
 
                 // Check to see if the 10 day time limit is up.
                 if (day == 11)
                 {
                     SaveData();
-                    SceneManager.LoadScene(2);
+                    SceneManager.LoadScene(3);
                 }
             }
 
@@ -1595,6 +1605,7 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(true);
             foodSubPanel.SetActive(false);
             upgradeSubPanel.SetActive(false);
+            settingsSubPanel.SetActive(false);
             clickGood1.Play();
         }
 
@@ -1603,6 +1614,7 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(false);
             foodSubPanel.SetActive(true);
             upgradeSubPanel.SetActive(false);
+            settingsSubPanel.SetActive(false);
             clickGood1.Play();
         }
 
@@ -1611,10 +1623,30 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(false);
             foodSubPanel.SetActive(false);
             upgradeSubPanel.SetActive(true);
+            settingsSubPanel.SetActive(false);
+            clickGood1.Play();
+        }
+
+        else if (nameOfPanel == "Settings")
+        {
+            ConsumableSubPanel.SetActive(false);
+            foodSubPanel.SetActive(false);
+            upgradeSubPanel.SetActive(false);
+            settingsSubPanel.SetActive(true);
             clickGood1.Play();
         }
 
         else Debug.Log("Invalid use of OpenTipsSubPanel");
+    }
+
+    public void ChangeSoundVolume(float sliderValue)
+    {
+        mixer.SetFloat("Music", Mathf.Log10(sliderValue) * 20);
+    }
+
+    public void ChangeSFXVolume(float sliderValue)
+    {
+        mixer.SetFloat("SoundFXs", Mathf.Log10(sliderValue) * 20);
     }
 
     public void GetDescriptionForConsumables(int description)
@@ -1623,7 +1655,7 @@ public class Main : MonoBehaviour
         if (description == 1)
         {
             consumableName.text = "RED TROLL";
-            consumableDescriptionText.text = "Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink. Yummy Energy Drink.";
+            consumableDescriptionText.text = "A yummy, sugary energy drink that will have you running circles around the Slop Hall!";
             consumablesCurrentStatText.text = "Red Troll's effects last " + redTrollTimerLength.ToString() + " seconds.";
             turnPage.Play();
         }
@@ -1631,7 +1663,7 @@ public class Main : MonoBehaviour
         else if (description == 2)
         {
             consumableName.text = "ORC BANQUET";
-            consumableDescriptionText.text = "Let's throw a party!";
+            consumableDescriptionText.text = "All seated Orcs will gobble their food, pay, and leave in less than 0.05 seconds! Amazing for turnaround times.";
             consumablesCurrentStatText.text = "This upgrade has no duration.";
             turnPage.Play();
         }
@@ -1639,7 +1671,7 @@ public class Main : MonoBehaviour
         else if (description == 3)
         {
             consumableName.text = "DRAON'S WEALTH";
-            consumableDescriptionText.text = "Give me money. Give me money. Give me money. Give me money. Give me money.";
+            consumableDescriptionText.text = "Give me gold. Give me gold! GIVE ME GOLD! All customers pay 4 times the normal price for their meals.";
             consumablesCurrentStatText.text = "Dragons Wealth's effects last " + dragonsWealthTimerLength.ToString() + " seconds.";
             turnPage.Play();
         }
@@ -1655,7 +1687,7 @@ public class Main : MonoBehaviour
         if (nameOfFood == "Ale")
         {
             foodName.text = "Ale";
-            foodDescriptionText.text = "Aggressively bold, .... ";
+            foodDescriptionText.text = "Aggressively bold with hints of mushroom.";
             foodCurrentStatText.text = "Current Cost per 5 units: " + costOfSupplies[0].ToString() + " gold.";
             turnPage.Play();
         }
@@ -1663,7 +1695,7 @@ public class Main : MonoBehaviour
         else if (nameOfFood == "Classic Combo")
         {
             foodName.text = "Classic Combo";
-            foodDescriptionText.text = "Aggressively bo, .... ";
+            foodDescriptionText.text = "Nothing beats the Classic Combo!";
             foodCurrentStatText.text = "Current Cost per 5 units: " + costOfSupplies[1].ToString() + " gold.";
             turnPage.Play();
         }
@@ -1671,7 +1703,7 @@ public class Main : MonoBehaviour
         else if (nameOfFood == "The Hungry Orc")
         {
             foodName.text = "The Hungry Orc";
-            foodDescriptionText.text = "Aggressively , .... ";
+            foodDescriptionText.text = "Shove this down your gullet, it cures hunger!";
             foodCurrentStatText.text = "Current Cost per 5 units: " + costOfSupplies[2].ToString() + " gold.";
             turnPage.Play();
         }
@@ -1679,7 +1711,7 @@ public class Main : MonoBehaviour
         else if (nameOfFood == "Gut Buster Deluxe")
         {
             foodName.text = "Gut Buster Deluxe";
-            foodDescriptionText.text = "The Gut Buster Deluxe, .... ";
+            foodDescriptionText.text = "Ever had your gut busted?";
             foodCurrentStatText.text = "Current Cost per 5 units: " + costOfSupplies[3].ToString() + " gold.";
             turnPage.Play();
         }
@@ -1692,7 +1724,7 @@ public class Main : MonoBehaviour
         if (nameOfUpgrade == "Upgrade01")
         {
             upgradeName.text = "Lobby Size";
-            upgradeDescriptionText.text = "Hungry Orcs in large numbers spell trouble! If the lobby fills up the Orcs will overun the Slop Hall.\nINCREASE THE LOBBY SIZE BY 0NE.";
+            upgradeDescriptionText.text = "Hungry Orcs in large numbers spell trouble! If the lobby fills up the Orcs will overun the Slop Hall.\n\nINCREASE THE LOBBY SIZE BY 0NE.";
             upgradeCurrentStatText.text = "Current lobby size: " + waitingRoomFullLimit.ToString() + ".";
             turnPage.Play();
         }
@@ -1700,7 +1732,7 @@ public class Main : MonoBehaviour
         else if (nameOfUpgrade == "Upgrade02")
         {
             upgradeName.text = "Popularity";
-            upgradeDescriptionText.text = "Rubbing elbows and shaking hands with influential Orcs is a great way to become Mr. Popular. .\nINCREASE THE RATE OF CUSTOMERS.";
+            upgradeDescriptionText.text = "Rubbing elbows and shaking hands with influential Orcs is a great way to become Mr. Popular. \n\nINCREASE THE RATE OF CUSTOMERS.";
             upgradeCurrentStatText.text = "An orc will arrive to eat every: " + timeBetweenNewPatients.ToString() + " seconds.";
             turnPage.Play();
         }
@@ -1708,7 +1740,7 @@ public class Main : MonoBehaviour
         else if (nameOfUpgrade == "Upgrade03")
         {
             upgradeName.text = "Purse Strings";
-            upgradeDescriptionText.text = "The frugal Orc spends less on ingredents.\nFOOD COST LESS TO PURCHASE.";
+            upgradeDescriptionText.text = "The frugal Orc spends less on ingredents.\n\nFOOD COST LESS TO PURCHASE.";
             upgradeCurrentStatText.text = "Food pricing varies, see FOOD for more information.";
             turnPage.Play();
         }
@@ -1716,7 +1748,7 @@ public class Main : MonoBehaviour
         else if (nameOfUpgrade == "Upgrade04")
         {
             upgradeName.text = "Chemistry";
-            upgradeDescriptionText.text = "Recent advances in modern Orcish technology allowing you to do more with less.\nCONSUMABLES LAST LONGER.";
+            upgradeDescriptionText.text = "Recent advances in modern Orcish technology allowing you to do more with less.\n\nCONSUMABLES LAST LONGER.";
             upgradeCurrentStatText.text = "Consumable durations vary, see CONSUMABLES for more information.";
             turnPage.Play();
         }
@@ -1958,6 +1990,63 @@ public class Main : MonoBehaviour
 
         UpdateUpgradeBacklights();
 
+    }
+
+    #endregion
+
+
+    #region Functions - EndOfDay
+
+    public void OpenCloseEndOfDayPanel(bool open)
+    {
+        if (open)
+        {
+            EndOFDayPanel.SetActive(true);
+            gameIsPaused = true;
+            numberOFGemsText.text = upgradeGemRate.ToString() + " Gems Received!";
+
+            // Remove the ORCS that are still in the Slop Hall.
+            for (int i = 0; i < currentPatients.Length; i++)
+            {
+                if (currentPatients[i] != null)
+                {
+                    // Delete the patient and update stat.
+                    Destroy(currentPatients[i]);
+                    currentPatients[i] = null;
+                    patientsHealed += 1;
+
+                    // Update Patient Data and reset bed button
+                    //UpdatePatientDataToScreen(doctorsCurrentBed);
+                    SetNewPatientButtonsOnOff(i, true);
+
+                    // Delete Warning Bubble if it is still there.
+                    if (activeWarningBubbles[i + 1] != null)
+                    {
+                        DestroyWarningBubbleAtBed(i + 1);
+                    }
+
+                    // Destroy the physical patient image.
+                    RemovePhysicalPatientFromBed(i);
+
+                    // Player gets MONEY$$$$ - If the player has Dragons Wealth active then the 
+                    if (dragonsWealthUpgradeActive)
+                    {
+                        currentMoney += 20;
+                    }
+                    else
+                    {
+                        currentMoney += 5;
+                    }
+                    currentMoneyText.text = currentMoney.ToString();
+                }
+            }
+        }
+
+        else
+        {
+            EndOFDayPanel.SetActive(false);
+            gameIsPaused = false;
+        }
     }
 
     #endregion

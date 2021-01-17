@@ -18,6 +18,7 @@ public class Loading : MonoBehaviour
     public int numberOfNewPatients;
     public bool playerHasRunOutOfSuppliesAndMoney;
     private float loadScreenTimer;
+    public GameObject continueButton;
 
     // Start is called before the first frame update
     void Start()
@@ -38,12 +39,12 @@ public class Loading : MonoBehaviour
     IEnumerator BeforeLoadWait()
     {
         yield return new WaitForSeconds(5);
-        StartCoroutine(LoadAsyncOperation());
+        continueButton.SetActive(true);
     }
 
     IEnumerator LoadAsyncOperation()
     {
-        AsyncOperation gameLevel = SceneManager.LoadSceneAsync(3);
+        AsyncOperation gameLevel = SceneManager.LoadSceneAsync(4);
 
         while (gameLevel.progress < 1)
         {
@@ -105,6 +106,11 @@ public class Loading : MonoBehaviour
     float CalculateSliderValue()
     {
         return (loadScreenTimer/ 5);
+    }
+
+    public void ClickContinue()
+    {
+        StartCoroutine(LoadAsyncOperation());
     }
 
     #endregion

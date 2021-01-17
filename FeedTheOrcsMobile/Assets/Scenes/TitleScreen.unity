@@ -2439,6 +2439,10 @@ MonoBehaviour:
   gameDifficulty: 0
   highScores: 000000000000000000000000
   newHighScore: 0
+  wealth: 0
+  waitingRoomFullLimit: 0
+  numberOfNewPatients: 0
+  playerHasRunOutOfSuppliesAndMoney: 0
 --- !u!4 &1077119665
 Transform:
   m_ObjectHideFlags: 0
@@ -4630,7 +4634,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FEED-THE-ORCS
+  m_Text: JUGHOG'S SLOP HALL
 --- !u!222 &1663735057
 CanvasRenderer:
   m_ObjectHideFlags: 0
