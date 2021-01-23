@@ -380,7 +380,7 @@ public class Main : MonoBehaviour
                 if (numberOfNewPatients > waitingRoomFullLimit)
                 {
                     SaveData();
-                    SceneManager.LoadScene(2);
+                    SceneManager.LoadScene(3);
                 }
 
                 //Reset Timer

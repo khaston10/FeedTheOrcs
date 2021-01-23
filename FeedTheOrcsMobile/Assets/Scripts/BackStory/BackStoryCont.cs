@@ -24,6 +24,13 @@ public class BackStoryCont : MonoBehaviour
 
     #endregion
 
+    #region Audio Sources
+    public AudioSource musicSource;
+    public AudioSource speechSource;
+    public AudioSource clickGood1;
+    public AudioClip[] speechClips;
+    #endregion
+
     // Start is called before the first frame update
     void Start()
     {
@@ -95,11 +102,13 @@ public class BackStoryCont : MonoBehaviour
     public void ClickSkipButton()
     {
         SceneManager.LoadScene(2);
+        clickGood1.Play();
     }
 
     public void ClickContinue()
     {
         StartCoroutine("Continue");
+        clickGood1.Play();
     }
     
     IEnumerator Continue()
@@ -116,7 +125,14 @@ public class BackStoryCont : MonoBehaviour
         {
             UpdateText();
             UpdateSpeakerImage();
+
+            //Play correct speech clip.
+            speechSource.clip = speechClips[currentLine];
+            speechSource.Play();
+
             currentLine += 1;
+
+            
         }
 
         // Suspend execution for 5 seconds

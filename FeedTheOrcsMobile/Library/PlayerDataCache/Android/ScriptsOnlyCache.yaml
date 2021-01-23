@@ -1,9 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BackStoryCont
     - EndController
     - GlobalCont
     - GlobalPatientData
+    - Loading
     - Main
     - PatientData
     - TitleController
@@ -41,9 +43,59 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
   sceneClasses:
+    Assets/Scenes/BackStory.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11160}
+    - Class: 114
+      Script: {instanceID: 11334}
+    - Class: 114
+      Script: {instanceID: 11374}
+    - Class: 114
+      Script: {instanceID: 11546}
+    - Class: 114
+      Script: {instanceID: 11796}
+    - Class: 114
+      Script: {instanceID: 12212}
+    - Class: 114
+      Script: {instanceID: 12728}
+    - Class: 114
+      Script: {instanceID: 13112}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/EndScreen.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -86,11 +138,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 12726}
+      Script: {instanceID: 12728}
     - Class: 114
       Script: {instanceID: 13112}
+    - Class: 114
+      Script: {instanceID: 13144}
     - Class: 114
       Script: {instanceID: 13146}
     - Class: 115
@@ -116,6 +170,57 @@ ScriptsOnlyBuild:
     - Class: 243
       Script: {instanceID: 0}
     - Class: 245
+      Script: {instanceID: 0}
+    Assets/Scenes/LoadingScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11160}
+    - Class: 114
+      Script: {instanceID: 11334}
+    - Class: 114
+      Script: {instanceID: 11374}
+    - Class: 114
+      Script: {instanceID: 11796}
+    - Class: 114
+      Script: {instanceID: 12212}
+    - Class: 114
+      Script: {instanceID: 12224}
+    - Class: 114
+      Script: {instanceID: 12728}
+    - Class: 114
+      Script: {instanceID: 13112}
+    - Class: 114
+      Script: {instanceID: 13144}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/MainGame.unity:
     - Class: 1
@@ -165,13 +270,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12234}
+      Script: {instanceID: 12236}
     - Class: 114
-      Script: {instanceID: 12726}
+      Script: {instanceID: 12728}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12886}
     - Class: 114
       Script: {instanceID: 13112}
+    - Class: 114
+      Script: {instanceID: 13144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -246,13 +353,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12234}
+      Script: {instanceID: 12236}
     - Class: 114
-      Script: {instanceID: 12248}
+      Script: {instanceID: 12250}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 12726}
+      Script: {instanceID: 12728}
     - Class: 114
       Script: {instanceID: 13100}
     - Class: 114
@@ -418,6 +525,12 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: c9b98c3fb743543616af8b79c03eb5c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackStoryCont
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -454,7 +567,7 @@ ScriptsOnlyBuild:
     className: TriggerController
   - hash:
       serializedVersion: 2
-      Hash: af42f85d30e26ac7c71319edf17cd349
+      Hash: 5d9f89c0edf5f53426b7f2733ca4328d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GlobalCont
@@ -532,7 +645,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: c0c3f481038a480b304fd2b75f05fd91
+      Hash: 9421c23c4d129fef3fe238c2f266953a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Main
@@ -560,6 +673,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 2ace0ebae257da6f229f7642dbf6eec8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Loading
   - hash:
       serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
@@ -664,7 +783,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 069c0f43701b505639dceaa8630970a8
+      Hash: 4d71f6edcf114e2091c90db843f79926
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PatientData
@@ -760,7 +879,7 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: 4e3a10a71c25ad66ca1ce7744d9a5ac2
+      Hash: de2a2cda703512fdf7ba11c4ecffd6c8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EndController
@@ -779,6 +898,8 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity
+  - Assets/Scenes/BackStory.unity
   - Assets/Scenes/MainGame.unity
+  - Assets/Scenes/LoadingScene.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: C:/Users/kevoh/Unity Projects/CoronavirusMobile/TestBuilds/FeedTheOrcsV8.apk
+  playerPath: C:/Users/kevoh/Unity Projects/CoronavirusMobile/TestBuilds/FeedTheOrcsV9.apk

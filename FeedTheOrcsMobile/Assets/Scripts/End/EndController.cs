@@ -27,12 +27,17 @@ public class EndController : MonoBehaviour
     public Slider wealthSlider;
     private string wealthStatus;
     private float sliderTimer = 0;
+    public Image[] stars;
+    private int amountOfStarsEarned; // Needs to be 0 - 5
+    private int showStarImageCounter = 0;
     #endregion
 
     #region Audio Sources
     public AudioSource musicSource;
     public AudioSource clickGood1;
     public AudioSource clickGood2;
+    public AudioSource speechStars;
+    public AudioClip[] speechStarsClips;
     #endregion
 
     // Start is called before the first frame update
@@ -45,6 +50,8 @@ public class EndController : MonoBehaviour
 
         creditsPanel.SetActive(false);
 
+        // This coroutine may need to be activated at a later time.
+        StartCoroutine(loadStarImages());
     }
 
     // Update is called once per frame
@@ -133,6 +140,34 @@ public class EndController : MonoBehaviour
     float CalculateWealthSlider()
     {
         return (wealth * sliderTimer / 100);
+    }
+
+    IEnumerator loadStarImages()
+    {
+        // This function will be called once at the end of the game to load x stars out of 5.
+        // Pick the amount of stars - For now this is fed by wealth alone, TODO is get patients healed added.
+        if (wealth <= 25) amountOfStarsEarned = 1;
+        else if (wealth <= 50) amountOfStarsEarned = 2;
+        else if (wealth <= 75) amountOfStarsEarned = 3;
+        else amountOfStarsEarned = 4;
+
+        // Suspend execution for 5 seconds
+        yield return new WaitForSeconds(1);
+
+        speechStars.Play();
+        if (amountOfStarsEarned > 0) StartCoroutine(showStarImage());
+    }
+
+    IEnumerator showStarImage()
+    {
+        clickGood1.Play();
+        stars[showStarImageCounter].gameObject.SetActive(true);
+        showStarImageCounter += 1;
+        // Suspend execution for 5 seconds
+        yield return new WaitForSeconds(1);
+        if (showStarImageCounter < amountOfStarsEarned) StartCoroutine(showStarImage());
+        
+
     }
 
 }
