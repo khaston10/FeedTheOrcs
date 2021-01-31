@@ -62,6 +62,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -96,6 +100,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
     Assets/Scenes/EndScreen.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -115,11 +125,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -186,6 +202,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -221,6 +241,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/MainGame.unity:
     - Class: 1
@@ -429,7 +455,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: eb465306752b725b0801a52f8cd176ee
+      Hash: 32afe7d07b50fe36b7fb98e78e7cdf6f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TitleController
@@ -525,7 +551,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: c9b98c3fb743543616af8b79c03eb5c2
+      Hash: 106a2cd604a47364c35f29422f48eff7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BackStoryCont
@@ -567,7 +593,7 @@ ScriptsOnlyBuild:
     className: TriggerController
   - hash:
       serializedVersion: 2
-      Hash: 5d9f89c0edf5f53426b7f2733ca4328d
+      Hash: 52b4c74a92ecabd114aed9d3864cf8c2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GlobalCont
@@ -645,7 +671,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 9421c23c4d129fef3fe238c2f266953a
+      Hash: df284ffb55760e130dc206a6aad7791d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Main
@@ -675,7 +701,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: 2ace0ebae257da6f229f7642dbf6eec8
+      Hash: 934d8f6b9d35f57390b6abedc44ad5a0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Loading
@@ -879,7 +905,7 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: de2a2cda703512fdf7ba11c4ecffd6c8
+      Hash: 4d307090896b68f294103374d210d84c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EndController
@@ -902,4 +928,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainGame.unity
   - Assets/Scenes/LoadingScene.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: C:/Users/kevoh/Unity Projects/CoronavirusMobile/TestBuilds/FeedTheOrcsV9.apk
+  playerPath: C:/Users/kevoh/Unity Projects/CoronavirusMobile/TestBuilds/FeedTheOrcsV10.apk

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Experimental.AI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -15,6 +16,7 @@ public class BackStoryCont : MonoBehaviour
     string[] lines = new string[4];
     string[] nameOfSpeaker = new string[4];
     int currentLine = 0;
+    private float[] lengthOfLines = new float[4];
 
     public GameObject jughogsImage;
     public GameObject orcsImage;
@@ -25,10 +27,12 @@ public class BackStoryCont : MonoBehaviour
     #endregion
 
     #region Audio Sources
+    public AudioMixer mixer;
     public AudioSource musicSource;
     public AudioSource speechSource;
     public AudioSource clickGood1;
     public AudioClip[] speechClips;
+    public bool isMuted;
     #endregion
 
     // Start is called before the first frame update
@@ -40,6 +44,9 @@ public class BackStoryCont : MonoBehaviour
 
         // load the correct image for the orc.
         orcsImageSprite.GetComponent<Image>().sprite = spriteOfDoctor;
+
+        // Check to see if the audio should be muted.
+        if (isMuted) MuteSound(true);
 
         ClickContinue();
     }
@@ -56,7 +63,16 @@ public class BackStoryCont : MonoBehaviour
     {
         nameOfDoctor = GlobalCont.Instance.nameOfDoctor;
         spriteOfDoctor = GlobalCont.Instance.spriteOfDoctor;
+        isMuted = GlobalCont.Instance.isMuted;
     }
+
+    public void SaveData()
+    {
+        GlobalCont.Instance.isMuted = isMuted;
+    }
+
+
+
 
     public void UpdateText()
     {
@@ -80,15 +96,16 @@ public class BackStoryCont : MonoBehaviour
 
     public void LoadLines()
     {
-        lines[0] = "Okay " + nameOfDoctor + ", it is once again King Mushroom seasons and this year I am thinking " +
-            "I may get the biggest harvest yet. Of course, this means I can either shut down the Slop Hall " +
-            "or leave it in capable hands. I would rather not shut down, but unfortunately the only hands I " +
-            "see are attached to the laziest Orc I have ever hired!";
+        lines[0] = nameOfDoctor + ", once again it's Goblin Cap Mushroom season. Gonna get big harvest this year! " +
+            "You laziest orc, but you watch Slop Hall for me. You better make me lots of GOLD, or I cut off your good ear.";
         lines[1] = "By my troth, I will not let you down!";
-        lines[2] = "Haha, that is what I like to hear " + nameOfDoctor + "! I will return in 10 days time, do your best. " +
-            "Unless your best is not good enough, then do better. And do not let the lobby fill up! Large number " +
-            "of Orcs with empty stomach will only result in a orc mob!";
-        lines[3] = "Fare thee well " + nameOfDoctor + ", may dragons bless you!";
+        lines[2] = "Haha. Good to hear! I be back 10 days time. Do your best. Or I cut off your bad ear!";
+        lines[3] = "Dragon's strength to you " + nameOfDoctor + "!";
+
+        lengthOfLines[0] = 14f;
+        lengthOfLines[1] = 3.5f;
+        lengthOfLines[2] = 8f;
+        lengthOfLines[3] = 2.5f;
     }
 
     public void LoadNameOfSpeaker()
@@ -136,7 +153,7 @@ public class BackStoryCont : MonoBehaviour
         }
 
         // Suspend execution for 5 seconds
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(lengthOfLines[currentLine - 1]);
 
         // Set the continue button to visable.
         continueButton.SetActive(true);
@@ -144,6 +161,36 @@ public class BackStoryCont : MonoBehaviour
 
 
 
+    }
+
+    public void SetSoundAtStart()
+    {
+        if (isMuted)
+        {
+            clickGood1.Play();
+            MuteSound(false);
+            isMuted = false;
+        }
+        else
+        {
+            MuteSound(true);
+            isMuted = true;
+        }
+    }
+
+    public void MuteSound(bool mute)
+    {
+        if (mute)
+        {
+            mixer.SetFloat("Music", -80f);
+            mixer.SetFloat("SoundFXs", -80f);
+        }
+
+        else
+        {
+            mixer.SetFloat("Music", 0f);
+            mixer.SetFloat("SoundFXs", 0f);
+        }
     }
 
     #endregion

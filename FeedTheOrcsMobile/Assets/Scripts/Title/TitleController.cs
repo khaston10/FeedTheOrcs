@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -22,8 +23,10 @@ public class TitleController : MonoBehaviour
     #endregion
 
     #region Audio Sources
+    public AudioMixer mixer;
     public AudioSource clickGood1;
     public AudioSource clickGood2;
+    public bool isMuted;
     #endregion
 
     #region Variables - Text and Images to Update
@@ -63,6 +66,9 @@ public class TitleController : MonoBehaviour
 
         tutorialPanel.SetActive(false);
 
+        // Check to see if the audio should be muted.
+        if (isMuted) MuteSound(true);
+
 
     }
 
@@ -85,6 +91,7 @@ public class TitleController : MonoBehaviour
         patientsHealed = GlobalCont.Instance.patientsHealed;
         patientsDeceased = GlobalCont.Instance.patientsDeceased;
         gameDifficulty = GlobalCont.Instance.gameDifficulty;
+        isMuted = GlobalCont.Instance.isMuted;
     }
 
     public void SaveData()
@@ -98,6 +105,8 @@ public class TitleController : MonoBehaviour
         GlobalCont.Instance.patientsDeceased = patientsDeceased;
         GlobalCont.Instance.spriteOfDoctor = spriteOfDoctor;
         GlobalCont.Instance.gameDifficulty = gameDifficulty;
+        GlobalCont.Instance.isMuted = isMuted;
+
 
     }
 
@@ -148,6 +157,36 @@ public class TitleController : MonoBehaviour
     {
         tutorialPanel.SetActive(false);
         clickGood2.Play();
+    }
+
+    public void SetSoundAtStart()
+    {
+        if (isMuted)
+        {
+            clickGood1.Play();
+            MuteSound(false);
+            isMuted = false;
+        }
+        else
+        {
+            MuteSound(true);
+            isMuted = true;
+        }
+    }
+
+    public void MuteSound(bool mute)
+    {
+        if (mute)
+        {
+            mixer.SetFloat("Music", -80f);
+            mixer.SetFloat("SoundFXs", -80f);
+        }
+
+        else
+        {
+            mixer.SetFloat("Music", 0f);
+            mixer.SetFloat("SoundFXs", 0f);
+        }
     }
 
     #endregion

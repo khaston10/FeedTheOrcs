@@ -26,6 +26,8 @@ public class GlobalCont : MonoBehaviour
     public int waitingRoomFullLimit;
     public int numberOfNewPatients;
     public bool playerHasRunOutOfSuppliesAndMoney;
+    public bool isMuted;
+    public bool[] achievementsUnlocked;
     #endregion
 
     void Awake()

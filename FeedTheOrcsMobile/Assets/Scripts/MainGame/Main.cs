@@ -221,6 +221,7 @@ public class Main : MonoBehaviour
     #region Audio Sources
     public AudioMixer mixer;
     public AudioSource musicSource;
+    public AudioClip[] musicClips;
     public AudioSource clickGood1;
     public AudioSource clickGood2;
     public AudioSource clickBad1;
@@ -236,6 +237,10 @@ public class Main : MonoBehaviour
     public AudioClip[] unhappyClips;
     public AudioSource happy;
     public AudioClip[] happyClips;
+    public AudioSource achievementUnlockedAudio;
+    public bool isMuted;
+    public Slider musicSlider;
+    public Slider SFXSlider;
     #endregion
 
     #region Variables - Stats
@@ -248,6 +253,7 @@ public class Main : MonoBehaviour
     private int lowestHighScoreIndex;
     public int[] highScores;
     private bool playerHasRunOutOfSuppliesAndMoney;
+    public bool[] achievementsUnlocked;
 
     // Variables to keep each day moving.
     public float mainTimer;
@@ -264,6 +270,7 @@ public class Main : MonoBehaviour
     public GameObject foodSubPanel;
     public GameObject upgradeSubPanel;
     public GameObject settingsSubPanel;
+    public GameObject achievementSubPanel;
     public Text consumableName;
     public Text foodName;
     public Text upgradeName;
@@ -273,6 +280,22 @@ public class Main : MonoBehaviour
     public Text consumablesCurrentStatText;
     public Text foodCurrentStatText;
     public Text upgradeCurrentStatText;
+    public Text currentTrackNumberText;
+    public Text achievementDescription;
+    
+    private int currentTrackNumber = 0;
+
+    #endregion
+
+    #region Variables - Achievements
+
+    public GameObject achievementPopPanel;
+    public Image[] achievementImgs;
+    public Sprite[] achievementSprites;
+    private int orcsServedInOneDayACH0203;
+    private bool[] consumablesUsedACH01 = new bool[3];
+    private int goldEarnedInOneDay;
+    private int orcsRefusedACH04;
 
     #endregion
 
@@ -302,6 +325,13 @@ public class Main : MonoBehaviour
 
         // Load Doctor Data to screen.
         LoadDoctorsPage();
+
+        // Check to see if the audio should be muted.
+        if (isMuted)
+        {
+            MuteSound(true);
+            isMuted = true;
+        }
 
         // Set All Buttons Images to the appropriate availability.
         bedButtonsForAllBeds[0] = bedButtons1;
@@ -348,6 +378,17 @@ public class Main : MonoBehaviour
         RedTrollUseImage = RedTrollUseButton.GetComponent<Image>();
         OrcBanquetUseImage = OrcBanquetUseButton.GetComponent<Image>();
         DragonsWealthUseImage = DragonsWealthUseButton.GetComponent<Image>();
+
+        // Set initial value for achievements.
+        orcsServedInOneDayACH0203 = 0;
+        goldEarnedInOneDay = 0;
+        orcsRefusedACH04 = 0;
+        for (int i = 0; i < 3; i++)
+        {
+            consumablesUsedACH01[i] = false;
+        }
+
+        LoadAchievementSpritesAtStart();
     }
 
     // Update is called once per frame
@@ -438,6 +479,10 @@ public class Main : MonoBehaviour
                 newDay.Play();
                 UpdateStatsToScreen();
 
+                // Reset Achievement trackers.
+                orcsServedInOneDayACH0203 = 0;
+                goldEarnedInOneDay = 0;
+
                 // Open the End Of Day Panel and pause game.
                 OpenCloseEndOfDayPanel(true);
 
@@ -454,6 +499,25 @@ public class Main : MonoBehaviour
                 {
                     SaveData();
                     SceneManager.LoadScene(3);
+                }
+
+                // Check to see if it is time to make the next upgrade available.
+                if (day == 2 && RedTrollUseButton.activeInHierarchy == false)
+                {
+                    RedTrollUseButton.SetActive(true);
+                    LoadNewUpgradePanel(0);
+                }
+
+                else if (day == 3 && OrcBanquetUseButton.activeInHierarchy == false)
+                {
+                    OrcBanquetUseButton.SetActive(true);
+                    LoadNewUpgradePanel(1);
+                }
+
+                else if (day == 4 && DragonsWealthUseButton.activeInHierarchy == false)
+                {
+                    DragonsWealthUseButton.SetActive(true);
+                    LoadNewUpgradePanel(2);
                 }
             }
 
@@ -486,26 +550,6 @@ public class Main : MonoBehaviour
                     dragonsWealthUpgradeActive = false;
                 }
             }
-
-            // Check to see if it is time to make the next upgrade available.
-            if (patientsHealed == 2 && RedTrollUseButton.activeInHierarchy == false)
-            {
-                RedTrollUseButton.SetActive(true);
-                LoadNewUpgradePanel(0);
-            }
-
-            else if (patientsHealed == 4 && OrcBanquetUseButton.activeInHierarchy == false)
-            {
-                OrcBanquetUseButton.SetActive(true);
-                LoadNewUpgradePanel(1);
-            }
-
-            else if (patientsHealed == 6 && DragonsWealthUseButton.activeInHierarchy == false)
-            {
-                DragonsWealthUseButton.SetActive(true);
-                LoadNewUpgradePanel(2);
-            }
-
         }
     }
 
@@ -525,6 +569,8 @@ public class Main : MonoBehaviour
         gameDifficulty = GlobalCont.Instance.gameDifficulty;
         GlobalCont.Instance.gameDifficulty = gameDifficulty;
         highScores = GlobalCont.Instance.highScores;
+        isMuted = GlobalCont.Instance.isMuted;
+        achievementsUnlocked = GlobalCont.Instance.achievementsUnlocked;
 
         LoadHighScoreFromPlayerPrefs();
     }
@@ -543,6 +589,7 @@ public class Main : MonoBehaviour
         GlobalCont.Instance.numberOfNewPatients = numberOfNewPatients;
         GlobalCont.Instance.waitingRoomFullLimit = waitingRoomFullLimit;
         GlobalCont.Instance.playerHasRunOutOfSuppliesAndMoney = playerHasRunOutOfSuppliesAndMoney;
+        GlobalCont.Instance.isMuted = isMuted;
 
         SaveHighScoreToPlayerPrefs();
 
@@ -578,6 +625,21 @@ public class Main : MonoBehaviour
         PlayerPrefs.SetInt("HighScore01", highScores[0]);
         PlayerPrefs.SetInt("HighScore02", highScores[1]);
         PlayerPrefs.SetInt("HighScore03", highScores[2]);
+
+        // Save achievement information.
+        for (int i = 0; i < 16; i++)
+        {
+            if (achievementsUnlocked[i])
+            {
+                PlayerPrefs.SetInt("ACH" + i.ToString(), 1);
+            }
+
+            else
+            {
+                PlayerPrefs.SetInt("ACH" + i.ToString(), 0);
+            }
+        }
+        
     }
 
     public void LoadHighScoreFromPlayerPrefs()
@@ -588,6 +650,16 @@ public class Main : MonoBehaviour
         highScores[0] = PlayerPrefs.GetInt("HighScore01", 0);
         highScores[1] = PlayerPrefs.GetInt("HighScore02", 0);
         highScores[2] = PlayerPrefs.GetInt("HighScore03", 0);
+
+        // Load Achievement Information.
+        for (int i = 0; i < 16; i++)
+        {
+            if (PlayerPrefs.GetInt("ACH" + i.ToString()) == 1)
+            {
+                achievementsUnlocked[i] = true;
+            }
+
+        }
     }
 
     public void LoadGameDifficulty()
@@ -609,6 +681,7 @@ public class Main : MonoBehaviour
             currentMoney = 50;
             UpgradeGems = 2;
             upgradeGemRate = 3;
+            lenghtOfDay = 60;
         }
 
         else if (gameDifficulty == 1)
@@ -621,6 +694,7 @@ public class Main : MonoBehaviour
             currentMoney = 10;
             UpgradeGems = 1;
             upgradeGemRate = 3;
+            lenghtOfDay = 50;
         }
 
         else if (gameDifficulty == 2)
@@ -633,13 +707,12 @@ public class Main : MonoBehaviour
             currentMoney = 0;
             UpgradeGems = 0;
             upgradeGemRate = 3;
+            lenghtOfDay = 40;
         }
 
         UpdateUpgradeValues();
 
     }
-
-
     #endregion
 
 
@@ -671,6 +744,11 @@ public class Main : MonoBehaviour
             // Create a speech bubble at the orc's location.
             tempSpeechBubbleGood = Instantiate(SpeechBubbleGood);
             tempSpeechBubbleGood.transform.position = warningBubbleLocations[doctorsCurrentBed + 1].transform.position;
+
+            // Check to see if achievement 01 or 02 have been unlocked.
+            orcsServedInOneDayACH0203 += 1;
+            CheckForAchievement(2);
+            CheckForAchievement(3);
 
             //Play a random happy audio clip.
             var randAudio = Random.Range(0, happyClips.Length);
@@ -706,15 +784,25 @@ public class Main : MonoBehaviour
             if (dragonsWealthUpgradeActive)
             {
                 currentMoney += 20;
+                goldEarnedInOneDay += 20;
             }
             else
             {
                 currentMoney += 5;
+                goldEarnedInOneDay += 5;
             }
             currentMoneyText.text = currentMoney.ToString();
 
             // Play Click Sound
             clickGood1.Play();
+
+            // Check to see if achievements 05 or 06 have been unlocked.
+            CheckForAchievement(5);
+            CheckForAchievement(6);
+
+            // Check to see if achievements 07 or 08 have been unlocked.
+            CheckForAchievement(7);
+            CheckForAchievement(8);
 
             // Hide Panel and reset the discharge button.
             HideDischargePanel();
@@ -768,6 +856,10 @@ public class Main : MonoBehaviour
 
             // Delete the speech bubble.
             Destroy(tempSpeechBubbleBad);
+
+            // Increase achievment tracker and check for achievement reached.
+            orcsRefusedACH04 += 1;
+            CheckForAchievement(4);
         }
 
         
@@ -798,8 +890,6 @@ public class Main : MonoBehaviour
                     coinAnimationActive = true;
                     coinAnimation.transform.position = startCoinLocation;
                 }
-                
-
             }
 
             else
@@ -825,7 +915,6 @@ public class Main : MonoBehaviour
                 clickBad1.Play();
             }
         }
-
         
         else clickBad1.Play(); ;
 
@@ -949,7 +1038,6 @@ public class Main : MonoBehaviour
 
     }
     
-
     public bool CreatePatientAndPopulateBed(int bed)
     {
         //Returns True if is successfully loads the patient.
@@ -959,7 +1047,6 @@ public class Main : MonoBehaviour
 
     }
 
-
     public void PauseUnpausePatients(bool isPaused)
     {
         for (int i = 0; i < currentPatients.Length; i++)
@@ -967,30 +1054,7 @@ public class Main : MonoBehaviour
             if (currentPatients[i] != null) currentPatients[i].GetComponent<PatientData>().gameIsPaused = isPaused;
         }
     }
-
-
-    //public void UpdatePatientDataToScreen(int bed)
-    //{
-    //    if (currentPatients[bed] != null)
-    //    {
-    //        nameOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().nameOfPatient;
-    //        ageOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().ageOfPatient.ToString();
-    //        sexOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().sexOfPatient;
-    //        statusOfPatientsText[bed].text = currentPatients[bed].GetComponent<PatientData>().statusOfPatient;
-    //        picOfPatientImages[bed].sprite = currentPatients[bed].GetComponent<PatientData>().picOfPatient;
-    //    }
-
-    //    else
-    //    {
-    //        nameOfPatientsText[bed].text = "";
-    //        ageOfPatientsText[bed].text = "";
-    //        sexOfPatientsText[bed].text = "";
-    //        statusOfPatientsText[bed].text = "";
-    //        picOfPatientImages[bed].sprite = blankImage;
-    //    }
-    //}
-
-     
+ 
     public void ClickPatientPanel(int bedNumber)
     {
         HidePatientPanels();
@@ -1373,6 +1437,12 @@ public class Main : MonoBehaviour
             redTrollTimer = redTrollTimerLength;
             redTrollUpgradeActive = true;
 
+            // If this is the first time this consumable has been used, we need to track that for achievements.
+            if (consumablesUsedACH01[0] == false) consumablesUsedACH01[0] = true;
+
+            // Check to see if all consumanles have been used for achievement unlocked.
+            CheckForAchievement(1);
+
             useConsumable.Play();
         }
 
@@ -1447,19 +1517,39 @@ public class Main : MonoBehaviour
                     if (dragonsWealthUpgradeActive)
                     {
                         currentMoney += 20;
+                        goldEarnedInOneDay += 20;
                     }
                     else
                     {
                         currentMoney += 5;
+                        goldEarnedInOneDay += 5;
                     }
                     currentMoneyText.text = currentMoney.ToString();
+
+                    // Update the achievement tracker,
+                    orcsServedInOneDayACH0203 += 1;
                 }
             }
 
             // Set the Orc Banquet image to "In Active".
             OrcBanquetUseImage.sprite = OrcBanquetInActiveSprite;
 
+            // If this is the first time this consumable has been used, we need to track that for achievements.
+            if (consumablesUsedACH01[1] == false) consumablesUsedACH01[1] = true;
 
+            // Check to see if all consumanles have been used for achievement unlocked.
+            CheckForAchievement(1);
+
+            // Check Achievements 2, 3, and 5 - 8;
+            CheckForAchievement(2);
+            CheckForAchievement(3);
+
+            for (int i = 5; i < 9; i++)
+            {
+                CheckForAchievement(i);
+            }
+            
+           
         }
 
         else
@@ -1513,6 +1603,12 @@ public class Main : MonoBehaviour
             // Set up the upgrade.
             dragonsWealthTimer = dragonsWealthTimerLength;
             dragonsWealthUpgradeActive = true;
+
+            // If this is the first time this consumable has been used, we need to track that for achievements.
+            if (consumablesUsedACH01[2] == false) consumablesUsedACH01[2] = true;
+
+            // Check to see if all consumanles have been used for achievement unlocked.
+            CheckForAchievement(1);
 
         }
 
@@ -1575,6 +1671,218 @@ public class Main : MonoBehaviour
     #endregion
 
 
+    #region Functions - Achievements
+
+    public void LoadAchievementSprite(int achievementNumber)
+    {
+        if (achievementNumber < 16 && achievementNumber >= 0)
+        {
+            achievementImgs[achievementNumber].sprite = achievementSprites[achievementNumber];
+        }
+
+        else Debug.Log("Invalid Input function LoadAchievementSprite");
+    }
+
+    public void LoadAchievementSpritesAtStart()
+    {
+        for (int i = 0; i < 16; i++)
+        {
+            if (achievementsUnlocked[i]) LoadAchievementSprite(i);
+        }
+    }
+
+    public void CheckForAchievement(int achievementNumber)
+    {
+        // There are 16 achievements all together. So if the input to this functions is 1 - 16 we will check 
+        //to see of that acheivment has been met. If the input is 17, we will check all achievments. And if 
+        //it is anything else we will print to debug the error.
+
+        if (achievementNumber == 17)
+        {
+
+        }
+
+        else if (achievementNumber == 1) //Use all consumables.
+        {
+            
+            if (consumablesUsedACH01[0] && consumablesUsedACH01[1] && consumablesUsedACH01[2] && achievementsUnlocked[0] == false && achievementsUnlocked[0] == false)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(0);
+                achievementsUnlocked[0] = true;
+                achievementPopPanel.SetActive(true);
+            }
+
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 2) //Serve 5 orces in 1 day.
+        {
+            if (orcsServedInOneDayACH0203 >= 1 && achievementsUnlocked[1] == false)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(1);
+                achievementsUnlocked[1] = true;
+                achievementPopPanel.SetActive(true);
+            }
+
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 3) //Serve 10 orces in 1 day.
+        {
+            if (orcsServedInOneDayACH0203 >= 10 && achievementsUnlocked[2] == false)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(2);
+                achievementsUnlocked[2] = true;
+                achievementPopPanel.SetActive(true);
+            }
+
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 4) //Refuse service to 5 orcs.
+        {
+            if (orcsRefusedACH04 >= 4 && achievementsUnlocked[3] == false)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(3);
+                achievementsUnlocked[3] = true;
+                achievementPopPanel.SetActive(true);
+            }
+
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 5) //Earn 100 gold in 1 day.
+        {
+            if (achievementsUnlocked[4] == false && goldEarnedInOneDay >= 100)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(4);
+                achievementsUnlocked[4] = true;
+                achievementPopPanel.SetActive(true);
+            }
+
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 6) //Earn 200 gold in 1 day.
+        {
+            if (achievementsUnlocked[5] == false && goldEarnedInOneDay >= 200)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(5);
+                achievementsUnlocked[5] = true;
+                achievementPopPanel.SetActive(true);
+            }
+
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 7) //Earn 500 gold.
+        {
+            if (achievementsUnlocked[6] == false && currentMoney >= 500)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(6);
+                achievementsUnlocked[6] = true;
+                achievementPopPanel.SetActive(true);
+            }
+
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 8) //Earn 1000 gold.
+        {
+            if (achievementsUnlocked[7] == false && currentMoney >= 1000)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(7);
+                achievementsUnlocked[7] = true;
+                achievementPopPanel.SetActive(true);
+            }
+
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 9) //Max out the Lobby Size Upgrade.
+        {
+            if (upgradeLobbySizeCurrentValue == 10 && achievementsUnlocked[8] == false)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(8);
+                achievementsUnlocked[8] = true;
+                achievementPopPanel.SetActive(true);
+            }
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 10) //Max out the Popularity Upgrade.
+        {
+            if (upgradePopularityCurrentValue == 10 && achievementsUnlocked[9] == false)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(9);
+                achievementsUnlocked[9] = true;
+                achievementPopPanel.SetActive(true);
+            }
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 11) //Max out the Purse Strings Upgrade.
+        {
+            if (upgradePurseStringsCurrentValue == 10 && achievementsUnlocked[10] == false)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(10);
+                achievementsUnlocked[10] = true;
+                achievementPopPanel.SetActive(true);
+            }
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 12) //Max out the Chemistry Upgrade.
+        {
+            if (upgradeChemistryCurrentValue == 10 && achievementsUnlocked[11] == false)
+            {
+                achievementUnlockedAudio.Play();
+                LoadAchievementSprite(11);
+                achievementsUnlocked[11] = true;
+                achievementPopPanel.SetActive(true);
+            }
+            else Debug.Log("Checking for an achievment that is already unlocked or has not been met.");
+        }
+
+        else if (achievementNumber == 13) //TBA01
+        {
+
+        }
+
+        else if (achievementNumber == 14) //TBA02
+        {
+
+        }
+
+        else if (achievementNumber == 15) //TBA03
+        {
+
+        }
+
+        else if (achievementNumber == 16) //TBA04
+        {
+
+        }
+
+        else
+        {
+            Debug.Log("Invalid input for CheckAchievement function.");
+        }
+    }
+    #endregion
+
+
     #region Functions - Tips&Ticks
 
     public void OpenCloseTipsPanel()
@@ -1605,6 +1913,7 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(true);
             foodSubPanel.SetActive(false);
             upgradeSubPanel.SetActive(false);
+            achievementSubPanel.SetActive(false);
             settingsSubPanel.SetActive(false);
             clickGood1.Play();
         }
@@ -1614,6 +1923,7 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(false);
             foodSubPanel.SetActive(true);
             upgradeSubPanel.SetActive(false);
+            achievementSubPanel.SetActive(false);
             settingsSubPanel.SetActive(false);
             clickGood1.Play();
         }
@@ -1623,6 +1933,17 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(false);
             foodSubPanel.SetActive(false);
             upgradeSubPanel.SetActive(true);
+            achievementSubPanel.SetActive(false);
+            settingsSubPanel.SetActive(false);
+            clickGood1.Play();
+        }
+
+        else if (nameOfPanel == "Achievements")
+        {
+            ConsumableSubPanel.SetActive(false);
+            foodSubPanel.SetActive(false);
+            upgradeSubPanel.SetActive(false);
+            achievementSubPanel.SetActive(true);
             settingsSubPanel.SetActive(false);
             clickGood1.Play();
         }
@@ -1632,6 +1953,7 @@ public class Main : MonoBehaviour
             ConsumableSubPanel.SetActive(false);
             foodSubPanel.SetActive(false);
             upgradeSubPanel.SetActive(false);
+            achievementSubPanel.SetActive(false);
             settingsSubPanel.SetActive(true);
             clickGood1.Play();
         }
@@ -1647,6 +1969,42 @@ public class Main : MonoBehaviour
     public void ChangeSFXVolume(float sliderValue)
     {
         mixer.SetFloat("SoundFXs", Mathf.Log10(sliderValue) * 20);
+    }
+
+    public void SetSoundAtStart()
+    {
+        if (isMuted)
+        {
+            clickGood1.Play();
+            MuteSound(false);
+            isMuted = false;
+        }
+        else
+        {
+            MuteSound(true);
+            isMuted = true;
+        }
+    }
+
+    public void MuteSound(bool mute)
+    {
+        if (mute)
+        {
+            musicSlider.value = 0f;
+            SFXSlider.value = 0f;
+            ChangeSoundVolume(musicSlider.value);
+            ChangeSFXVolume(SFXSlider.value);
+            isMuted = false;
+        }
+
+        else
+        {
+            musicSlider.value = 1f;
+            SFXSlider.value = 1f;
+            ChangeSoundVolume(musicSlider.value);
+            ChangeSFXVolume(SFXSlider.value);
+            isMuted = true;
+        }
     }
 
     public void GetDescriptionForConsumables(int description)
@@ -1748,12 +2106,80 @@ public class Main : MonoBehaviour
         else if (nameOfUpgrade == "Upgrade04")
         {
             upgradeName.text = "Chemistry";
-            upgradeDescriptionText.text = "Recent advances in modern Orcish technology allowing you to do more with less.\n\nCONSUMABLES LAST LONGER.";
+            upgradeDescriptionText.text = "Recent advances in modern Orcish technology allowing you to do more with less.\n\nCONSUMABLES LAST LONGER.\nLENGTH OF DAY INCREASES";
             upgradeCurrentStatText.text = "Consumable durations vary, see CONSUMABLES for more information.";
             turnPage.Play();
         }
 
         else Debug.Log("Invalid use of GetDescriptionForUpgrade");
+    }
+
+    public void GetDescriptionForAchievements(int achievement)
+    {
+        if (achievement == 1) achievementDescription.text = "Use all consumables.";
+        else if (achievement == 2) achievementDescription.text = "Serve 5 orces in 1 day.";
+        else if (achievement == 3) achievementDescription.text = "Serve 10 orces in 1 day.";
+        else if (achievement == 4) achievementDescription.text = "Refuse service to 5 orcs.";
+        else if (achievement == 5) achievementDescription.text = "Earn 100 gold in 1 day.";
+        else if (achievement == 6) achievementDescription.text = "Earn 200 gold in 1 day.";
+        else if (achievement == 7) achievementDescription.text = "Earn 500 gold.";
+        else if (achievement == 8) achievementDescription.text = "Earn 1000 gold.";
+        else if (achievement == 9) achievementDescription.text = "Max out the Lobby Size Upgrade.";
+        else if (achievement == 10) achievementDescription.text = "Max out the Popularity Upgrade.";
+        else if (achievement == 11) achievementDescription.text = "Max out the Purse Strings Upgrade.";
+        else if (achievement == 12) achievementDescription.text = "Max out the Chemistry Upgrade.";
+        else if (achievement == 13) achievementDescription.text = "TBA01";
+        else if (achievement == 14) achievementDescription.text = "TBA02";
+        else if (achievement == 15) achievementDescription.text = "TBA03";
+        else if (achievement == 16) achievementDescription.text = "TBA04";
+        else Debug.Log("Invalid value used in GetDescriptionForAchievements");
+
+        clickGood1.Play();
+    }
+
+    public void ChangeAudioTrack(string upOrDown)
+    {
+        // Inputs for this function should be "Up" or "Down"
+
+        if (upOrDown == "Up")
+        {
+            if (currentTrackNumber == 3)
+            {
+                currentTrackNumber = 0;
+                currentTrackNumberText.text = "01"; 
+            }
+
+            else
+            {
+                currentTrackNumber += 1;
+                currentTrackNumberText.text = "0" + (currentTrackNumber + 1).ToString();
+            }
+
+            clickGood1.Play();
+            musicSource.clip = musicClips[currentTrackNumber];
+            musicSource.Play();
+        }
+
+        else if (upOrDown == "Down")
+        {
+            if (currentTrackNumber == 0)
+            {
+                currentTrackNumber = 3;
+                currentTrackNumberText.text = "04";
+            }
+
+            else
+            {
+                currentTrackNumber -= 1;
+                currentTrackNumberText.text = "0" + (currentTrackNumber + 1).ToString();
+            }
+
+            clickGood1.Play();
+            musicSource.clip = musicClips[currentTrackNumber];
+            musicSource.Play();
+        }
+
+        else Debug.Log("Input to function ChangeAudoTrack is invalid");
     }
     #endregion
 
@@ -1791,6 +2217,7 @@ public class Main : MonoBehaviour
                 lobbyLimitText.text = waitingRoomFullLimit.ToString();
                 UpgradeGems -= 1;
                 UpdateStatsToScreen();
+                CheckForAchievement(9);
             }
 
             else if (nameOfUpgrade == "Popularity" && upgradePopularityCurrentValue < 10)
@@ -1799,6 +2226,7 @@ public class Main : MonoBehaviour
                 UpdateUpgradeValues();
                 UpgradeGems -= 1;
                 UpdateStatsToScreen();
+                CheckForAchievement(10);
             }
 
             else if (nameOfUpgrade == "Purse Strings" && upgradePurseStringsCurrentValue < 10)
@@ -1807,14 +2235,17 @@ public class Main : MonoBehaviour
                 UpdateUpgradeValues();
                 UpgradeGems -= 1;
                 UpdateStatsToScreen();
+                CheckForAchievement(11);
             }
 
             else if (nameOfUpgrade == "Chemistry" && upgradeChemistryCurrentValue < 10)
             {
                 upgradeChemistryCurrentValue += 1;
+                lenghtOfDay += 20;
                 UpdateUpgradeValues();
                 UpgradeGems -= 1;
                 UpdateStatsToScreen();
+                CheckForAchievement(12);
             }
 
             else Debug.Log("Function IncreaseUpgrade has been called with invalid argument.");
@@ -2010,10 +2441,19 @@ public class Main : MonoBehaviour
             {
                 if (currentPatients[i] != null)
                 {
+                    // Delete the images of food at the table.
+                    if(foodOnTableImgs[i] != null)
+                    {
+                        foodOnTableImgs[i].GetComponent<SpriteRenderer>().sprite = null;
+                    }
+
                     // Delete the patient and update stat.
                     Destroy(currentPatients[i]);
                     currentPatients[i] = null;
                     patientsHealed += 1;
+
+                    
+                    
 
                     // Update Patient Data and reset bed button
                     //UpdatePatientDataToScreen(doctorsCurrentBed);

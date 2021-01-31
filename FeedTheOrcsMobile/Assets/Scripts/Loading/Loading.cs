@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -19,6 +20,9 @@ public class Loading : MonoBehaviour
     public bool playerHasRunOutOfSuppliesAndMoney;
     private float loadScreenTimer;
     public GameObject continueButton;
+    public bool isMuted;
+    public AudioMixer mixer;
+    public AudioSource clickGood1;
 
     // Start is called before the first frame update
     void Start()
@@ -27,12 +31,21 @@ public class Loading : MonoBehaviour
         UpdateTextToDisplayInformation();
         StartCoroutine(BeforeLoadWait());
         loadScreenTimer = 0;
+
+        // Check to see if the audio should be muted.
+        if (isMuted) MuteSound(true);
+
     }
 
     void Update()
     {
             loadScreenTimer += 1 * Time.deltaTime;
             loadingSlider.value = CalculateSliderValue();
+    }
+
+    public void SaveData()
+    {
+        GlobalCont.Instance.isMuted = isMuted;
     }
 
     #region Functions - LoadingSlider
@@ -63,6 +76,7 @@ public class Loading : MonoBehaviour
         waitingRoomFullLimit = GlobalCont.Instance.waitingRoomFullLimit;
         numberOfNewPatients = GlobalCont.Instance.numberOfNewPatients;
         playerHasRunOutOfSuppliesAndMoney = GlobalCont.Instance.playerHasRunOutOfSuppliesAndMoney;
+        isMuted = GlobalCont.Instance.isMuted;
     }
 
     public void UpdateTextToDisplayInformation()
@@ -89,7 +103,7 @@ public class Loading : MonoBehaviour
         else if (statusOfDoctor == "EXHAUSTED")
         {
             UWMText.text = nameOfDoctor + " Is exhausted";
-            TipText.text = "TIP: Make sure and make time to get a drink!";
+            TipText.text = "TIP: Make time to get a drink!";
             tipImage.sprite = tipSprites[2];
         }
 
@@ -110,7 +124,27 @@ public class Loading : MonoBehaviour
 
     public void ClickContinue()
     {
+        clickGood1.Play();
         StartCoroutine(LoadAsyncOperation());
+    }
+
+    #endregion
+
+    #region Functions Audio
+
+    public void MuteSound(bool mute)
+    {
+        if (mute)
+        {
+            mixer.SetFloat("Music", -80f);
+            mixer.SetFloat("SoundFXs", -80f);
+        }
+
+        else
+        {
+            mixer.SetFloat("Music", 0f);
+            mixer.SetFloat("SoundFXs", 0f);
+        }
     }
 
     #endregion

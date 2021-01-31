@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.Audio;
 
 public class EndController : MonoBehaviour
 {
@@ -33,11 +34,13 @@ public class EndController : MonoBehaviour
     #endregion
 
     #region Audio Sources
+    public AudioMixer mixer;
     public AudioSource musicSource;
     public AudioSource clickGood1;
     public AudioSource clickGood2;
-    public AudioSource speechStars;
+    public AudioSource starHammer;
     public AudioClip[] speechStarsClips;
+    public bool isMuted;
     #endregion
 
     // Start is called before the first frame update
@@ -49,6 +52,9 @@ public class EndController : MonoBehaviour
         SetTextToEndGameScreen();
 
         creditsPanel.SetActive(false);
+
+        // Check to see if the audio should be muted.
+        if (isMuted) MuteSound(true);
 
         // This coroutine may need to be activated at a later time.
         StartCoroutine(loadStarImages());
@@ -77,12 +83,20 @@ public class EndController : MonoBehaviour
         patientsDeceased = GlobalCont.Instance.patientsDeceased;
         gameDifficulty = GlobalCont.Instance.gameDifficulty;
         wealth = GlobalCont.Instance.wealth;
+        isMuted = GlobalCont.Instance.isMuted;
 
         for (int i = 0; i < GlobalCont.Instance.highScores.Length; i++)
         {
             highScoreTexts[i].text = GlobalCont.Instance.highScores[i].ToString();
         }
 
+    }
+
+    public void SaveData()
+    {
+        GlobalCont.Instance.isMuted = isMuted;
+        GlobalCont.Instance.patientsHealed = 0;
+        GlobalCont.Instance.newHighScore = false;
     }
 
     public void SetTextToEndGameScreen()
@@ -117,8 +131,7 @@ public class EndController : MonoBehaviour
 
     public void ClickMainMenu()
     {
-        GlobalCont.Instance.patientsHealed = 0;
-        GlobalCont.Instance.newHighScore = false;
+        SaveData();
 
         // Play Click Sound
         clickGood1.Play();
@@ -154,13 +167,13 @@ public class EndController : MonoBehaviour
         // Suspend execution for 5 seconds
         yield return new WaitForSeconds(1);
 
-        speechStars.Play();
+        //starHammer.Play();
         if (amountOfStarsEarned > 0) StartCoroutine(showStarImage());
     }
 
     IEnumerator showStarImage()
     {
-        clickGood1.Play();
+        starHammer.Play();
         stars[showStarImageCounter].gameObject.SetActive(true);
         showStarImageCounter += 1;
         // Suspend execution for 5 seconds
@@ -168,6 +181,36 @@ public class EndController : MonoBehaviour
         if (showStarImageCounter < amountOfStarsEarned) StartCoroutine(showStarImage());
         
 
+    }
+
+    public void SetSoundAtStart()
+    {
+        if (isMuted)
+        {
+            clickGood1.Play();
+            MuteSound(false);
+            isMuted = false;
+        }
+        else
+        {
+            MuteSound(true);
+            isMuted = true;
+        }
+    }
+
+    public void MuteSound(bool mute)
+    {
+        if (mute)
+        {
+            mixer.SetFloat("Music", -80f);
+            mixer.SetFloat("SoundFXs", -80f);
+        }
+
+        else
+        {
+            mixer.SetFloat("Music", 0f);
+            mixer.SetFloat("SoundFXs", 0f);
+        }
     }
 
 }
