@@ -31,7 +31,7 @@ public class TitleController : MonoBehaviour
 
     #region Variables - Text and Images to Update
     public Dropdown difficultyDropDown;
-    public GameObject tutorialPanel;
+    public GameObject settingsPanel;
     public Text doctorsNameText;
     public Text doctorsTaxText;
     public Image[] buttonLights;
@@ -64,7 +64,7 @@ public class TitleController : MonoBehaviour
         // Update Select Box.
         TurnLightOnOff(0);
 
-        tutorialPanel.SetActive(false);
+        settingsPanel.SetActive(false);
 
         // Check to see if the audio should be muted.
         if (isMuted) MuteSound(true);
@@ -147,15 +147,15 @@ public class TitleController : MonoBehaviour
         buttonLights[doc].sprite = geenLightImage;
     }
 
-    public void ClickTutorial()
+    public void ClickSettings()
     {
-        tutorialPanel.SetActive(true);
+        settingsPanel.SetActive(true);
         clickGood1.Play();
     }
 
-    public void ExitTutorialPanel()
+    public void ExitSettingsPanel()
     {
-        tutorialPanel.SetActive(false);
+        settingsPanel.SetActive(false);
         clickGood2.Play();
     }
 
@@ -186,6 +186,27 @@ public class TitleController : MonoBehaviour
         {
             mixer.SetFloat("Music", 0f);
             mixer.SetFloat("SoundFXs", 0f);
+        }
+    }
+
+    public void ResetHighScores()
+    {
+        // Save this data to player prefs.
+        PlayerPrefs.SetInt("HighScore01", 0);
+        PlayerPrefs.SetInt("HighScore02", 0);
+        PlayerPrefs.SetInt("HighScore03", 0);
+
+        clickGood2.Play();
+    }
+
+    public void ResetAchievements()
+    {
+        // Save achievement information.
+        for (int i = 0; i < 16; i++)
+        {
+            PlayerPrefs.SetInt("ACH" + i.ToString(), 0);
+
+            clickGood2.Play();
         }
     }
 

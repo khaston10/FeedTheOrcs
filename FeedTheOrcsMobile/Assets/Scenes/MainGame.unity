@@ -34802,8 +34802,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Current customers take food to go, as you close down the slop hall. Don't
-    worry, they all pay their bills!
+  m_Text: Any Orcs still eating at the end of the day will pay their bill and take
+    the food to go. These Orcs will not count towards achievement.
 --- !u!222 &1552107398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39676,7 +39676,7 @@ MonoBehaviour:
   achievementsUnlocked: 
   mainTimer: 0
   newPatientTimer: 0
-  lenghtOfDay: 20
+  lenghtOfDay: 60
   timeOfDaySlider: {fileID: 1938110771}
   tipsAndTricksPanel: {fileID: 1024681543}
   ConsumableSubPanel: {fileID: 279750862}
