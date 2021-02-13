@@ -163,7 +163,7 @@ public class Main : MonoBehaviour
     private int redTrollTimerLength = 10;
     private float redTrollTimer;
     private bool redTrollUpgradeActive;
-    private bool orcBanquetUpgradeActive;
+    //private bool orcBanquetUpgradeActive;
     private int dragonsWealthTimerLength = 10;
     private float dragonsWealthTimer;
     private bool dragonsWealthUpgradeActive;
@@ -1459,9 +1459,9 @@ public class Main : MonoBehaviour
     public void ClickBuyRedTroll()
     {
 
-        if (currentMoney > 20)
+        if (currentMoney > 200)
         {
-            currentMoney -= 20;
+            currentMoney -= 200;
 
             // Set the Red Troll image to "In Active".
             RedTrollUseImage.sprite = RedBullActiveSprite;
@@ -1565,9 +1565,9 @@ public class Main : MonoBehaviour
     public void ClickBuyOrcBanquet()
     {
 
-        if (currentMoney > 20)
+        if (currentMoney > 200)
         {
-            currentMoney -= 20;
+            currentMoney -= 200;
 
             useConsumable.Play();
 
@@ -1625,9 +1625,9 @@ public class Main : MonoBehaviour
     public void ClickBuyDragonsWealth()
     {
 
-        if (currentMoney > 20)
+        if (currentMoney > 200)
         {
-            currentMoney -= 20;
+            currentMoney -= 200;
 
             // Set the DragonsWealth image to "In Active".
             DragonsWealthUseImage.sprite = DragonsWealthActiveSprite;
@@ -1718,7 +1718,7 @@ public class Main : MonoBehaviour
 
         else if (achievementNumber == 2) //Serve 5 orces in 1 day.
         {
-            if (orcsServedInOneDayACH0203 >= 1 && achievementsUnlocked[1] == false)
+            if (orcsServedInOneDayACH0203 >= 5 && achievementsUnlocked[1] == false)
             {
                 achievementUnlockedAudio.Play();
                 LoadAchievementSprite(1);
@@ -1744,7 +1744,7 @@ public class Main : MonoBehaviour
 
         else if (achievementNumber == 4) //Refuse service to 5 orcs.
         {
-            if (orcsRefusedACH04 >= 4 && achievementsUnlocked[3] == false)
+            if (orcsRefusedACH04 >= 5 && achievementsUnlocked[3] == false)
             {
                 achievementUnlockedAudio.Play();
                 LoadAchievementSprite(3);

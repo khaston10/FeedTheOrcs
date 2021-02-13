@@ -158,11 +158,12 @@ public class EndController : MonoBehaviour
     IEnumerator loadStarImages()
     {
         // This function will be called once at the end of the game to load x stars out of 5.
-        // Pick the amount of stars - For now this is fed by wealth alone, TODO is get patients healed added.
-        if (wealth <= 25) amountOfStarsEarned = 1;
-        else if (wealth <= 50) amountOfStarsEarned = 2;
-        else if (wealth <= 75) amountOfStarsEarned = 3;
-        else amountOfStarsEarned = 4;
+        // Pick the amount of stars. Stars will be dependent on Orc Served and Wealth.
+        if (wealth >= 500 && patientsHealed >= 50) amountOfStarsEarned = 5;
+        else if (wealth >= 400 && patientsHealed >= 40) amountOfStarsEarned = 4;
+        else if (wealth >= 300 && patientsHealed >= 30) amountOfStarsEarned = 3;
+        else if (wealth >= 200 && patientsHealed >= 20) amountOfStarsEarned = 2;
+        else amountOfStarsEarned = 1;
 
         // Suspend execution for 5 seconds
         yield return new WaitForSeconds(1);

@@ -72,8 +72,6 @@ public class BackStoryCont : MonoBehaviour
     }
 
 
-
-
     public void UpdateText()
     {
         mainLineText.text = lines[currentLine];
@@ -96,11 +94,11 @@ public class BackStoryCont : MonoBehaviour
 
     public void LoadLines()
     {
-        lines[0] = nameOfDoctor + ", once again it's Goblin Cap Mushroom season. Gonna get big harvest this year! " +
+        lines[0] = "Jughog: " + nameOfDoctor + ", once again it's Goblin Cap Mushroom season. Gonna get big harvest this year! " +
             "You laziest orc, but you watch Slop Hall for me. You better make me lots of GOLD, or I cut off your good ear.";
-        lines[1] = "By my troth, I will not let you down!";
-        lines[2] = "Haha. Good to hear! I be back 10 days time. Do your best. Or I cut off your bad ear!";
-        lines[3] = "Dragon's strength to you " + nameOfDoctor + "!";
+        lines[1] = nameOfDoctor + ": By my troth, I will not let you down!";
+        lines[2] = "Jughog: " + "Haha. Good to hear! I be back 10 days time. Do your best. Or I cut off your bad ear!";
+        lines[3] = "Jughog: " + "Dragon's strength to you " + nameOfDoctor + "!";
 
         lengthOfLines[0] = 14f;
         lengthOfLines[1] = 3.5f;

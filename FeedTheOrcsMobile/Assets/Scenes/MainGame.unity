@@ -34803,7 +34803,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Any Orcs still eating at the end of the day will pay their bill and take
-    the food to go. These Orcs will not count towards achievement.
+    the food to go. These Orcs will not count towards achievements.
 --- !u!222 &1552107398
 CanvasRenderer:
   m_ObjectHideFlags: 0
